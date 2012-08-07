@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class='clearfix pad0'>
+    {% for post in site.categories.blog limit:4 %}
+    <div class='post' id='{{post.title}}'>
+        <small class='date'>{{post.date|date:'%B %d, %Y'}}</small>
+        <a href='{{base}}{{post.url}}'>
+            <h2 class='title'>{{post.title}}</h2>
+        </a>
+        <p>{{post.content}}</p>
+        {% if post.map %}
+            <div id='{{post.map}}' class='map'></div>
+            <script>
+                loadMap({
+                    layer:'{{post.layer}}',
+                    map:'{{post.map}}',
+                    lat:{{post.lat}},
+                    lon:{{post.lon}},
+                    zoom:{{post.zoom}},
+                    min:{{post.min}},
+                    max:{{post.max}}
+                });
+            </script>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>

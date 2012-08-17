@@ -1,14 +1,12 @@
 ---
 layout: default
 ---
-<div class='clearfix pad0'>
     {% for post in site.categories.blog limit:4 %}
-    <div class='width' id='{{post.title}}'>
-        <small class='date'>{{post.date|date:'%B %d, %Y'}}</small>
+    <small class='date'>{{post.date|date: "%m-%d-%Y"}}</small>
+    <div id='{{post.title}}'>
         <a href='{{base}}{{post.url}}'>
-            <h2 class='title'>{{post.title}}</h2>
+            <h2 class='title'><!-- <span class='bullet'>&#8912;&nbsp;&nbsp;</span> -->{{post.title}}<!-- <span class='bullet'>&nbsp;&nbsp;&#8913;</spans> --></h2>
         </a>
-        <p>{{post.content}}</p>
         {% if post.map %}
             <div id='{{post.map}}' class='map'></div>
             <script>
@@ -23,6 +21,9 @@ layout: default
                 });
             </script>
         {% endif %}
+        <div class='text'>
+            {{post.content}}
+        </div>
     </div>
     {% endfor %}
 </div>

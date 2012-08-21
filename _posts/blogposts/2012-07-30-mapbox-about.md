@@ -14,4 +14,6 @@ zoom: 14
 min: 14
 max: 17
 ---
-I did a little survey in the office chat to decide where people go around the office. I picked out a few recurring ones. My favorite one is the condo-shaped hole, which I walk by everyday. Sadly this landmark will be replaced by a condo soon.
+I did a survey in the office to decide where people go around the office/city. My favorite one is the condo-shaped hole, which I walk by everyday en route to lunch.
+
+Sadly this landmark will be replaced by a condo soon.

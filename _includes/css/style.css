@@ -11,11 +11,20 @@ h2 {
     margin:20px 0;
 }
 
+a {
+    text-decoration:none;
+    color:#444;
+}
+
 p {
     font-family: 'Crimson Text', serif;
     font-size:1em;
     margin:22px 0;
     line-height:1.6em;
+}
+
+p a {
+    text-decoration:underline;
 }
 
 strong {
@@ -43,10 +52,7 @@ small {
     color:#aaa;
 }
 
-a {
-    text-decoration:none;
-    color:#444;
-}
+
 
 .clearfix {display:block;}
 

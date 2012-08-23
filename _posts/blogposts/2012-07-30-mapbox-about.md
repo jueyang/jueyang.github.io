@@ -1,6 +1,6 @@
 ---
 date: 2012-07-30
-layout: default
+layout: post
 categories: 
     - blog
     - map

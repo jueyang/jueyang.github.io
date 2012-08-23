@@ -1,6 +1,6 @@
 ---
 date: 2012-08-02
-layout: default
+layout: post
 categories: blog
 title: Thought on architecture today
 permalink: /thought-on-architecture-today

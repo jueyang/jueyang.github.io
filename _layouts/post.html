@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{% if page.map %}
+    <div id='{{page.map}}' class='map'></div>
+    <script>
+        loadMap({
+            layer:'{{page.layer}}',
+            map:'{{page.map}}',
+            lat:{{page.lat}},
+            lon:{{page.lon}},
+            zoom:{{page.zoom}},
+            min:{{page.min}},
+            max:{{page.max}}
+        });
+    </script>
+{% endif %}
+<h2>{{page.title}}</h2>
+<div>{{content}}</div>

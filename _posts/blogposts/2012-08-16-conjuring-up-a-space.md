@@ -1,6 +1,6 @@
 ---
 date: 2012-08-16
-layout: default
+layout: post
 categories: blog
 title: Conjuring up a space
 permalink: /conjuring-up-a-space

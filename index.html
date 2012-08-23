@@ -5,7 +5,7 @@ layout: default
     <small class='date'>{{post.date|date: "%m-%d-%Y"}}</small>
     <div id='{{post.title}}'>
         <a href='{{base}}{{post.url}}'>
-            <h2 class='title'><!-- <span class='bullet'>&#8912;&nbsp;&nbsp;</span> -->{{post.title}}<!-- <span class='bullet'>&nbsp;&nbsp;&#8913;</spans> --></h2>
+            <h2 class='title'>{{post.title}}</h2>
         </a>
         {% if post.map %}
             <div id='{{post.map}}' class='map'></div>

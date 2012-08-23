@@ -1,6 +1,6 @@
 ---
 date: 2012-08-23
-layout: default
+layout: post
 categories: blog
 title: Adding more to the last thought
 permalink: /adding-more-to-the-last-thought

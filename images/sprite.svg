@@ -28,7 +28,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.627417"
-     inkscape:cx="2.8854322"
+     inkscape:cx="18.71102"
      inkscape:cy="213.45943"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -38,8 +38,8 @@
      inkscape:guide-bbox="true"
      inkscape:window-width="1479"
      inkscape:window-height="996"
-     inkscape:window-x="737"
-     inkscape:window-y="711"
+     inkscape:window-x="902"
+     inkscape:window-y="195"
      inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
@@ -114,7 +114,7 @@
        sodipodi:cy="150.5625"
        sodipodi:rx="1.6875"
        sodipodi:ry="1.6875"
-       d="m 27.125,150.5625 a 1.6875,1.6875 0 1 1 -3.375,0 1.6875,1.6875 0 1 1 3.375,0 z"
+       d="m 27.125,150.5625 c 0,0.93198 -0.755519,1.6875 -1.6875,1.6875 -0.931981,0 -1.6875,-0.75552 -1.6875,-1.6875 0,-0.93198 0.755519,-1.6875 1.6875,-1.6875 0.931981,0 1.6875,0.75552 1.6875,1.6875 z"
        transform="matrix(3.4487735,0,0,3.4487735,-25.826441,284.16372)" />
     <path
        sodipodi:type="arc"
@@ -124,7 +124,7 @@
        sodipodi:cy="173.3125"
        sodipodi:rx="0.8125"
        sodipodi:ry="0.8125"
-       d="m 33,173.3125 a 0.8125,0.8125 0 1 1 -1.625,0 0.8125,0.8125 0 1 1 1.625,0 z"
+       d="m 33,173.3125 c 0,0.44873 -0.363769,0.8125 -0.8125,0.8125 -0.448731,0 -0.8125,-0.36377 -0.8125,-0.8125 0,-0.44873 0.363769,-0.8125 0.8125,-0.8125 0.448731,0 0.8125,0.36377 0.8125,0.8125 z"
        transform="matrix(3.4487735,0,0,3.4487735,-85.649701,205.65949)" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.28200001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0999999;stroke-opacity:1;stroke-dasharray:none"
@@ -138,18 +138,37 @@
        id="path5660"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
-    <path
-       sodipodi:type="arc"
-       style="color:#000000;fill:#fdeb57;fill-opacity:1;stroke:none;stroke-width:0.08189075;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path3952-6-4"
-       sodipodi:cx="32.1875"
-       sodipodi:cy="173.3125"
-       sodipodi:rx="0.8125"
-       sodipodi:ry="0.8125"
-       d="m 33,173.3125 a 0.8125,0.8125 0 1 1 -1.625,0 0.8125,0.8125 0 1 1 1.625,0 z"
-       transform="matrix(9.8461538,0,0,9.8461538,-308.87516,-867.11988)"
+    <g
+       id="g3842"
        inkscape:export-filename="/Users/jueyang/Documents/github/personal-projects/jueyang.github.com/images/favicon.png"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:export-ydpi="90">
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/Users/jueyang/Documents/github/personal-projects/jueyang.github.com/images/favicon.png"
+         transform="matrix(9.8461538,0,0,9.8461538,-308.87516,-867.11988)"
+         d="m 33,173.3125 c 0,0.44873 -0.363769,0.8125 -0.8125,0.8125 -0.448731,0 -0.8125,-0.36377 -0.8125,-0.8125 0,-0.44873 0.363769,-0.8125 0.8125,-0.8125 0.448731,0 0.8125,0.36377 0.8125,0.8125 z"
+         sodipodi:ry="0.8125"
+         sodipodi:rx="0.8125"
+         sodipodi:cy="173.3125"
+         sodipodi:cx="32.1875"
+         id="path3952-6-4"
+         style="color:#000000;fill:none;fill-opacity:1;stroke:none;stroke-width:0.08189075000000000;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/Users/jueyang/Documents/github/personal-projects/jueyang.github.com/images/favicon.png"
+         transform="matrix(7.3384616,0,0,7.3846154,-228.15882,-440.50451)"
+         d="m 33,173.3125 a 0.8125,0.8125 0 1 1 -1.625,0 0.8125,0.8125 0 1 1 1.625,0 z"
+         sodipodi:ry="0.8125"
+         sodipodi:rx="0.8125"
+         sodipodi:cy="173.3125"
+         sodipodi:cx="32.1875"
+         id="path3952-6-4-1"
+         style="color:#000000;fill:#fdeb57;fill-opacity:1;stroke:none;stroke-width:0.08189075;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+    </g>
   </g>
 </svg>

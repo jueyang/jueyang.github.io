@@ -7,7 +7,7 @@ permalink: /adding-more-to-the-last-thought
 ---
 > It went into me, as part of my life. Then it comes out from somewhere—from my emotions or whatever, my feelings.
 
-Zumthor has expressed the relationship between personal memories, perception, feelings, emotions and how they influence his architecture in [his 2009 Pritzker Prize speech](http://www.pritzkerprize.com/2009/ceremony_speech1). I was very much moved by what he said, which, not coincidentally, reminded me of Neruda's _Poetry_.
+[Zumthor](http://www.nytimes.com/2011/03/13/magazine/mag-13zumthor-t.html?pagewanted=all) has expressed the relationship between personal memories, perception, feelings, emotions and how they influence his architecture in [his 2009 Pritzker Prize speech](http://www.pritzkerprize.com/2009/ceremony_speech1). I was very much moved by what he said, which, not coincidentally, reminded me of Neruda's _Poetry_.
 
 > Poetry (first stanza)
 >

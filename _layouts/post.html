@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
+<h2>{{page.title}}</h2>
 {% if page.map %}
-    <div id='{{page.map}}' class='map'></div>
+<div id='{{page.map}}' class='map'></div>
     <script>
         loadMap({
             layer:'{{page.layer}}',
@@ -15,5 +16,4 @@ layout: default
         });
     </script>
 {% endif %}
-<h2>{{page.title}}</h2>
 <div>{{content}}</div>

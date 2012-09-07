@@ -1,7 +1,7 @@
 ---
 ---
 
-{% include js/jquery-1.7.2.min.js %}
+{% include js/jquery-1.8.0.min.js %}
 
 var loadMap = function(options) {
     var markerLayer = mapbox.markers.layer().url('http://a.tiles.mapbox.com/v3/' + options.layer + '/markers.geojsonp');

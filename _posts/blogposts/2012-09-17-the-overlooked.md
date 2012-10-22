@@ -13,4 +13,6 @@ I was joking with my friends that I can bike to work these days with my eyes clo
 
 I chuckle at this sort of knowledge because it is so mundane. Yet it is telling how quickly the city can take up a certain appearance and life, a certain pattern. There is a danger in falling for the comfortable, the routine, and losing curiosity of an actually unknown world.
 
-Such thought was furthered by a walk of the [Dupont Underground](http://dc.urbanturf.com/articles/blog/off_the_beaten_turf_the_dupont_underground_tour/5508). Wandering in a giant concrete infrastructure with decade-old air is such a contrast to what I think I know about the city. It's good, like this, to be silent and humble.
+Such thought was furthered by a walk of the [Dupont Underground](http://dc.urbanturf.com/articles/blog/off_the_beaten_turf_the_dupont_underground_tour/5508). Wandering in a giant concrete infrastructure with decade-old air is such a contrast to my daily experiences of the city. 
+
+It's good, like this, to be silent and humble.

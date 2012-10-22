@@ -1,15 +1,13 @@
-{% assign base = site.baseurl %}
-
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset='UTF-8'/>
     <title>Good Lemons</title>
-    <link rel="stylesheet" href="{{base}}/site.css" type="text/css" />
+    <link rel="stylesheet" href="{{site.baseurl}}/site.css" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600|Lusitana:400,700|Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" href="{{base}}/images/favicon.ico" type="image/x-icon">
-    <script src="http://api.tiles.mapbox.com/mapbox.js/v0.6.2/mapbox.js"></script>
-    <script src="{{base}}/site.js"></script>
+    <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico" type="image/x-icon">
+    <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.js'></script>
+    <script src="{{site.baseurl}}/site.js"></script>
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
@@ -25,19 +23,18 @@
     </script>
 </head>
 <body>
-    <div id='header' class='clearfix pad-top'>
-            <a href='{{base}}/'><div id='logo' class='use-sprite'></div></a>
-            <!-- <h1><a href='{{base}}/'>Good Lemons</a></h1> -->
-            <ul id='main-nav' class='pad-top'>
-                <li><a href='{{base}}/about'>about</a></li>
-                <li class='temp'>things<span>(are coming up)</span></li>
-                <li><a href='{{base}}/archive'>archive</a></li>
-            </ul>
-    </div>
+    <header class='clearfix pad-top'>
+            <a href='{{site.baseurl}}/'><span id='logo' class='use-sprite'></span></a>
+    </header>
+    <nav class='clearfix pad-top'>
+      <ul id='main-nav'>
+        <li><a href='{{site.baseurl}}/about'>about</a></li>
+        <li class='temp'>things<span>(are coming up)</span></li>
+        <li><a href='{{site.baseurl}}/archive'>archive</a></li>
+      </ul>
+    </nav>
     <div id='content' class='clearfix pad-top central {{page.class}}'>
-
         {{content}}
-
     </div>
     <div id='footer' class='clearfix'>
         <small>&copy; Jue Yang, 2012. Built with <a href='https://github.com/mojombo/jekyll/wiki/' target="_blank">Jekyll</a> and a human mind</small>

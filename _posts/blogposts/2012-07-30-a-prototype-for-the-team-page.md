@@ -5,7 +5,7 @@ categories:
     - blog
     - map
 title: A prototype for the team page
-permalink: /a-protope-for-the-team-page
+permalink: /a-prototype-for-the-team-page
 layer: jue.map-fmnine5p
 map: map-about
 lat: 38.916

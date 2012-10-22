@@ -2,8 +2,8 @@
 date: 2012-08-23
 layout: post
 categories: blog
-title: Adding more to the last thought
-permalink: /adding-more-to-the-last-thought
+title: Architecture and the architect
+permalink: /architecture-and-the-architect
 ---
 > It went into me, as part of my life. Then it comes out from somewhere—from my emotions or whatever, my feelings.
 

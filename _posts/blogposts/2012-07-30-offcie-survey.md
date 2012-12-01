@@ -4,8 +4,8 @@ layout: post
 categories: 
     - blog
     - map
-title: A prototype for the team page
-permalink: /a-prototype-for-the-team-page
+title: Office Survey
+permalink: /office-survey
 layer: jue.map-fmnine5p
 map: map-about
 lat: 38.916

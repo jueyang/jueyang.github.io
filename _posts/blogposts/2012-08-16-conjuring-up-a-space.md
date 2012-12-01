@@ -5,7 +5,7 @@ categories: blog
 title: Conjuring up a space
 permalink: /conjuring-up-a-space
 ---
-I moved into a space filled with light, which has been inspiring. The objects in the room seem fitting with simple geometry. Walls are bare except for a framed drawing [a friend](http://trashmoon.com/) finished for me recently. I think when a space takes on character, it is manifested in the things that dwell in it.
+I moved into a space filled with light, which has been inspiring. The objects in the room seem fitting with simple geometry. Walls are bare except for a framed drawing <a href="http://trashmoon.com/" target="_blank">a friend</a> finished for me recently. I think when a space takes on character, it is manifested in the things that dwell in it.
 
 Things create an aura - an accurate reflection of what is perceived. I don't mean to use the word with its new-agey connotations, nor do I equal accurate perception to accurate communication - you might easily feel something, yet remain speechless as you try to explain. This aura can be calm - it might have come from the ivy by the window, the soft yellow light from your lamp, the wooden floor, the paper latterns, the block of sun that only appears after mid-morning.
 

@@ -1,43 +1,35 @@
 body {
     color:#111;
 }
-
 h1 {
     font-family:'Open Sans Condensed', sans-serif;
     font-size:3.2em;
 }
-
 h2 {
     font-family:'Open Sans Condensed', sans-serif;
     font-weight:bold;
     font-size:1em;
     margin:20px 0;
 }
-
 a {
     text-decoration:none;
     color:#444;
 }
-
 p {
     font-family: 'Crimson Text', serif;
     font-size:1em;
     margin:22px 0;
     line-height:1.6em;
 }
-
 p a {
     text-decoration:underline;
 }
-
 strong {
     font-weight:bold;
 }
-
 em {
     font-style:italic;
 }
-
 img {
     max-width:95%;
 }
@@ -45,32 +37,28 @@ blockquote > p{
     font-size:0.9em;
     line-height:2.2em;
 }
-
 blockquote {
     padding:40px 60px;
     margin:40px 0;
     background:#f8f8f8;
 }
-
 small {
     font-family:'Open Sans Condensed', sans-serif;
     font-size:0.8em;
     color:#ddd;
 }
-
 header, nav {
     width:100%;
     text-align:center;
-    z-index:1000;
     background:white;
 }
 
 .clearfix {display:block;}
 
-.pad-top {padding:40px 0px;}                    /*only top bottom padding*/
-.pad-side {padding:0px 60px;}                   /*only side padding*/
-.pad-both {padding:40px 0 0 60px;}              /*top and left padding*/
-
+.pad-top {padding-top:40px;}                    /*only top padding*/
+.pad-topbottom {padding:40px 0;}
+.pad-side {padding:0 60px;}                   /*only side padding*/
+.pad-topleft {padding:40px 0 0 60px;}              /*top and left padding*/
 
 .central {
     position:relative;
@@ -84,43 +72,7 @@ header, nav {
     background:transparent url(../images/sprite.png) no-repeat;
 }
 
-.map {
-    height:256px;
-    margin-bottom:40px;
-}
-
-.temp {
-    color:#aaa;
-}
-.title li {
-  display:inline-block;
-}
-.date {
-  margin-left:6px;
-}
-
-#portrait {
-    background:url(/images/portrait.jpg) no-repeat;
-    width:100%;
-    height:360px;
-    margin-top:50px;
-}
-
-.archive {
-    text-align:center;
-}
-
-.archive a{
-    color:#ccc;
-        transition: color 200ms;
-   -moz-transition: color 200ms;
--webkit-transition: color 200ms;
-     -o-transition: color 200ms;
-}
-.archive a:hover {
-    color:#111;
-}
-
+/* header & footer */
 #logo {
     display:block;
     width:134px;
@@ -142,8 +94,55 @@ header, nav {
     font-size:10px;
     padding-left:6px;
 }
-
 #footer {
     margin-bottom:60px;
     text-align:center;
+}
+
+/* blogposts */
+.map {
+  height:256px;
+  margin-bottom:40px;
+}
+.temp {
+  color:#aaa;
+}
+.divider {
+  text-align:center;
+  font-size:9px;
+}
+.divider:first-child {
+  display:none;
+}
+.title li {
+  display:inline-block;
+}
+.date {
+  margin-left:6px;
+}
+.post-content {
+  margin-bottom:40px;
+}
+
+/* about */
+#portrait {
+    background:url(/images/portrait.jpg) no-repeat;
+    width:100%;
+    height:360px;
+    margin-top:50px;
+}
+
+/* archive*/
+.archive {
+    text-align:center;
+}
+.archive a{
+    color:#ccc;
+        transition: color 200ms;
+   -moz-transition: color 200ms;
+-webkit-transition: color 200ms;
+     -o-transition: color 200ms;
+}
+.archive a:hover {
+    color:#111;
 }

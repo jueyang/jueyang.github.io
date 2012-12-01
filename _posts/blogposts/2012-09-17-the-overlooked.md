@@ -15,4 +15,4 @@ I chuckle at this sort of knowledge because it is so mundane. Yet it is telling 
 
 Such thought was furthered by a walk of the [Dupont Underground](http://dc.urbanturf.com/articles/blog/off_the_beaten_turf_the_dupont_underground_tour/5508). Thanks to [Provision Library](http://provisionslibrary.com/) and [Goethe Institute](http://www.goethe.de/ins/us/was/ver/en9669315v.htm) for creating the experience and intellectual conversations. Wandering in a giant concrete infrastructure with decade-old air is such a contrast to my daily experiences of the city.
 
-> It's good, like this, to be silent and humble.
+_It's good, like this, to be silent and humble._

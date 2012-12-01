@@ -15,7 +15,7 @@ zoom: 17
 min: 14
 max: 17
 ---
-I will be reading a few poems written in the past six weeks at Capitol Hill Arts Workshop. I'll start with _Waiting Room_.
+I will be reading a few poems written in the past six weeks at Capitol Hill Arts Workshop.
 
 > Waiting Room
 

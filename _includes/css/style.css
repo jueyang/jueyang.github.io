@@ -135,6 +135,7 @@ header, nav {
 /* archive*/
 .archive {
     text-align:center;
+    padding:40px 0;
 }
 .archive a{
     color:#ccc;

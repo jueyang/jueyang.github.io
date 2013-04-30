@@ -52,6 +52,38 @@ header, nav {
     text-align:center;
     background:white;
 }
+/* Code Blocks & Pre */
+code,
+pre {
+  padding: 5px;
+  font-family: Consolas, monospace;
+  font-size: 10px;
+  border-radius: 3px;
+}
+code {
+  padding: 5px;
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+}
+pre {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+pre code {
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border: 0;
+}
 
 .clearfix {display:block;}
 

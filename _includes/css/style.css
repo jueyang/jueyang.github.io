@@ -6,7 +6,6 @@ body {
 h1 {
   font-family: 'Crimson Text', serif;
   margin:100px 0;
-  line-height:42px;
   text-align: center;
   }
 h1.peace {
@@ -142,13 +141,8 @@ header > div {
   background-image: url(../images/rear-wheel.png);
   }
 /* layout */
-nav {
-  width:200px!important;
-  text-align:center;
-  background: #eee;
-  }
-nav:hover {
-  background:#fdeb57;
+.about {
+  margin-top:100px;
   }
 .archive {
   text-align:center;
@@ -159,6 +153,17 @@ nav:hover {
 .archive a:hover {
   color:#111;
   }
+nav {
+  width:200px!important;
+  text-align:center;
+  background: #eee;
+  }
+nav:hover {
+  background:#fdeb57;
+  }
+nav {
+  color:#111;
+}
 .map {
   height:256px;
   margin-bottom:40px;

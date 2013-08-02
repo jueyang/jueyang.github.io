@@ -5,7 +5,6 @@ categories:
     - blog
     - map
 title: Monday poetry reading
-permalink: /monday-poetry-reading
 layer: jue.map-diabnu9h
 map: map-poetry
 center:
@@ -14,6 +13,7 @@ lon: -76.996
 zoom: 17
 min: 14
 max: 17
+published: false
 ---
 I will be reading a few poems written in the past six weeks at Capitol Hill Arts Workshop.
 

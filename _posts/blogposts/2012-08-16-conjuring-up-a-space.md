@@ -3,7 +3,7 @@ date: 2012-08-16
 layout: post
 categories: blog
 title: Conjuring up a space
-permalink: /conjuring-up-a-space
+published: false
 ---
 I moved into a space filled with light, which has been inspiring. The objects in the room seem fitting with simple geometry. Walls are bare except for a framed drawing <a href="http://trashmoon.com/" target="_blank">a friend</a> finished for me recently. I think when a space takes on character, it is manifested in the things that dwell in it.
 

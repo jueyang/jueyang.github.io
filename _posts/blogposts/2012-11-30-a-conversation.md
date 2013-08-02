@@ -3,7 +3,6 @@ date: 2012-11-30
 layout: post
 categories: blog
 title: A Conversation
-permalink: /a-conversation
 ---
 ![](http://25.media.tumblr.com/tumblr_mb9u48ON9A1qb5ttuo1_1280.jpg)
 

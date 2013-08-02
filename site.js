@@ -17,3 +17,7 @@ var loadMap = function(options) {
         heyMaps.zoom(options.zoom).center({ lat:options.lat, lon:options.lon });
         heyMaps.setZoomRange(options.min,options.max);
 };
+
+var smallScreen = function() {
+    return($(window).width()<=645)
+};

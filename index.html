@@ -1,31 +1,13 @@
 ---
 layout: default
 ---
-    {% for post in site.categories.blog limit:4 %}
-    <div class='divider'>&#10035;</div>
-    <ul class='title pad-top' id='{{post.title}}'>
-        <li>
-          <h2><a href='{{site.baseurl}}{{post.url}}'>{{post.title}}</a></h2>
-        </li>
-        <li>
-          <small class='date clearfix'>{{post.date|date: "%m-%d-%Y"}}</small>
-        </li>
-    </ul>
-        {% if post.map %}
-          <div id='{{post.map}}' class='map'></div>
-            <script>
-                loadMap({
-                    layer:'{{post.layer}}',
-                    map:'{{post.map}}',
-                    lat:{{post.lat}},
-                    lon:{{post.lon}},
-                    zoom:{{post.zoom}},
-                    min:{{post.min}},
-                    max:{{post.max}}
-                });
-            </script>
-        {% endif %}
-        <div class='post-content'>
-            {{post.content}}
-        </div>
-    {% endfor %}
+<h1>I used to be a lemon</h1>
+<h1>then I became a lemon wedge</h1>
+<h1>now am I a piece</h1>
+<h1 class='peace'>&#9774;</h1>
+<a href='{{site.baseurl}}/archive'>
+<nav class='central pad-topbottom'>
+  <h2>More words</h2>
+  <p>(It's okay to not care)</p>
+</nav>
+</a>

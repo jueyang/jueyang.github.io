@@ -1,56 +1,56 @@
 body {
-    color:#111;
+  color:#111;
+  font:16px/24px 'Open Sans Condensed', sans-serif;
+  font-weight:300;
 }
 h1 {
-    font-family:'Open Sans Condensed', sans-serif;
-    font-size:3.2em;
+  font-family: 'Crimson Text', serif;
+  margin:100px 0;
+  line-height:42px;
+  text-align: center;
+}
+h1.peace {
+  font-size:35px;
 }
 h2 {
-    font-family:'Open Sans Condensed', sans-serif;
-    font-weight:bold;
-    font-size:1em;
-    margin:20px 0;
+  font-weight:bold;
+  font-size:1em;
+  margin:20px 0;
 }
 a {
-    text-decoration:none;
-    color:#444;
+  text-decoration:none;
+  color:#444;
 }
 p {
-    font-family: 'Crimson Text', serif;
-    font-size:1em;
-    margin:22px 0;
-    line-height:1.6em;
+  font-family: 'Crimson Text', serif;
+  font-size:1em;
+  margin:22px 0;
+  line-height:1.6em;
 }
 p a {
-    text-decoration:underline;
+  text-decoration:underline;
 }
 strong {
-    font-weight:bold;
+  font-weight:bold;
 }
 em {
-    font-style:italic;
+  font-style:italic;
 }
 img {
-    max-width:95%;
+  max-width:95%;
 }
 blockquote > p{
-    font-size:0.9em;
-    line-height:2.2em;
+  font-size:0.9em;
+  line-height:2.2em;
 }
 blockquote {
-    padding:40px 60px;
-    margin:40px 0;
-    background:#f8f8f8;
+  padding:40px 60px;
+  margin:40px 0;
+  background:#f8f8f8;
 }
 small {
-    font-family:'Open Sans Condensed', sans-serif;
-    font-size:0.8em;
-    color:#ddd;
-}
-header, nav {
-    width:100%;
-    text-align:center;
-    background:white;
+  font-size:0.8em;
+  color:#ddd;
 }
 /* Code Blocks & Pre */
 code,
@@ -85,53 +85,90 @@ pre code {
   border: 0;
 }
 
-.clearfix {display:block;}
-
 .pad-top {padding-top:40px;}                    /*only top padding*/
 .pad-topbottom {padding:40px 0;}
 .pad-side {padding:0 60px;}                   /*only side padding*/
 .pad-topleft {padding:40px 0 0 60px;}              /*top and left padding*/
 
+/* Util */
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+  }
+
+.rotating {
+  -webkit-animation: rotating 1100ms linear infinite;
+  }
+.rotating-fast {
+  -webkit-animation: rotating 1050ms linear infinite;
+  }
+
 .central {
     position:relative;
+    display:block;
     width:80%;
     max-width:520px;
     margin-left:auto;
     margin-right:auto;
 }
-
-.use-sprite {
-    background:transparent url(../images/sprite.png) no-repeat;
+.yellow {
+  color:#fdeb57;
 }
 
-/* header & footer */
-#logo {
-    display:block;
-    width:134px;
-    height:70px;
-    margin:0 auto;
+/* bike */
+header > div {
+  margin:0 auto;
+  background-color:transparent;
+  background-repeat: no-repeat;
 }
 
-#main-nav {
-    font-family:'Open Sans Condensed', sans-serif;
-    margin:10px 0;
+#frame {
+  width:81px;
+  height:57px;
+  background-image: url(../images/frame.png);
+}
+#front-wheel {
+  position:absolute;
+  margin:-29px 0 0 272px;
+  width: 47px;
+  height: 40px;
+  background-image: url(../images/front-wheel.png);
+}
+#rear-wheel {
+  position:absolute;
+  margin:-27px 0 0 200px;
+  width:46px;
+  height:38px;
+  background-image: url(../images/rear-wheel.png);
 }
 
-#main-nav li{
-    display:inline;
-    margin:0 10px;
+/* layout */
+nav {
+  width:200px!important;
+  text-align:center;
+  background: #eee;
 }
-
-#main-nav li span {
-    font-size:10px;
-    padding-left:6px;
+nav:hover {
+  background:#fdeb57;
 }
-#footer {
-    margin-bottom:60px;
+.archive {
     text-align:center;
+    padding:40px 0;
 }
-
-/* blogposts */
+.archive a{
+    color:#ccc;
+        transition: color 200ms;
+   -moz-transition: color 200ms;
+-webkit-transition: color 200ms;
+     -o-transition: color 200ms;
+}
+.archive a:hover {
+    color:#111;
+}
 .map {
   height:256px;
   margin-bottom:40px;
@@ -156,26 +193,14 @@ pre code {
   margin-bottom:40px;
 }
 
-/* about */
-#portrait {
-    background:url(/images/portrait.jpg) no-repeat;
-    width:100%;
-    height:360px;
-    margin:40px 0;
+@media (max-width:645px) {
+  #frame,#front-wheel {
+    display:none;
+  }
+  #rear-wheel {
+    position:relative;
+    margin:0 auto;
+  }
 }
 
-/* archive*/
-.archive {
-    text-align:center;
-    padding:40px 0;
-}
-.archive a{
-    color:#ccc;
-        transition: color 200ms;
-   -moz-transition: color 200ms;
--webkit-transition: color 200ms;
-     -o-transition: color 200ms;
-}
-.archive a:hover {
-    color:#111;
-}
+

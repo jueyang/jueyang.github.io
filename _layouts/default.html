@@ -2,10 +2,10 @@
 <html>
 <head>
     <meta charset='UTF-8'/>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Good Lemons</title>
     <link rel="stylesheet" href="{{site.baseurl}}/site.css" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600|Lusitana:400,700|Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600|Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico" type="image/x-icon">
     <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.js'></script>
     <script src="{{site.baseurl}}/site.js"></script>
@@ -24,20 +24,27 @@
     </script>
 </head>
 <body>
-    <header class='clearfix pad-top'>
-            <a href='{{site.baseurl}}/'><span id='logo' class='use-sprite'></span></a>
-    </header>
-    <nav class='clearfix pad-top'>
-      <ul id='main-nav'>
-        <li><a href='{{site.baseurl}}/about'>about</a></li>
-        <li><a href='{{site.baseurl}}/archive'>archive</a></li>
-      </ul>
-    </nav>
-    <div class='clearfix central {{page.class}}'>
+    <a href='{{site.baseurl}}/'>
+      <header class='central pad-top'>
+        <div id='frame'></div>
+        <div id='front-wheel'></div>
+        <div id='rear-wheel'></div>
+      </header>
+    </a>
+    <section class='central {{page.class}}'>
         {{content}}
-    </div>
-    <div id='footer' class='clearfix'>
-        <small>&copy; jue yang | <a href='{{site.baseurl}}/about'>about</a> | <a href='{{site.baseurl}}/archive'>archive</a></small>
-    </div>
+    </section>
 </body>
+<script>
+if (!smallScreen()){
+    $('header').on('mouseover',function(){
+    $('#front-wheel').addClass('rotating-fast');
+    $('#rear-wheel').addClass('rotating');
+  }).on('mouseout',function(){
+    $('#front-wheel').removeClass('rotating-fast');
+    $('#rear-wheel').removeClass('rotating');
+  });
+}
+
+</script>
 </html>

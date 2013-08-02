@@ -141,29 +141,26 @@ header > div {
   background-image: url(../images/rear-wheel.png);
   }
 /* layout */
-.about {
-  margin-top:100px;
+.about,
+.post {
+  margin:100px auto;
   }
 .archive {
   text-align:center;
   }
 .archive a {
-  color:#eee;
+  color:#ececec;
+;
   }
-.archive a:hover {
+nav,.archive a:hover {
   color:#111;
   }
 nav {
+  color:#111;
   width:200px!important;
   text-align:center;
-  background: #eee;
-  }
-nav:hover {
   background:#fdeb57;
   }
-nav {
-  color:#111;
-}
 .map {
   height:256px;
   margin-bottom:40px;

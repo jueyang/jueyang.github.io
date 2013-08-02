@@ -1,19 +1,24 @@
 ---
 layout: default
 ---
-<h2 class='pad-top'>{{page.title}}</h2>
-{% if page.map %}
-<div id='{{page.map}}' class='map'></div>
-    <script>
-        loadMap({
-            layer:'{{page.layer}}',
-            map:'{{page.map}}',
-            lat:{{page.lat}},
-            lon:{{page.lon}},
-            zoom:{{page.zoom}},
-            min:{{page.min}},
-            max:{{page.max}}
-        });
-    </script>
-{% endif %}
-<div>{{content}}</div>
+<div class='post'>
+    <h2 class='pad-top'>{{page.title}}</h2>
+    {% if page.map %}
+    <div id='{{page.map}}' class='map'></div>
+        <script>
+            loadMap({
+                layer:'{{page.layer}}',
+                map:'{{page.map}}',
+                lat:{{page.lat}},
+                lon:{{page.lon}},
+                zoom:{{page.zoom}},
+                min:{{page.min}},
+                max:{{page.max}}
+            });
+        </script>
+    {% endif %}
+    <div>
+        {{content}}
+    </div>
+</div>
+{% include morewords.html %}

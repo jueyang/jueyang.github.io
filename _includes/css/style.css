@@ -2,56 +2,56 @@ body {
   color:#111;
   font:16px/24px 'Open Sans Condensed', sans-serif;
   font-weight:300;
-}
+  }
 h1 {
   font-family: 'Crimson Text', serif;
   margin:100px 0;
   line-height:42px;
   text-align: center;
-}
+  }
 h1.peace {
   font-size:35px;
-}
+  }
 h2 {
   font-weight:bold;
   font-size:1em;
   margin:20px 0;
-}
+  }
 a {
   text-decoration:none;
   color:#444;
-}
+  }
 p {
   font-family: 'Crimson Text', serif;
   font-size:1em;
   margin:22px 0;
   line-height:1.6em;
-}
+  }
 p a {
   text-decoration:underline;
-}
+  }
 strong {
   font-weight:bold;
-}
+  }
 em {
   font-style:italic;
-}
+  }
 img {
   max-width:95%;
-}
+  }
 blockquote > p{
   font-size:0.9em;
   line-height:2.2em;
-}
+  }
 blockquote {
   padding:40px 60px;
   margin:40px 0;
   background:#f8f8f8;
-}
+  }
 small {
   font-size:0.8em;
-  color:#ddd;
-}
+  color:#eee;
+  }
 /* Code Blocks & Pre */
 code,
 pre {
@@ -59,12 +59,12 @@ pre {
   font-family: Consolas, monospace;
   font-size: 10px;
   border-radius: 3px;
-}
+  }
 code {
   padding: 5px;
   background: #f8f8f8;
   border: 1px solid #ddd;
-}
+  }
 pre {
   display: block;
   padding: 10px;
@@ -77,18 +77,13 @@ pre {
   background: #f8f8f8;
   border: 1px solid #ddd;
   border-radius: 3px;
-}
+  }
 pre code {
   padding: 0;
   color: inherit;
   background-color: transparent;
   border: 0;
-}
-
-.pad-top {padding-top:40px;}                    /*only top padding*/
-.pad-topbottom {padding:40px 0;}
-.pad-side {padding:0 60px;}                   /*only side padding*/
-.pad-topleft {padding:40px 0 0 60px;}              /*top and left padding*/
+  }
 
 /* Util */
 @-webkit-keyframes rotating {
@@ -114,78 +109,76 @@ pre code {
     max-width:520px;
     margin-left:auto;
     margin-right:auto;
-}
-.yellow {
-  color:#fdeb57;
-}
+  }
+
+.pad-top {padding-top:40px;}                    /*only top padding*/
+.pad-topbottom {padding:40px 0;}
+.pad-side {padding:0 60px;}                   /*only side padding*/
+.pad-topleft {padding:40px 0 0 60px;}              /*top and left padding*/
 
 /* bike */
 header > div {
   margin:0 auto;
   background-color:transparent;
   background-repeat: no-repeat;
-}
-
+  }
 #frame {
   width:81px;
   height:57px;
   background-image: url(../images/frame.png);
-}
+  }
 #front-wheel {
   position:absolute;
   margin:-29px 0 0 272px;
   width: 47px;
   height: 40px;
   background-image: url(../images/front-wheel.png);
-}
+  }
 #rear-wheel {
   position:absolute;
   margin:-27px 0 0 200px;
   width:46px;
   height:38px;
   background-image: url(../images/rear-wheel.png);
-}
-
+  }
 /* layout */
 nav {
   width:200px!important;
   text-align:center;
   background: #eee;
-}
+  }
 nav:hover {
   background:#fdeb57;
-}
+  }
 .archive {
-    text-align:center;
-    padding:40px 0;
-}
+  text-align:center;
+  }
 .archive a {
   color:#eee;
-}
+  }
 .archive a:hover {
   color:#111;
-}
+  }
 .map {
   height:256px;
   margin-bottom:40px;
-}
+  }
 .divider {
   text-align:center;
   font-size:9px;
-}
+  }
 .divider:first-child {
   display:none;
-}
+  }
 .title li {
   display:inline-block;
-}
+  }
 .date {
   margin-left:6px;
-}
+  }
 .post-content {
   margin-bottom:40px;
-}
-
+  }
 @media (max-width:645px) {
   #frame,#front-wheel {
     display:none;

@@ -28,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.83"
-     inkscape:cx="150"
-     inkscape:cy="224.06603"
+     inkscape:cx="24.673629"
+     inkscape:cy="234.5099"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -38,8 +38,8 @@
      inkscape:guide-bbox="true"
      inkscape:window-width="1280"
      inkscape:window-height="756"
-     inkscape:window-x="18"
-     inkscape:window-y="48"
+     inkscape:window-x="32"
+     inkscape:window-y="0"
      inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
@@ -136,7 +136,10 @@
        sodipodi:rx="1.6875"
        sodipodi:ry="1.6875"
        d="m 27.125,150.5625 c 0,0.93198 -0.755519,1.6875 -1.6875,1.6875 -0.931981,0 -1.6875,-0.75552 -1.6875,-1.6875 0,-0.93198 0.755519,-1.6875 1.6875,-1.6875 0.931981,0 1.6875,0.75552 1.6875,1.6875 z"
-       transform="matrix(3.4487735,0,0,3.4487735,-25.826441,284.16372)" />
+       transform="matrix(3.4487735,0,0,3.4487735,-25.826441,284.16372)"
+       inkscape:export-filename="/Users/jue/Documents/github/jueyang.github.com/images/frame.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        sodipodi:type="arc"
        style="color:#000000;fill:#fdeb57;fill-opacity:1;stroke:#000000;stroke-width:0.08189075;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -164,7 +167,10 @@
        d="m 25.085518,806.13192 36.714945,3.11841"
        id="path5660"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/Users/jue/Documents/github/jueyang.github.com/images/frame.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <g
        id="g3842"
        inkscape:export-filename="/Users/jueyang/Documents/github/personal-projects/jueyang.github.com/images/favicon.png"

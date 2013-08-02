@@ -159,22 +159,15 @@ nav:hover {
     text-align:center;
     padding:40px 0;
 }
-.archive a{
-    color:#ccc;
-        transition: color 200ms;
-   -moz-transition: color 200ms;
--webkit-transition: color 200ms;
-     -o-transition: color 200ms;
+.archive a {
+  color:#eee;
 }
 .archive a:hover {
-    color:#111;
+  color:#111;
 }
 .map {
   height:256px;
   margin-bottom:40px;
-}
-.temp {
-  color:#aaa;
 }
 .divider {
   text-align:center;

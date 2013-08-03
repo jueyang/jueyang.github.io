@@ -12,9 +12,10 @@ h1.peace {
   font-size:35px;
   }
 h2 {
+  text-align: center;
   font-weight:bold;
   font-size:1em;
-  margin:20px 0;
+  margin: 0 0 20px 0;
   }
 a {
   text-decoration:none;

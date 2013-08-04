@@ -5,5 +5,5 @@ exclude:
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
-permalink: /:month-:day-:year/:title
+permalink: /:title
 baseurl: 

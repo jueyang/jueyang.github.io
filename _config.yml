@@ -6,3 +6,8 @@ rdiscount:
   extensions: [smart]
 permalink: /:title
 baseurl: 
+
+#prose
+siteurl: 'http://jueyang.github.io'
+relativeLinks: 'http://jueyang.github.io/starter/links.jsonp'
+media: 'media'

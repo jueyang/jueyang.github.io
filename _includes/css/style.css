@@ -193,4 +193,19 @@ nav {
   }
 }
 
-
+/* circle experiment */
+.circle p {
+  position:relative;
+  left:50%;
+  margin-top:100px;
+  height:560px;
+}
+.circle p span {
+  font: 10px Monaco, MonoSpace;
+  height: 560px;
+  position: absolute;
+  width: 20px;
+  left: 0;
+  top: 0;
+  transform-origin: bottom center;
+}

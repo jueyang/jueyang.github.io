@@ -1,2 +1,1 @@
-![](/test.png)
-![](/Screen%20Shot%202013-08-19%20at%205.07.47%20PM.png)
+![test uploading](media/Screen Shot 2013-08-19 at 5.15.00 PM.png)

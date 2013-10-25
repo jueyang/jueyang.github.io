@@ -2,9 +2,10 @@ body {
   color:#111;
   font:16px/24px 'Open Sans Condensed', sans-serif;
   font-weight:300;
+  text-rendering:optimizeLegibility;
   }
 h1 {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Crimson Text',STXihei, "华文细黑",serif;
   margin:100px 0;
   text-align: center;
   }
@@ -22,7 +23,7 @@ a {
   color:#444;
   }
 p {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Crimson Text',STFangsong,'华文仿宋',serif;
   font-size:1em;
   margin:22px 0;
   line-height:1.6em;
@@ -48,6 +49,10 @@ blockquote {
   margin:40px 0;
   background:#f8f8f8;
   }
+blockquote.chinese p{
+  font-size:0.78em;
+  line-height:2.5em;
+}
 small {
   font-size:0.8em;
   color:#eee;
@@ -183,15 +188,6 @@ nav {
 .post-content {
   margin-bottom:40px;
   }
-@media (max-width:645px) {
-  #frame,#front-wheel {
-    display:none;
-  }
-  #rear-wheel {
-    position:relative;
-    margin:0 auto;
-  }
-}
 
 /* circle experiment */
 .circle p {
@@ -208,4 +204,37 @@ nav {
   left: 0;
   top: 0;
   transform-origin: bottom center;
+}
+
+/* shiguang */
+.shiguang ul li{
+  width:49%;
+  float:left;
+  border-right:1px solid #fff;
+}
+.shiguang ul li:last-child {
+  -webkit-transform: rotate(-180deg);    /* Safari */
+  -moz-transform:    rotate(-180deg);    /* Firefox */
+  -ms-transform:     rotate(-180deg);    /* IE */
+  -o-transform:      rotate(-180deg);    /* Opera */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=6);     /* Internet Explorer */
+}
+.shiguang p {
+  text-align:center;
+}
+@media (max-width:645px) {
+  #frame,#front-wheel {
+    display:none;
+  }
+  #rear-wheel {
+    position:relative;
+    margin:0 auto;
+  }
+  ul.shiguang {
+    height:auto;
+  }
+  ul.shiguang li {
+    width:100%;
+    float:none;
+  }
 }

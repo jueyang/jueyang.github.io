@@ -248,11 +248,15 @@ nav {
 }
 
 /* shiguang */
+.shiguang {
+  height:400px;
+}
 .shiguang ul li{
   width:49%;
   float:left;
   border-right:1px solid #fff;
   cursor:pointer;
+  height:;
 }
 .shiguang ul li blockquote.active {
   background:#444;

@@ -1,8 +1,6 @@
 ---
-date: 2013-04-30
 layout: post
 categories: blog
-title: Some Thoughts
 ---
 ______________
 

@@ -1,10 +1,8 @@
 ---
-date: 2012-08-03
 layout: post
 categories: 
     - blog
     - map
-title: Monday poetry reading
 layer: jue.map-diabnu9h
 map: map-poetry
 center:

@@ -1,8 +1,6 @@
 ---
-date: 2012-10-22
 layout: post
 categories: blog
-title: Some Characters
 ---
 Developing a few characters for stories. The short story class I've been going to is not very good. So I decided to write in a way that works for me. The story will emerge soon.
 

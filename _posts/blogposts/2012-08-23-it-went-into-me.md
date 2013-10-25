@@ -1,8 +1,6 @@
 ---
-date: 2012-08-23
 layout: post
 categories: blog
-title: It went into me
 ---
 > It went into me, as part of my life. Then it comes out from somewhere—from my emotions or whatever, my feelings.
 

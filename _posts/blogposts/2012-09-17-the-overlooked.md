@@ -1,8 +1,6 @@
 ---
-date: 2012-09-17
 layout: post
 categories: blog
-title: The overlooked
 ---
 ![](http://www.xmarkjenkinsx.com/images/132404462_1f8cd5e984_o.jpg)
 

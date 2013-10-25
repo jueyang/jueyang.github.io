@@ -1,10 +1,8 @@
 ---
-date: 2012-07-30
 layout: post
 categories: 
     - blog
     - map
-title: Office Survey
 layer: jue.map-fmnine5p
 map: map-about
 lat: 38.916

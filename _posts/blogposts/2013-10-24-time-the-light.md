@@ -19,12 +19,12 @@ the original
 
 This is where I grew up
 
-the universe in which  
+The universe in which  
 I was conscious  
 of my thoughts -  
 those old new things  
 
-The passage  
+The passages  
 carried by the passenger  
 -->
 <div class='shiguang'>
@@ -43,11 +43,11 @@ carried by the passenger
 	<li>
 		<blockquote>
 			<p>This is where I grew up</p>
-			<p>the universe in which<br>
+			<p>The universe in which<br>
 			I was conscious<br>
 			of my thoughts -<br>
 			those old new things</p>
-			<p>The passage<br>
+			<p>The passages<br>
 			carried by the passenger</p>
 		</blockquote>
 	</li>

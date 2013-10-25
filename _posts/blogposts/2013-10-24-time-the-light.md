@@ -48,7 +48,7 @@ carried by the passenger
 		carried by the passenger</p>
 	</blockquote></li>
 </ul>
-<p><a href='https://raw.github.com/jueyang/jueyang.github.com/master/_posts/blogposts/2013-10-24-time-the-light.md'>
+<p><a href='https://gist.github.com/jueyang/7160736/raw/42e3e3585b55d07d2df8451c534e65e20030f1d8/%E6%97%B6%E5%85%89.md'>
 	time, the light
 </a></p>
 </div>

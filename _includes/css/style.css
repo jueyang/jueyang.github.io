@@ -1,3 +1,44 @@
+/* fade in */
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+/* fade out */
+@-webkit-keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@-moz-keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@-o-keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
 body {
   color:#111;
   font:16px/24px 'Open Sans Condensed', sans-serif;
@@ -211,13 +252,21 @@ nav {
   width:49%;
   float:left;
   border-right:1px solid #fff;
+  cursor:pointer;
 }
-.shiguang ul li:last-child {
-  -webkit-transform: rotate(-180deg);    /* Safari */
-  -moz-transform:    rotate(-180deg);    /* Firefox */
-  -ms-transform:     rotate(-180deg);    /* IE */
-  -o-transform:      rotate(-180deg);    /* Opera */
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=6);     /* Internet Explorer */
+.shiguang ul li blockquote.active {
+  background:#444;
+  color:#fff;
+  -webkit-animation: fadeIn 400ms linear 100ms both;
+  -moz-animation:    fadeIn 400ms linear 100ms both;
+  -o-animation:      fadeIn 400ms linear 100ms both;
+  animation:         fadeIn 400ms linear 100ms both;
+}
+.shiguang ul li blockquote.inactive {
+  -webkit-animation: fadeOut 400ms linear 100ms both;
+  -moz-animation:    fadeOut 400ms linear 100ms both;
+  -o-animation:      fadeOut 400ms linear 100ms both;
+  animation:         fadeOut 400ms linear 100ms both;
 }
 .shiguang p {
   text-align:center;

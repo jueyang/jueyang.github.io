@@ -3,7 +3,7 @@ layout: default
 ---
 <div class='post'>
 {% for post in site.categories.blog limit:1 %}
-    <h2>{{post.title}}</h2>
+    <h2 class='pad-top'>{{post.title}}</h2>
     <div>{{post.content | markdownify}}</div>
 {% endfor %}
 </div>

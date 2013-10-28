@@ -67,8 +67,16 @@ h2 {
   text-align: center;
   font-weight:bold;
   font-size:1em;
-  margin: 0 0 20px 0;
+  margin: 0 0 40px 0;
   }
+/*.post h2:before,
+.post h2:after {
+  content: '✳';
+  position: relative;
+  display: block;
+  margin: 20px auto;
+  font-size: 10px;
+  }*/
 a {
   text-decoration:none;
   color:#444;
@@ -192,7 +200,7 @@ header > div {
 /*-------- Layout ---------*/
 .about,
 .post {
-  margin:100px auto;
+  margin:60px auto;
   }
 .archive {
   text-align:center;
@@ -251,14 +259,13 @@ nav {
 
 /* shiguang */
 .shiguang {
-  height:400px;
+  height:440px;
 }
 .shiguang ul li{
   width:49%;
   float:left;
   border-right:1px solid #fff;
   cursor:pointer;
-  height:;
 }
 .shiguang ul li blockquote.active {
   background:#444;
@@ -276,6 +283,9 @@ nav {
 }
 /*-------- Small Screen ---------*/
 @media (max-width:645px) {
+  .post {
+    margin:40px 0;
+  }
   #front-wheel,#rear-wheel {
     display:none;
   }

@@ -1,3 +1,4 @@
+/*-------- Animation ---------*/
 /* fade in */
 @-webkit-keyframes fadeIn {
   0% {opacity: 0;}
@@ -39,6 +40,15 @@
   100% {opacity: 0;}
 }
 
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+  }
+/*-------- Font and Fauna ---------*/
 body {
   color:#111;
   font:16px/24px 'Open Sans Condensed', sans-serif;
@@ -131,15 +141,7 @@ pre code {
   border: 0;
   }
 
-/* Util */
-@-webkit-keyframes rotating {
-    from{
-        -webkit-transform: rotate(0deg);
-    }
-    to{
-        -webkit-transform: rotate(360deg);
-    }
-  }
+/*--------Util---------*/
 
 .rotating {
   -webkit-animation: rotating 1100ms linear infinite;
@@ -162,7 +164,7 @@ pre code {
 .pad-side {padding:0 60px;}                   /*only side padding*/
 .pad-topleft {padding:40px 0 0 60px;}              /*top and left padding*/
 
-/* bike */
+/*-------- Bike ---------*/
 header > div {
   margin:0 auto;
   background-color:transparent;
@@ -187,7 +189,7 @@ header > div {
   height:38px;
   background-image: url(../images/rear-wheel.png);
   }
-/* layout */
+/*-------- Layout ---------*/
 .about,
 .post {
   margin:100px auto;

@@ -274,22 +274,25 @@ nav {
   -o-animation:      fadeOut 400ms linear 100ms both;
   animation:         fadeOut 400ms linear 100ms both;
 }
-.shiguang p {
-  text-align:center;
-}
+/*-------- Small Screen ---------*/
 @media (max-width:645px) {
-  #frame,#front-wheel {
+  #front-wheel,#rear-wheel {
     display:none;
   }
-  #rear-wheel {
-    position:relative;
-    margin:0 auto;
+  #frame {
+    background:url(../images/sprite.png);
+    width:125px;
+    height:70px;
   }
-  ul.shiguang {
+  .shiguang {
     height:auto;
+    position:relative;
   }
-  ul.shiguang li {
+  .shiguang ul li {
     width:100%;
     float:none;
+  }
+  .shiguang p {
+    text-align:center;
   }
 }

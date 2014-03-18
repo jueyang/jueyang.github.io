@@ -88,7 +88,7 @@ strong {
   }
 
 /* mobile */
-@media (max-width:645px) {
+@media only screen and (max-width:645px) {
   body {
     font-size:0.88em;
     }
@@ -114,5 +114,11 @@ strong {
     }
   .cover h1 {
     padding:50% 0 10%;
+    }
+  .play {
+    padding-right:3em;
+    }
+  .play blockquote {
+    width:13.2em;
     }
 }

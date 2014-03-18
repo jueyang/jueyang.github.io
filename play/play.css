@@ -1,0 +1,118 @@
+---
+---
+{% include css/reset.css %}
+{% include css/fonts.css %}
+
+/* page */
+body {
+  overflow-x:hidden;
+  text-rendering: optimizeLegibility;
+	font-family: 'Inconsolata', monospace;
+  font-size:0.95em;
+  color:#444;
+  }
+a,
+a:visited {
+  color:#444;
+  }
+h1,
+h2,
+p,
+pre {
+  height:auto;
+  }
+em {
+  font-style:italic;
+  }
+strong {
+  font-weight:bold;
+  }
+/* cover */
+.cover {
+  text-align:center;
+  color:#fff;
+  height:100vh;
+  background: url('../images/chairs_blur.png') 0 100% no-repeat;
+  background-size: 100%;
+  }
+.cover h1{
+  padding:20% 0 10%;
+  }
+/* play*/
+.play {
+  float:left;
+  padding:6em;
+  }
+.play h1,
+.play h2,
+.play p,
+.play pre {
+  float:left;
+  width:100%;
+  line-height:4em;
+  }
+/* act, scene, chracter name */
+.play h1,
+.play h2 {
+	text-align: center;
+  text-transform: uppercase;
+  }
+/* quote in conversation */
+.play em {
+  font-family:'Crimson Text', serif;
+  font-size:1.1em;
+  line-height:2.2em;
+  }
+/* stage direction - inline */
+.play pre {
+  text-align:center;
+  font-style:italic;
+  }
+/* stage direction - right */
+.play blockquote {
+  float:right;
+  width:16em;
+  height:inherit; /* takes up the height of the p it contains, and renders as a block*/
+  }
+.play blockquote p {
+  padding:1em 0 0;
+  line-height:1.6em;
+  }
+/* footer */
+.footer {
+  padding:6em;
+  text-align: center;
+  font-family: 'Crimson Text',serif;
+  font-size:0.8em;
+  line-height:1.6em;
+  }
+
+/* mobile */
+@media (max-width:645px) {
+  body {
+    font-size:0.88em;
+    }
+  .cover {
+    height:24em;
+    }
+  .play {
+    padding:2em;
+    }
+  .play blockquote {
+    float:left;
+    width:auto;
+    padding:1.6em 1.6em 2.2em;
+    border:0.08em solid #eee;
+  }
+}
+/* for print */
+@media print {
+  .cover {
+    color:#444;
+    height:100%;
+    background: none;
+    }
+  .cover h1 {
+    padding:50% 0 10%;
+    }
+}

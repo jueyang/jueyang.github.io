@@ -115,6 +115,9 @@ strong {
   .cover h1 {
     padding:50% 0 10%;
     }
+  .cover h2:after {
+    content: ' by Jue Yang';
+    }
   .play {
     padding-right:3em;
     }

@@ -31,7 +31,7 @@ strong {
 .cover {
   text-align:center;
   color:#fff;
-  height:100vh;
+  height:100%;
   background: url('../images/chairs_blur.png') 0 100% no-repeat;
   background-size: 100%;
   }
@@ -59,7 +59,7 @@ strong {
   }
 /* quote in conversation */
 .play em {
-  font-family:'Crimson Text', serif;
+  font-family:'Crimson Text', Garamond, Georgia, serif;
   font-size:1.1em;
   line-height:2.2em;
   }
@@ -75,7 +75,7 @@ strong {
   height:inherit; /* takes up the height of the p it contains, and renders as a block*/
   }
 .play blockquote p {
-  padding:1em 0 0;
+  padding:0 0 1em;
   line-height:1.6em;
   }
 /* footer */
@@ -88,22 +88,42 @@ strong {
   }
 
 /* mobile */
+@media only screen and (max-width:768px) {
+  .cover {
+    height:50%;
+  }
+}
 @media only screen and (max-width:645px) {
   body {
     font-size:0.88em;
     }
-  .cover {
-    height:24em;
-    }
   .play {
+    float:none;
     padding:2em;
     }
+  .play h1,
+  .play h2,
+  .play p,
+  .play pre,
   .play blockquote {
-    float:left;
+    float:none;
+    }
+  .play p {
+    line-height:1.6em;
+    }
+  .play pre {
+    margin:1.6em 0;
+    }
+  .play blockquote {
     width:auto;
-    padding:1.6em 1.6em 2.2em;
+    margin:1.6em 0;
+    padding:2em 2em 1em;
     border:0.08em solid #eee;
-  }
+    }
+  .footer {
+    padding:2em;
+    text-align:left;
+    }
 }
 /* for print */
 @media print {

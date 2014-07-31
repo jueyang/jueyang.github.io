@@ -6,8 +6,10 @@
     <title>Good Lemons</title>
     <link rel="stylesheet" href="{{site.baseurl}}/site.css" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600|Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico" type="image/x-icon">
-    <script src="{{site.baseurl}}/site.js"></script>
+    <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico" type="image/x-icon">  
+    <script src="{{site.baseurl}}/js/jquery-1.8.0.min.js"></script>
+    <script src="{{site.baseurl}}/js/instafeed.min.js"></script>
+    <script src="{{site.baseurl}}/js/lettering.js"></script>
 </head>
 <body>
   <a href='{{site.baseurl}}/'>
@@ -22,6 +24,11 @@
   </section>
 
   <script>
+
+  var smallScreen = function() {
+    return($(window).width()<=645)
+  };
+
   if (!smallScreen()){
       $('header').on('mouseover',function(){
       $('#front-wheel').addClass('rotating-fast');
@@ -32,6 +39,7 @@
     });
   }
   </script>
+
   <script type="text/javascript">
 
     var _gaq = _gaq || [];

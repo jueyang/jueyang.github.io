@@ -1,12 +1,42 @@
 ---
 layout: default
 ---
-<div class='post'>
-	<h1>
-	<a href='/play'>
-		<img src='http://f.cl.ly/items/271j1l0m1V33290o341Y/Screen%20Shot%202014-04-04%20at%2012.31.40%20PM.png' /></br>
-		...a very short one as well
-	</a>
-	</h1>
+<style>
+	p {
+		font-style:italic;
+	}
+	.more {
+		padding:60px;
+		margin-bottom:80px;
+		background:#fdeb57;
+	}
+	.announce span {display:block;}
+</style>
+<h1>I am renovating the kitchen</h1>
+<!-- <h1 class='announce'></h1>
+<h1></h1> -->
+<h1 class='announce a1'>to</h1>
+<h1 class='announce a2'>be</h1>
+<h1 class='announce'>more<h1>
+<h1>organized</h1>
+<div class='more'>
+<h2>
+Meanwhile
+</h2>
+<p>Stay offtuned. Visit the <a href='https://github.com/jueyang/jueyang.github.com'>pantry</a> and wipe the dust off that can of okra.</p>
+<p>Read my <a href='http://jueyang.github.com/play'>10-minute play</a> on your mobile device with pink peppercorn.</p>
+<p>Checkout <a href='http://oldwork.tumblr.com'>this home-bound cookbook</a> for multi-disciplinary recipes.</p>
 </div>
-{% include morewords.html %}
+<script>
+  $(document).ready(function() {
+    $('.announce').lettering();
+    var slantRight = $('.a1').find('span'),
+    	slantLeft = $('.a2').find('span');
+    $.each(slantRight,function(i,s){
+    	$(s).css('margin-left', 25*i+'px');
+    });
+    $.each(slantLeft,function(i,s){
+    	$(s).css('margin-right',25*i+'px');
+    });
+  });
+</script>

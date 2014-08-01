@@ -13,8 +13,6 @@ layout: default
 	.announce span {display:block;}
 </style>
 <h1>I am renovating the kitchen</h1>
-<!-- <h1 class='announce'></h1>
-<h1></h1> -->
 <h1 class='announce a1'>to</h1>
 <h1 class='announce a2'>be</h1>
 <h1 class='announce'>more<h1>
@@ -31,13 +29,21 @@ Meanwhile
 <script>
   $(document).ready(function() {
     $('.announce').lettering();
-    var slantRight = $('.a1').find('span'),
-    	slantLeft = $('.a2').find('span');
-    $.each(slantRight,function(i,s){
-    	$(s).css('margin-left', 25*i+'px');
-    });
-    $.each(slantLeft,function(i,s){
-    	$(s).css('margin-right',25*i+'px');
-    });
+
+    slant('a1','right');
+    slant('a2','left');
+
+    function slant(classname,direction){
+        var parent = document.getElementsByClassName(classname),
+            spans = parent[0].getElementsByTagName('span'),
+            margin;
+
+        direction === 'left' ? margin = 'marginRight' : margin = 'marginLeft';
+
+        for (var i=0; i < spans.length; i ++) {
+
+            spans[i].style[margin] = 25*i + 'px'; //Element.style.maginLeft
+        }
+    }
   });
 </script>

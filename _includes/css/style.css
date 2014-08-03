@@ -290,8 +290,135 @@ nav {
   -o-animation:      fadeOut 400ms linear 100ms both;
   animation:         fadeOut 400ms linear 100ms both;
 }
+/*-------- resume --------*/
+.resume  {
+  padding:80px;
+}
+.resume p {
+  font-style:italic;
+}
+.resume h1,
+.resume h3{
+  padding:10px 0;
+  margin:20px 20px 20px 0;
+}
+.resume h1 {
+  font-family:'Open Sans Condensed';
+}
+.resume h1:before,
+.resume h1:after {
+  content:'•';
+  padding:10px;
+}
+.resume h2 {
+  text-align: left;
+  margin:0;
+}
+.resume h2 a {
+  text-decoration: underline;
+}
+.resume h2 span {
+  margin-left:10px;
+}
+.resume h2 span.place:before,
+.resume h2 span.time:before {
+  content:'·';
+  margin-right:10px;
+}
+.resume h2 span.geo {
+  font-size:0.75em;
+  font-weight:normal;
+  color:#aaa;
+}
+.resume h3 {
+  border-top:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+}
+.resume h3.others {
+  padding:10px 20%;
+}
+.resume .name {
+  position:fixed;
+  padding:20px 0;
+  top:0;
+  left:0;
+  background:#fff;
+  background:#f2f2f2;
+}
+.resume .name ul {
+  margin-left:80px;
+}
+.resume .name ul li {
+  float:left;
+  padding-right:20px;
+}
+.resume .name ul li.social {
+  margin-top:5px;
+}
+.resume .name ul.nav {
+  float:right;
+  margin:0 -160px 0 0;
+}
+.resume .name ul.nav li a:hover {
+  text-decoration: underline;
+}
+.experiences p {
+  padding-right:20px;
+}
+.experiences p:before {
+  content:'-';
+  padding-right:5px;
+}
+.resume table {
+  width:100%;
+  margin:20px 0;
+}
+.resume tr {
+  /*border-top:1px solid #efefef;*/
+}
+.resume tr td {
+  padding:10px 0;
+}
+.resume tr td:first-child {
+  font-weight:bold;
+    font-size:1em;
+}
+.resume tr td:last-child {
+  font-family: 'Crimson Text',serif;
+  font-size:1em;
+  font-style:italic;
+}
+.resume .sign {
+  font-family:STFangsong,'华文仿宋';
+  font-style:normal;
+}
 /*-------- Small Screen ---------*/
-@media (max-width:645px) {
+@media screen and (max-width:645px) {
+  .col3,
+  .col6,
+  .col12 {
+    width:100%;
+  }
+  .resume {
+    padding:40px;
+  }
+  .resume h2 {
+    font-size:0.9em;
+  }
+  .resume h3.others {
+    padding:10px;
+  }
+  .resume .name ul {
+    margin:0 40px;
+  }
+  .resume .name ul.nav {
+    margin:10px -40px 0 0;
+  }
+  .resume h2 span.place:before,
+  .resume h2 span.time:before {
+    content:'';
+    display:block;
+  }
   .post {
     margin:40px 0;
   }
@@ -313,5 +440,30 @@ nav {
   }
   .shiguang p {
     text-align:center;
+  }
+}
+
+@media print {
+  .resume {
+    padding:0;
+  }
+  .resume h2 {
+    font-size:0.9em;
+  }
+  .resume h3.others {
+    padding:10px;
+  }
+  .resume .name {
+    position:relative;
+    padding:0;
+    left:0;
+    background:#fff;
+  }
+  .resume .name ul {
+    margin:0 33.33%;
+  }
+  .resume .name ul li.social,
+  .resume .name ul.nav {
+    display:none;
   }
 }

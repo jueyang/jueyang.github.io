@@ -215,8 +215,7 @@ header > div {
   text-align:center;
   }
 .archive a {
-  color:#ececec;
-;
+  color:#aaa;
   }
 nav,.archive a:hover {
   color:#111;
@@ -249,7 +248,7 @@ nav {
   margin-bottom:40px;
   }
 
-/* circle experiment */
+/* lettering experiment */
 .circle p {
   position:relative;
   left:50%;
@@ -265,7 +264,9 @@ nav {
   top: 0;
   transform-origin: bottom center;
 }
-
+.slant span {
+  display:block;
+  }
 /* shiguang */
 .shiguang {
   height:440px;

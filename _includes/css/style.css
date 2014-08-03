@@ -306,10 +306,17 @@ nav {
 .resume h1 {
   font-family:'Open Sans Condensed';
 }
-.resume h1:before,
-.resume h1:after {
-  content:'•';
-  padding:10px;
+.resume h1:before {
+  font-size:0.75em;
+  color:#f2f2f2;
+  content:'⬢';
+}
+h1.sign {
+  font-size:1em;
+  color:#ddd;
+}
+h1.sign:before {
+  content:'';
 }
 .resume h2 {
   text-align: left;
@@ -400,9 +407,6 @@ nav {
   .resume {
     padding:40px;
   }
-  .resume h2 {
-    font-size:0.9em;
-  }
   .resume h3.others {
     padding:10px;
   }
@@ -445,6 +449,13 @@ nav {
   .resume {
     padding:0;
   }
+  .resume h1:before {
+  content:'';
+  }
+  .experiences h1:after {content:'Experiences';}
+  .education h1:after {content:'Education';}
+  .skills h1:after {content:'Skills';}
+
   .resume h2 {
     font-size:0.9em;
   }

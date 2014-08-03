@@ -48,6 +48,7 @@
         -webkit-transform: rotate(360deg);
     }
   }
+
 /*-------- Font and Fauna ---------*/
 body {
   color:#111;
@@ -55,7 +56,7 @@ body {
   font-weight:300;
   text-rendering:optimizeLegibility;
   }
-h1 {
+h1, h3{
   font-family: 'Crimson Text',STXihei, "华文细黑",serif;
   margin:100px 0;
   text-align: center;
@@ -69,14 +70,6 @@ h2 {
   font-size:1em;
   margin: 0 0 40px 0;
   }
-/*.post h2:before,
-.post h2:after {
-  content: '✳';
-  position: relative;
-  display: block;
-  margin: 20px auto;
-  font-size: 10px;
-  }*/
 a {
   text-decoration:none;
   color:#444;
@@ -171,6 +164,22 @@ pre code {
 .pad-topbottom {padding:40px 0;}
 .pad-side {padding:0 60px;}                   /*only side padding*/
 .pad-topleft {padding:40px 0 0 60px;}              /*top and left padding*/
+
+.col3,
+.col6,
+.col12 {
+  float:left;
+  }
+.col3 {width:33.33%;}
+.col6 {width:50%;}
+.col12 {width:100%;}
+.cf:after, .cf:before {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
 
 /*-------- Bike ---------*/
 header > div {

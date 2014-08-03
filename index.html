@@ -1,49 +1,10 @@
 ---
 layout: default
 ---
-<style>
-	p {
-		font-style:italic;
-	}
-	.more {
-		padding:60px;
-		margin-bottom:80px;
-		background:#fdeb57;
-	}
-	.announce span {display:block;}
-</style>
-<h1>I am renovating the kitchen</h1>
-<h1 class='announce a1'>to</h1>
-<h1 class='announce a2'>be</h1>
-<h1 class='announce'>more<h1>
-<h1>organized</h1>
-<div class='more'>
-<h2>
-Meanwhile
-</h2>
-<p>Read my <a href='http://jueyang.github.com/play'>10-minute play</a> on your mobile device with pink peppercorn.</p>
-<p>Check out <a href='http://oldwork.tumblr.com'>this home-bound cookbook</a> for multi-disciplinary recipes.</p>
-<p>Visit the <a href='https://github.com/jueyang/jueyang.github.com'>pantry</a> and help wipe some dust off, say, that can of okra.</p>
-<p>Bascially, stay offtuned and eat well.</p>
-</div>
-<script>
-  $(document).ready(function() {
-    $('.announce').lettering();
 
-    slant('a1','right');
-    slant('a2','left');
+<h1><a href='/resume'>Resume</a></h1>
+<h1><a href='/play'>Play</a></h1>
 
-    function slant(classname,direction){
-        var parent = document.getElementsByClassName(classname),
-            spans = parent[0].getElementsByTagName('span'),
-            margin;
+<h1><em>Mobile and Print Friendly</em></h1>
 
-        direction === 'left' ? margin = 'marginRight' : margin = 'marginLeft';
-
-        for (var i=0; i < spans.length; i ++) {
-
-            spans[i].style[margin] = 25*i + 'px'; //Element.style.maginLeft
-        }
-    }
-  });
-</script>
+{% include morewords.html %}

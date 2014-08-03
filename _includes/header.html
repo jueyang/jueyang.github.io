@@ -1,5 +1,17 @@
-<header class='central pad-top'>
-	<div id='frame'></div>
-	<div id='front-wheel'></div>
-	<div id='rear-wheel'></div>
-</header>
+<a href='{{site.baseurl}}/'>
+	<header class='central pad-top'>
+		<div id='frame'></div>
+		<div id='front-wheel'></div>
+		<div id='rear-wheel'></div>
+	</header>
+</a>
+<script>
+	var smallScreen = function() {
+	return($(window).width()<=645)
+	};
+
+	if (!smallScreen()){
+	  $('#front-wheel').addClass('rotating');
+	  $('#rear-wheel').addClass('rotating');
+	}
+</script>

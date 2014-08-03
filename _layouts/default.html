@@ -10,29 +10,11 @@
     <script src="{{site.baseurl}}/js/lettering.js"></script>
 </head>
 <body>
+  {% unless page.categories contains 'resume' %}
   {% include header.html %}
-  <section class='central'>
-      {{content}}
-  </section>
+  {% endunless %}
 
-  <script>
-
-    var smallScreen = function() {
-    return($(window).width()<=645)
-    };
-
-    if (!smallScreen()){
-    // $('header').on('mouseover',function(){
-    //   $('#front-wheel').addClass('rotating-fast');
-    //   $('#rear-wheel').addClass('rotating');
-    // }).on('mouseout',function(){
-    //   $('#front-wheel').removeClass('rotating-fast');
-    //   $('#rear-wheel').removeClass('rotating');
-    // });
-      $('#front-wheel').addClass('rotating');
-      $('#rear-wheel').addClass('rotating');
-    }
-  </script>
+  {{content}}
 
   <script type="text/javascript">
 

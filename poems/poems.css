@@ -1,0 +1,93 @@
+---
+---
+{% include css/reset.css %}
+{% include css/fonts.css %}
+
+/* page */
+body {
+  overflow-x:hidden;
+  text-rendering: optimizeLegibility;
+  font-family:'Crimson Text', Garamond, Georgia, serif;
+  font-style:italic;
+  font-size:1.1em;
+  line-height:2.2em;
+  color:#444;
+  }
+a,
+a:visited {
+  color:#444;
+  }
+h1,
+p {
+  height:auto;
+  }
+blockquote {
+  font-family:'Inconsolata',monospace;
+  font-weight:600;
+  font-size:0.8em;
+  font-style:normal;
+  }
+/* cover */
+.cover {
+  text-align:center;
+  color:#fff;
+  height:100%;
+  background: url('../images/rose.png') 0 40% no-repeat;
+  background-size: 100%;
+  }
+.cover h1{
+  padding:20% 0 10%;
+  }
+/* text */
+.poems {
+  float:left;
+  padding:6em 33.33%;
+  }
+.poem {
+  margin:0 0 6em;
+  }
+/* breaks between paragraphs*/
+.poem hr {
+  border-color:transparent;
+  }
+.poem h1 {
+  font-size:0.9em;
+  text-align: center;
+  color:#777;
+  border-top:1px solid #efefef;
+  border-bottom:1px solid #efefef;
+  margin:0 0 20px;
+  }
+.footer {
+  padding:6em;
+  font-style:normal;
+  text-align: center;
+  font-size:0.8em;
+  line-height:1.6em;
+  }
+/* mobile */
+@media only screen and (max-width:768px) {
+  .cover {
+    height:50%;
+  }
+  .footer {
+    padding:2em;
+    text-align:left;
+  }
+}
+@media only screen and (max-width:645px) {
+  body {
+    font-size:0.88em;
+    }
+  }
+/* for print */
+@media print {
+  .cover {
+    color:#444;
+    height:100%;
+    background: none;
+    }
+  .cover h1 {
+    padding:50% 0 10%;
+    }
+}

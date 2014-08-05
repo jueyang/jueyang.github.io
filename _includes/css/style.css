@@ -184,7 +184,6 @@ pre code {
 .cf:after {
     clear: both;
 }
-
 /*-------- Bike ---------*/
 header > div {
   margin:0 auto;
@@ -231,10 +230,6 @@ nav {
   text-align:center;
   background:#fdeb57;
   }
-.map {
-  height:256px;
-  margin-bottom:40px;
-  }
 .divider {
   text-align:center;
   font-size:9px;
@@ -251,7 +246,20 @@ nav {
 .post-content {
   margin-bottom:40px;
   }
-
+.map.full {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+.map-legends,
+.map-legend {
+  max-width:inherit;
+  background: transparent;
+  font-family: 'Inconsolata', monospace;
+  box-shadow: none;
+}
 /* lettering experiment */
 .circle p {
   position:relative;
@@ -295,8 +303,40 @@ nav {
   -o-animation:      fadeOut 400ms linear 100ms both;
   animation:         fadeOut 400ms linear 100ms both;
 }
+/*----- chicago map ------*/
+.chicago h2 {
+  font-family:'Inconsolata',mononspace;
+  position:absolute;
+  right:40px;
+  bottom:200px;
+  z-index:10;
+  color:#fff;
+  }
+.chicago h2 span {
+    display:block;
+    font-size:11px;
+  }
+.chicago h2 span a {
+    color:#f2f2f2;
+    text-decoration: underline;
+  }
+.chicago .map-legend {
+  font-size:14px;
+  background:#2E3146;
+  color:#fff;
+  }
+.chicago .map-legend .no-data {
+  display:none;
+  }
+.chronology li:before,
+.height li:before {
+  width:10px!important;
+  margin-right:10px;
+  }
+
 /*-------- resume --------*/
-.resume  {
+.resume,
+.portfolio  {
   padding:80px;
 }
 .resume p {
@@ -411,7 +451,8 @@ h1.sign:before {
   .col12 {
     width:100%;
   }
-  .resume {
+  .resume,
+  .portfolio {
     padding:40px;
   }
   .resume h3.others {
@@ -453,7 +494,8 @@ h1.sign:before {
 }
 
 @media print {
-  .resume {
+  .resume,
+  .portfolio {
     padding:0;
   }
   .resume h1:before {

@@ -39,7 +39,7 @@
          url('../fonts/crimsontext-semibold-webfont.woff') format('woff'),
          url('../fonts/crimsontext-semibold-webfont.ttf') format('truetype'),
          url('../fonts/crimsontext-semibold-webfont.svg#crimson_textsemibold') format('svg');
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
 }
 

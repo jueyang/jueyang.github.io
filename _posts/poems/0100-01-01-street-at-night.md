@@ -15,7 +15,7 @@ Glove, does the hand miss you?
 
 the bike wheel squeals
 
-at the dirty fur and a broken tail -
+at the dirty fur and a broken tail
 
 a piece of truth
 
@@ -27,6 +27,6 @@ a voice peeled off the humid air
 
 leaving it crisp
 
-"Poor birds," it says,
+poor Birds, it says,
 
-"they always think it's the morning."
+they always think it's the morning

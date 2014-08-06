@@ -354,18 +354,33 @@ nav {
   text-decoration: underline;
 }
 /*-------- Small Screen ---------*/
+@media screen and (max-width:1120px) {
+  .portfolio .thumb {
+    background-position:30%;
+  }
+}
+@media screen and (max-width:1000px) {
+  .portfolio .architecture .col4 {
+    width:50%;
+  }
+}
 @media screen and (max-width:645px) {
   blockquote {
     padding:20px 40px;
   }
   .col3,
+  .col4,
   .col6,
   .col12 {
-    width:100%;
+    width:100%!important;
   }
   .resume,
-  .portfolio {
+  .portfolio section {
     padding:40px;
+  }
+  .portfolio .thumb,
+  .portfolio .full {
+    height:200px;
   }
   .resume h3.others {
     padding:10px;
@@ -411,7 +426,7 @@ nav {
     padding:0;
   }
   .resume h1:before {
-  content:'';
+    content:'';
   }
   .experiences h1:after {content:'Experiences';}
   .education h1:after {content:'Education';}

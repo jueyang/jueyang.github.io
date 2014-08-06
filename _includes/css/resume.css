@@ -45,27 +45,6 @@
 .resume h3.others {
   padding:10px 20%;
 }
-.name {
-  position:fixed;
-  padding:20px 0;
-  top:0;
-  left:0;
-  background:#fff;
-}
-.name ul {
-  margin-left:80px;
-}
-.name ul li {
-  float:left;
-  padding-right:20px;
-}
-.name ul.nav {
-  float:right;
-  margin:0 -160px 0 0;
-}
-.name ul.nav li a:hover {
-  text-decoration: underline;
-}
 .experiences p {
   padding-right:20px;
 }

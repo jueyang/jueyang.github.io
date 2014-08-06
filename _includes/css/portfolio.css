@@ -1,9 +1,9 @@
 .portfolio section h1 {
   font-style:italic;
-    font-size:1.1em;
-    line-height:2.2em;
+  font-size:1.1em;
+  line-height:2.2em;
   border-top:1px solid #efefef;
-    border-bottom:1px solid #efefef;
+  border-bottom:1px solid #efefef;
 }
 .portfolio .preview h1 {
   margin:20px 0;
@@ -22,9 +22,11 @@
   display:block;
   padding:10px 40px;
   border:1px solid #efefef;
+  border-top:0;
 }
 
-.portfolio .intro p a {
+.portfolio h1 a,
+.portfolio .intro a {
   text-decoration: underline;
 }
 .portfolio .thumb,

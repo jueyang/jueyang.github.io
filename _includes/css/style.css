@@ -83,12 +83,6 @@ h1, h3{
 h1.peace {
   font-size:35px;
   }
-h1.sign {
-  font-size:1em;
-  color:#ddd;
-  font-family:STFangsong,'华文仿宋';
-  font-style:normal;
-  }
 h1.sign:before {
   content:'';
   }
@@ -288,6 +282,12 @@ nav {
   font-family: 'Inconsolata', monospace;
   box-shadow: none;
 }
+.sign {
+  padding:20px;
+  font-family:STFangsong,'华文仿宋';
+  font-style:normal;
+  text-align: center;
+  }
 /* lettering experiment */
 .circle p {
   position:relative;
@@ -330,6 +330,28 @@ nav {
   -moz-animation:    fadeOut 400ms linear 100ms both;
   -o-animation:      fadeOut 400ms linear 100ms both;
   animation:         fadeOut 400ms linear 100ms both;
+}
+/* resume & portfolio */
+.name {
+  position:fixed;
+  padding:20px 0;
+  top:0;
+  left:0;
+  background:#fff;
+}
+.name ul {
+  margin-left:80px;
+}
+.name ul li {
+  float:left;
+  padding-right:20px;
+}
+.name ul.nav {
+  float:right;
+  margin:0 -160px 0 0;
+}
+.name ul.nav li a:hover {
+  text-decoration: underline;
 }
 /*-------- Small Screen ---------*/
 @media screen and (max-width:645px) {

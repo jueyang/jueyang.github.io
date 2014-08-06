@@ -1,0 +1,94 @@
+/*-------- resume --------*/
+.resume {
+  padding:80px;
+}
+.resume p {
+  font-style:italic;
+}
+.resume h1,
+.resume h3{
+  padding:10px 0;
+  margin:20px 20px 20px 0;
+}
+.resume h1 {
+  font-family:'Open Sans Condensed';
+}
+.resume h1:before {
+  font-size:0.75em;
+  color:#f2f2f2;
+  content:'⬢';
+}
+.resume h2 {
+  text-align: left;
+  margin:0;
+}
+.resume h2 a {
+  text-decoration: underline;
+}
+.resume h2 span {
+  margin-left:10px;
+}
+.resume h2 span.place:before,
+.resume h2 span.time:before {
+  content:'·';
+  margin-right:10px;
+}
+.resume h2 span.geo {
+  font-size:0.75em;
+  font-weight:normal;
+  color:#aaa;
+}
+.resume h3 {
+  border-top:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+}
+.resume h3.others {
+  padding:10px 20%;
+}
+.name {
+  position:fixed;
+  padding:20px 0;
+  top:0;
+  left:0;
+  background:#fff;
+}
+.name ul {
+  margin-left:80px;
+}
+.name ul li {
+  float:left;
+  padding-right:20px;
+}
+.name ul.nav {
+  float:right;
+  margin:0 -160px 0 0;
+}
+.name ul.nav li a:hover {
+  text-decoration: underline;
+}
+.experiences p {
+  padding-right:20px;
+}
+.experiences p:before {
+  content:'-';
+  padding-right:5px;
+}
+.resume table {
+  width:100%;
+  margin:20px 0;
+}
+.resume tr {
+  /*border-top:1px solid #efefef;*/
+}
+.resume tr td {
+  padding:10px 0;
+}
+.resume tr td:first-child {
+  font-weight:bold;
+    font-size:1em;
+}
+.resume tr td:last-child {
+  font-family: 'Crimson Text',serif;
+  font-size:1em;
+  font-style:italic;
+}

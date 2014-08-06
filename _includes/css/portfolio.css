@@ -1,0 +1,79 @@
+.portfolio section h1 {
+  font-style:italic;
+    font-size:1.1em;
+    line-height:2.2em;
+  border-top:1px solid #efefef;
+    border-bottom:1px solid #efefef;
+}
+.portfolio .preview h1 {
+  margin:20px 0;
+}
+.portfolio a {
+  text-decoration: none;
+}
+.portfolio section {
+  padding:0 80px;
+}
+.portfolio .name {
+  padding:20px 0 0 0;
+}
+.portfolio .intro {
+  font-size:0.8em;
+  display:block;
+  padding:10px 40px;
+  border:1px solid #efefef;
+}
+
+.portfolio .intro p a {
+  text-decoration: underline;
+}
+.portfolio .thumb,
+.portfolio .full {
+  display:block;
+  height:300px;
+  background-size:cover;
+  background-position:0 0;
+  border:1px solid #efefef;
+}
+.portfolio .architecture .thumb {
+  box-shadow:none;
+}
+.portfolio .full {
+  height:300px;
+}
+
+/*----- chicago map ------*/
+.chicago h2 {
+  font-family:'Inconsolata',mononspace;
+  position:absolute;
+  right:40px;
+  bottom:200px;
+  z-index:10;
+  color:#fff;
+  }
+.chicago h2 span {
+  display:block;
+  font-size:11px;
+  }
+.chicago h2 span a {
+  color:#f2f2f2;
+  text-decoration: underline;
+  }
+.chicago .map-tooltip {
+  font-family:'Inconsolata';
+  background:rgba(40,63,76,0.6);
+  box-shadow: none;
+  }
+.chicago .map-legend {
+  font-size:14px;
+  color:#fff;
+  background:rgba(40,63,76,0.6);
+  }
+.chicago .map-legend .no-data {
+  display:none;
+  }
+.chronology li:before,
+.height li:before {
+  width:10px!important;
+  margin-right:10px;
+  }

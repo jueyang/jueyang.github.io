@@ -1,7 +1,8 @@
 ---
 ---
+{% include css/font-awesome.min.css %}
 {% include css/fonts.css %}
 {% include css/reset.css %}
+{% include css/resume.css %}
+{% include css/portfolio.css %}
 {% include css/style.css %}
-{% include css/markers.css %}
-{% include css/font-awesome.min.css %}

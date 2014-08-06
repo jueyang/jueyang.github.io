@@ -49,6 +49,22 @@
     }
   }
 
+.fadeOut,.fadeIn {
+400ms linear 100ms both
+400ms linear 100ms both
+400ms linear 100ms both
+400ms linear 100ms both
+  -webkit-animation-duration: 400ms;
+  animation-duration: 400ms;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
 /*-------- Font and Fauna ---------*/
 body {
   color:#111;
@@ -66,6 +82,15 @@ h1, h3{
   }
 h1.peace {
   font-size:35px;
+  }
+h1.sign {
+  font-size:1em;
+  color:#ddd;
+  font-family:STFangsong,'华文仿宋';
+  font-style:normal;
+  }
+h1.sign:before {
+  content:'';
   }
 h2 {
   text-align: center;
@@ -305,144 +330,6 @@ nav {
   -moz-animation:    fadeOut 400ms linear 100ms both;
   -o-animation:      fadeOut 400ms linear 100ms both;
   animation:         fadeOut 400ms linear 100ms both;
-}
-/*----- chicago map ------*/
-.chicago h2 {
-  font-family:'Inconsolata',mononspace;
-  position:absolute;
-  right:40px;
-  bottom:200px;
-  z-index:10;
-  color:#fff;
-  }
-.chicago h2 span {
-    display:block;
-    font-size:11px;
-  }
-.chicago h2 span a {
-    color:#f2f2f2;
-    text-decoration: underline;
-  }
-.chicago .map-legend {
-  font-size:14px;
-  background:#2E3146;
-  color:#fff;
-  }
-.chicago .map-legend .no-data {
-  display:none;
-  }
-.chronology li:before,
-.height li:before {
-  width:10px!important;
-  margin-right:10px;
-  }
-
-/*-------- resume --------*/
-.resume,
-.portfolio  {
-  padding:80px;
-}
-.resume p {
-  font-style:italic;
-}
-.resume h1,
-.resume h3{
-  padding:10px 0;
-  margin:20px 20px 20px 0;
-}
-.resume h1 {
-  font-family:'Open Sans Condensed';
-}
-.resume h1:before {
-  font-size:0.75em;
-  color:#f2f2f2;
-  content:'⬢';
-}
-h1.sign {
-  font-size:1em;
-  color:#ddd;
-}
-h1.sign:before {
-  content:'';
-}
-.resume h2 {
-  text-align: left;
-  margin:0;
-}
-.resume h2 a {
-  text-decoration: underline;
-}
-.resume h2 span {
-  margin-left:10px;
-}
-.resume h2 span.place:before,
-.resume h2 span.time:before {
-  content:'·';
-  margin-right:10px;
-}
-.resume h2 span.geo {
-  font-size:0.75em;
-  font-weight:normal;
-  color:#aaa;
-}
-.resume h3 {
-  border-top:1px solid #ddd;
-  border-bottom:1px solid #ddd;
-}
-.resume h3.others {
-  padding:10px 20%;
-}
-.resume .name {
-  position:fixed;
-  padding:20px 0;
-  top:0;
-  left:0;
-  background:#fff;
-  background:#f2f2f2;
-}
-.resume .name ul {
-  margin-left:80px;
-}
-.resume .name ul li {
-  float:left;
-  padding-right:20px;
-}
-.resume .name ul.nav {
-  float:right;
-  margin:0 -160px 0 0;
-}
-.resume .name ul.nav li a:hover {
-  text-decoration: underline;
-}
-.experiences p {
-  padding-right:20px;
-}
-.experiences p:before {
-  content:'-';
-  padding-right:5px;
-}
-.resume table {
-  width:100%;
-  margin:20px 0;
-}
-.resume tr {
-  /*border-top:1px solid #efefef;*/
-}
-.resume tr td {
-  padding:10px 0;
-}
-.resume tr td:first-child {
-  font-weight:bold;
-    font-size:1em;
-}
-.resume tr td:last-child {
-  font-family: 'Crimson Text',serif;
-  font-size:1em;
-  font-style:italic;
-}
-.resume .sign {
-  font-family:STFangsong,'华文仿宋';
-  font-style:normal;
 }
 /*-------- Small Screen ---------*/
 @media screen and (max-width:645px) {

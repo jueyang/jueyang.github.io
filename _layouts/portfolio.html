@@ -2,9 +2,6 @@
 layout: default
 ---
 <div class='portfolio'>
-	<section class='col12 cf name'>
-		<a href='{{site.baseurl}}/'><h2>Jue Yang</h2></a>
-	</section>
 	<section class='maps cf'>
 		<div class='ocean cf'>
 			<h1>I was once fascinated by the ocean</h1>
@@ -45,7 +42,7 @@ layout: default
 				<span class='full' style='background-image:url(images/thumb/{{img}}.png)'>
 			</div>
 		{% endfor %}
-		<div class='intro col12 cf'>Graphic materials for <a href='http://developmentseed.org' target='_blank'>developmentseed.org</a> blogs</div>
+		<div class='intro col12 cf'>Graphic materials for developmentseed.org <a href='http://developmentseed.org/blog' target='_blank'>blog posts</a></div>
 	</section>
 	<section class='websites cf'>
 		<div class='data cf'>
@@ -59,7 +56,7 @@ layout: default
 			{% endfor %}
 		</div>
 		<div class='other cf'>
-			<h1>and created flows and systems</h1>
+			<h1>and created systems</h1>
 			{% for post in site.categories.websites %}
 			{% assign img = post.title | downcase | split:' ' | join:'-' %}
 
@@ -68,10 +65,11 @@ layout: default
 			{% endif %}
 			{% endfor %}
 		</div>
-		<h1>I am ever-so-constantly seeking new patterns</h1>
+		<h1>
+			Ever so constantly</br>
+			I am <a href='http://ia.net/blog/learning-to-see/' target='_blank'>learning to see</a>
+		</h1>
 	</section>
-	<div class='col12 cf'>
-		<h1 class='sign'>珏</h1>
-	</div>
+	{% include sign.html %}
 
 </div>

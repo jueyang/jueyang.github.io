@@ -1,6 +1,8 @@
 ---
 layout: default
+published: true
 ---
+
 <div class='portfolio'>
 	<section class='maps cf'>
 		<div class='ocean cf'>
@@ -14,7 +16,7 @@ layout: default
 			{% endfor %}
 		</div>
 		<div class='land cf'>
-			<h1>the land</h1>
+			<h1>and the land</h1>
 			{% for post in site.categories.maps %}
 			{% assign img = post.title | downcase | split:' ' | join:'-' %}
 
@@ -25,7 +27,7 @@ layout: default
 		</div>
 	</section>
 	<section class='architecture cf'>
-		<h1>I have drawn the lines</h1>
+		<h1>the lines</h1>
 		{% for i in (1..6) %}
 		{% assign index = forloop.index %}
 			<div class='col4 cf'>
@@ -35,7 +37,7 @@ layout: default
 		<div class='intro col12 cf'>Sketches, drawings and models from architecture thesis in 2011</div>
 	</section>
 	<section class='doodle'>
-		<h1>and shapes</h1>
+		<h1>and the shapes</h1>
 		{% for post in site.categories.doodles %}
 		{% assign img = post.title | downcase | split:' ' | join:'-' %}
 			<div class='col4 cf'>
@@ -46,7 +48,7 @@ layout: default
 	</section>
 	<section class='websites cf'>
 		<div class='data cf'>
-			<h1>I have plunged into the sea of data</h1>
+			<h1>I have plunged into the sea of data, discovered new patterns</h1>
 			{% for post in site.categories.websites %}
 			{% assign img = post.title | downcase | split:' ' | join:'-' %}
 

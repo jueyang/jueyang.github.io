@@ -8,7 +8,6 @@ body {
   overflow-x:hidden;
   text-rendering: optimizeLegibility;
   font-family:'Crimson Text', Garamond, Georgia, serif;
-  font-style:italic;
   font-size:1.1em;
   line-height:2.2em;
   color:#444;
@@ -20,12 +19,12 @@ a:visited {
 h1,
 p {
   height:auto;
+  font-style:italic;
   }
 blockquote {
   font-family:'Inconsolata',monospace;
   font-weight:600;
   font-size:0.8em;
-  font-style:normal;
   }
 /* cover */
 .cover {
@@ -36,6 +35,7 @@ blockquote {
   background-size: 100%;
   }
 .cover h1{
+  font-style: normal;
   padding:20% 0 10%;
   }
 /* text */

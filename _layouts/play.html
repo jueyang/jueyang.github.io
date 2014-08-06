@@ -1,0 +1,23 @@
+---
+---
+<html>
+<head>
+    <meta charset='UTF-8'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Good Lemons</title>
+    <link rel="stylesheet" href="play.css" type="text/css" />
+    <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<div class='cover'>
+	<h1>[ ]</h1>
+	<h2>A Play</h2>
+	</div>
+	<div class='play'>
+	{% for post in site.categories.play %}
+		{{post.content | markdownify}}
+	{% endfor %}
+	</div>
+	<div class='footer'>
+		[ ] is a play by <a target='_blank' href='/'>Jue Yang</a>. Poem quoted is <em>October Fullness (Pleno Octubre)</em> by Pablo Neruda. This work is licensed under <a target='_blank' href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons BY-NC-SA License<a/>.</div>
+</body>

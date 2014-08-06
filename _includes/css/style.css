@@ -56,6 +56,9 @@ body {
   font-weight:300;
   text-rendering:optimizeLegibility;
   }
+body * {
+  box-sizing: border-box;
+}
 h1, h3{
   font-family: 'Crimson Text',STXihei, "华文细黑",serif;
   margin:100px 0;

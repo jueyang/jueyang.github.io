@@ -1,0 +1,77 @@
+---
+layout: default
+---
+<div class='portfolio'>
+	<section class='col12 cf name'>
+		<a href='{{site.baseurl}}/'><h2>Jue Yang</h2></a>
+	</section>
+	<section class='maps cf'>
+		<div class='ocean cf'>
+			<h1>I was once fascinated by the ocean</h1>
+			{% for post in site.categories.maps %}
+			{% assign img = post.title | downcase | split:' ' | join:'-' %}
+
+			{% if post.tags contains 'ocean' %}
+				{% include preview.html %}
+			{% endif%}
+			{% endfor %}
+		</div>
+		<div class='land cf'>
+			<h1>the land</h1>
+			{% for post in site.categories.maps %}
+			{% assign img = post.title | downcase | split:' ' | join:'-' %}
+
+			{% if post.tags contains 'land' %}
+				{% include preview.html %}
+			{% endif%}
+			{% endfor %}
+		</div>
+	</section>
+	<section class='architecture cf'>
+		<h1>I have drawn the lines</h1>
+		{% for i in (1..6) %}
+		{% assign index = forloop.index %}
+			<div class='col4 cf'>
+				<span class='full' style='background-image:url(images/thumb/arch-{{index}}.png)'></span>
+			</div>
+		{% endfor %}
+		<div class='intro col12 cf'>Sketches, drawings and models from architecture thesis in 2011</div>
+	</section>
+	<section class='doodle'>
+		<h1>the shapes</h1>
+		{% for post in site.categories.doodles %}
+		{% assign img = post.title | downcase | split:' ' | join:'-' %}
+			<div class='col4 cf'>
+				<span class='full' style='background-image:url(images/thumb/{{img}}.png)'>
+			</div>
+		{% endfor %}
+		<div class='intro col12 cf'>Graphic materials for <a href='http://developmentseed.org' target='_blank'>developmentseed.org</a> blogs</div>
+	</section>
+	<section class='websites cf'>
+		<div class='data cf'>
+			<h1>I plunged into the sea of data</h1>
+			{% for post in site.categories.websites %}
+			{% assign img = post.title | downcase | split:' ' | join:'-' %}
+
+			{% if post.tags contains 'data' %}
+				{% include preview.html %}
+			{% endif %}
+			{% endfor %}
+		</div>
+		<div class='other cf'>
+			<h1>and created flows and systems</h1>
+			{% for post in site.categories.websites %}
+			{% assign img = post.title | downcase | split:' ' | join:'-' %}
+
+			{% if post.tags contains 'other' %}
+				{% include preview.html %}
+			{% endif %}
+			{% endfor %}
+		</div>
+		<h1>I am ever-so-constantly seeking new patterns</h1>
+	</section>
+	<div class='col12 cf'>
+		<h1 class='sign'>珏</h1>
+	</div>
+
+</div>

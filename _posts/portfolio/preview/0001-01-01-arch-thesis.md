@@ -1,0 +1,6 @@
+---
+categories:
+ - architecture
+tags:
+ - preview
+---

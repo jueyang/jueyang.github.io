@@ -2,9 +2,6 @@
 .resume {
   padding:40px 80px 80px 80px;
 }
-.resume p {
-  font-style:italic;
-}
 .resume h1,
 .resume h3{
   padding:10px 0;
@@ -44,6 +41,7 @@
 .resume h3 {
   border-top:1px solid #ddd;
   border-bottom:1px solid #ddd;
+  font-style:italic;
 }
 .resume h3.others {
   padding:10px 20%;
@@ -71,5 +69,4 @@
 .resume tr td:last-child {
   font-family: 'Crimson Text',serif;
   font-size:1em;
-  font-style:italic;
 }

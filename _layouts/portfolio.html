@@ -75,3 +75,20 @@ published: true
 	{% include sign.html %}
 
 </div>
+<script>
+function sameHeight(context){
+	var intros = $('.intro',context);
+
+	heights = intros.map(function(){
+		return $(this).height();
+	}).get()
+
+	var maxHeight = Math.max.apply(null, heights);
+
+	intros.height(maxHeight + 10);
+}
+
+sameHeight('.ocean');
+sameHeight('.land');
+sameHeight('.websites');
+</script>

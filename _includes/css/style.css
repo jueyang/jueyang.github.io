@@ -331,28 +331,7 @@ nav {
   -o-animation:      fadeOut 400ms linear 100ms both;
   animation:         fadeOut 400ms linear 100ms both;
 }
-/* resume & portfolio */
-.name {
-  position:fixed;
-  padding:20px 0;
-  top:0;
-  left:0;
-  background:#fff;
-}
-.name ul {
-  margin-left:80px;
-}
-.name ul li {
-  float:left;
-  padding-right:20px;
-}
-.name ul.nav {
-  position:absolute;
-  margin-left:40%;
-}
-.name ul.nav li a:hover {
-  text-decoration: underline;
-}
+
 /*-------- Small Screen ---------*/
 @media screen and (max-width:1120px) {
   .portfolio .thumb {
@@ -383,23 +362,37 @@ nav {
     height:200px;
   }
   .resume h3.others {
-    padding:10px;
+    padding:40px 20px;
+  }
+  .resume .name {
+    height:120px;
+  }
+  .resume .experiences {
+    margin-top:40px;
   }
   .resume .name ul {
     margin:0 40px;
   }
   .resume .name ul.nav {
-    top:60px;
+    margin:20px 40px 40px;
   }
   .resume h2 span.place:before,
   .resume h2 span.time:before {
     content:'';
     display:block;
   }
+  .experiences p {
+    margin-left:0;
+  }
+  .experiences p:before {
+    content:'';
+  }
   .post {
     margin:40px 0;
   }
-  #front-wheel,#rear-wheel {
+  #front-wheel,
+  #rear-wheel,
+  #print {
     display:none;
   }
   #frame {
@@ -421,6 +414,11 @@ nav {
 }
 
 @media print {
+  #print,
+  .resume .name ul li.social,
+  .resume .name ul.nav {
+    display:none;
+  }
   .resume,
   .portfolio {
     padding:0;
@@ -431,12 +429,12 @@ nav {
   .experiences h1:after {content:'Experiences';}
   .education h1:after {content:'Education';}
   .skills h1:after {content:'Skills';}
-
-  .resume h2 {
-    font-size:0.9em;
+  .resume h2,
+  .resume h3{
+    font-size:0.8em;
   }
   .resume h3.others {
-    padding:10px;
+    padding:10px 100px;
   }
   .resume .name {
     position:relative;
@@ -445,13 +443,12 @@ nav {
     background:#fff;
   }
   .resume .name ul {
-    margin:0 33.33%;
+    position:absolute;
+    margin-left:35%;
+    top:-20px;
+    font-size:0.9em;
   }
-  .resume .name ul li.social,
-  .resume .name ul.nav {
-    display:none;
-  }
-  .experiences .devseed .col4{
-    width:100%;
+  .resume .experiences {
+    margin-top:40px;
   }
 }

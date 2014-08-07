@@ -46,6 +46,23 @@
 .resume h3.others {
   padding:10px 20%;
 }
+.resume .name {
+  position:fixed;
+  padding:20px 0;
+  top:0;
+  left:0;
+  background:#fff;
+}
+.resume .name ul {
+  margin-left:80px;
+}
+.resume .name ul li {
+  float:left;
+  padding-right:20px;
+}
+.resume .name ul.nav li a:hover {
+  text-decoration: underline;
+}
 .experiences p {
   padding-right:20px;
   margin-left:20px;
@@ -69,4 +86,8 @@
 .resume tr td:last-child {
   font-family: 'Crimson Text',serif;
   font-size:1em;
+}
+#print {
+  float:right;
+  margin-right:100px;
 }

@@ -1,6 +1,6 @@
 /*-------- resume --------*/
 .resume {
-  padding:80px;
+  padding:0 80px 80px 80px;
 }
 .resume p {
   font-style:italic;
@@ -8,18 +8,21 @@
 .resume h1,
 .resume h3{
   padding:10px 0;
-  margin:20px 20px 20px 0;
+  margin:10px 10px 10px 0;
 }
 .resume h1 {
   font-family:'Open Sans Condensed';
 }
 .resume h1:before {
   font-size:0.75em;
-  color:#f2f2f2;
+  color:#efefef;
   content:'⬢';
 }
 .resume h2 {
   text-align: left;
+  margin:10px 0;
+}
+.resume .name h2 {
   margin:0;
 }
 .resume h2 a {
@@ -47,24 +50,23 @@
 }
 .experiences p {
   padding-right:20px;
+  margin-left:20px;
 }
 .experiences p:before {
   content:'-';
-  padding-right:5px;
+  position:absolute;
+  margin-left:-20px;
 }
 .resume table {
   width:100%;
   margin:20px 0;
-}
-.resume tr {
-  /*border-top:1px solid #efefef;*/
 }
 .resume tr td {
   padding:10px 0;
 }
 .resume tr td:first-child {
   font-weight:bold;
-    font-size:1em;
+  font-size:1em;
 }
 .resume tr td:last-child {
   font-family: 'Crimson Text',serif;

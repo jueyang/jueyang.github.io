@@ -347,8 +347,8 @@ nav {
   padding-right:20px;
 }
 .name ul.nav {
-  float:right;
-  margin:0 -160px 0 0;
+  position:absolute;
+  margin-left:40%;
 }
 .name ul.nav li a:hover {
   text-decoration: underline;
@@ -389,7 +389,7 @@ nav {
     margin:0 40px;
   }
   .resume .name ul.nav {
-    margin:10px -40px 0 0;
+    top:60px;
   }
   .resume h2 span.place:before,
   .resume h2 span.time:before {
@@ -450,5 +450,8 @@ nav {
   .resume .name ul li.social,
   .resume .name ul.nav {
     display:none;
+  }
+  .experiences .devseed .col4{
+    width:100%;
   }
 }

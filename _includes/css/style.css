@@ -376,6 +376,9 @@ nav {
   .resume .name ul.nav {
     margin:20px 40px 40px;
   }
+  .resume .name ul li {
+    padding-right:10px;
+  }
   .resume h2 span.place:before,
   .resume h2 span.time:before {
     content:'';

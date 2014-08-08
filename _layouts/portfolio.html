@@ -36,7 +36,7 @@ published: true
 		{% endfor %}
 		<div class='intro col12 cf'>Sketches, drawings and models from my architecture thesis in 2011</div>
 	</section>
-	<section class='doodle'>
+	<section class='doodle cf'>
 		<h1>and the shapes</h1>
 		{% for post in site.categories.doodles %}
 		{% assign img = post.title | downcase | split:' ' | join:'-' %}

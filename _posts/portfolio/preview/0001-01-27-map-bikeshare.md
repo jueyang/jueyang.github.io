@@ -4,7 +4,7 @@ categories:
 tags: 
   - preview
   - land
-link: "https://dl.dropboxusercontent.com/u/17976424/Yang_GIS_2011.pdf"
+link: "https://www.dropbox.com/s/x3lyggp0j1hiuoh/Yang_GIS_2011.pdf"
 published: true
 ---
 

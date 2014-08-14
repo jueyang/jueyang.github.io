@@ -425,6 +425,7 @@ nav {
   .resume,
   .portfolio {
     padding:0;
+    font-size:0.8em;
   }
   .resume h1:before {
     content:'';
@@ -432,10 +433,7 @@ nav {
   .experiences h1:after {content:'Experiences';}
   .education h1:after {content:'Education';}
   .skills h1:after {content:'Skills';}
-  .resume h2,
-  .resume h3{
-    font-size:0.8em;
-  }
+
   .resume h3.others {
     padding:10px 100px;
   }
@@ -447,9 +445,8 @@ nav {
   }
   .resume .name ul {
     position:absolute;
-    margin-left:35%;
+    margin-left:42%;
     top:-20px;
-    font-size:0.9em;
   }
   .resume .experiences {
     margin-top:40px;

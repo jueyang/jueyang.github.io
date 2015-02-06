@@ -7,7 +7,7 @@ He brought a spoon with him, across the pacific ocean. A turquoise, plastic spoo
 
 I remember that spoon. In the first apartment in which I lived as a child — that one-and-a-half bedroom where the half doubled as the living room, whose couch hosted me for my first vampire movie and, unwilling as I was, gave me nightmares ever since, my six-year-old self — that spoon was present.
 
-The kitchen window faced the hallway, an imposter that never received natural light. In the condiment cabinet lived three jars — one for sugar, one for MSG, and one for salt. The turquoise one belonged to the jar of salt.
+The kitchen window faced the hallway, an imposter that never received natural light. In the condiment cabinet lived three jars — one for sugar, one for MSG, and one for salt. Each of them had its own spoon; the turquoise one belonged to the salt.
 
 When he showed me the same, only-too-familiar utensil, I smiled. Nostalgia came and went. “Your mom told me to wash it before bringing it on the plane,” he said, “but I couldn’t get a proper measure of salt without the weight of the clumps.”
 

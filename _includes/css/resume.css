@@ -23,7 +23,7 @@
   letter-spacing:1px;
 }
 .resume {
-  padding:40px 80px 80px 80px;
+  padding:80px;
 }
 .resume h1,
 .resume h3{
@@ -65,9 +65,6 @@
   border-top:1px solid #ddd;
   border-bottom:1px solid #ddd;
   font-style:italic;
-}
-.resume h3.others {
-  padding:10px 20%;
 }
 .resume .name {
   position:fixed;

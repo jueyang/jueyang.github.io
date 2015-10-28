@@ -13,7 +13,7 @@ I take these pictures with my phone. Enabled, I go to the known and unknown plac
 
 [The average MTA ridership](http://web.mta.info/nyct/facts/ridership/) on a weekday is 5,597,551, as of 2014. That is five point five million imaginations, amongst which you are one.
 
-> The wave of souls rushes toward you as the door opens. You brush past a smiling couple who choose to inhabit the seat where you once did. The train leaves. Meeting a set of firm eyes, his cello wrapped in a black casing like a whale out of water, you ask the musician if he needs any help. "No. But thank you." A determined independence, and he goes up the stairs, carrying the weight of his passion.
+> The train leaves. Meeting a set of firm eyes, his cello wrapped in a black casing like a whale out of water, you ask the musician if he needs any help. "No. But thank you." A determined independence, and he goes up the stairs, carrying the weight of his passion.
 
 The passing moments are framed with white borders -- one new image every day. They say, the universe is born out of a singularity.
 

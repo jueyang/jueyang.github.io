@@ -1,5 +1,8 @@
 ---
+layout: play
 categories: play
+title: "[ ]"
+footer: "Poem: October Fullness (Pleno Octubre) by Pablo Neruda."
 ---
 
 ## ACT ONE

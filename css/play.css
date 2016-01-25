@@ -7,8 +7,8 @@
 body {
   overflow-x:hidden;
   text-rendering: optimizeLegibility;
-	font-family: 'Inconsolata', monospace;
-  font-size:0.95em;
+	font-family: 'Courier New', monospace;
+  font-size:12pt;
   color:#444;
   }
 a,
@@ -32,7 +32,7 @@ strong {
   text-align:center;
   color:#fff;
   height:100%;
-  background: url('../images/chairs.png') 0 100% no-repeat;
+  background:0 100% no-repeat;
   background-size: 100%;
   }
 .cover h1{
@@ -40,39 +40,44 @@ strong {
   }
 /* play*/
 .play {
-  float:left;
-  padding:6em;
+  max-width:8.5in; /*paper*/
+  margin:auto;
+  padding:1in;
+  text-align:left;
   }
 .play h1,
 .play h2,
 .play p,
 .play pre {
-  float:left;
   width:100%;
-  line-height:4em;
+  margin-top:12pt;
+  line-height:1.6em;
   }
+/* better spacing */
+.play p {
+  margin:22pt 0;
+}
 /* act, scene, chracter name */
 .play h1,
 .play h2 {
-	text-align: center;
-  text-transform: uppercase;
+  text-align:center;
+  margin-top:12pt;
+  text-transform:uppercase;
   }
 /* quote in conversation */
 .play em {
   font-family:'Crimson Text', Garamond, Georgia, serif;
-  font-size:1.1em;
-  line-height:2.2em;
   }
 /* stage direction - inline */
 .play pre {
-  text-align:center;
-  font-style:italic;
+  padding-left:1in;
+  text-transform: lowercase;
   }
 /* stage direction - right */
 .play blockquote {
-  float:right;
-  width:16em;
-  height:inherit; /* takes up the height of the p it contains, and renders as a block*/
+  padding-left:2in;
+  text-transform: uppercase;
+  margin-top:12pt;
   }
 .play blockquote p {
   padding:0 0 1em;
@@ -98,15 +103,7 @@ strong {
     font-size:0.88em;
     }
   .play {
-    float:none;
     padding:2em;
-    }
-  .play h1,
-  .play h2,
-  .play p,
-  .play pre,
-  .play blockquote {
-    float:none;
     }
   .play p {
     line-height:1.6em;
@@ -135,13 +132,31 @@ strong {
   .cover h1 {
     padding:50% 0 10%;
     }
-  .cover h2:after {
-    content: ' by Jue Yang';
-    }
   .play {
     padding-right:3em;
     }
   .play blockquote {
     width:13.2em;
     }
+}
+
+/* second play -- more paper */
+.play a {
+  text-decoration:none;
+  padding:3px;
+  background:#fd0;
+}
+.character {
+  text-align:center;
+  margin-top:12pt;
+  text-transform:uppercase;
+}
+.direction{
+  padding-left:2in;
+  text-transform: uppercase;
+  margin-top:12pt;
+}
+.dialogue .direction {
+  padding-left:1in;
+  text-transform: lowercase;
 }

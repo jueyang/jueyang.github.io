@@ -2,15 +2,6 @@
 layout: play
 categories: play
 ---
-<div class='notes'>
-	<h1>You will read a play.</h1>
-	<p>Right now it only lives on the screen. You see the words, comprehend the words, imagine the words turning into an environment, a darkness, a sweetness, a state of confusion. Or you let them stand in their lankiness against the blaring white. It's a play on p-a-p-e-r, even though there is no actual paper involved in this. But you get the idea: you engage with it as you would with an article. You can turn around, go for a run, get groceries, and encounter this again on your own terms, say as you sit down and eat a bowl of cereal. There are no rules.</p>
-	<p>What you see is a moment in time, a very small window of something frozen. Then it thaws and evaporates and freezes some more, but it never comes back to you in the same shape. The changes are derived from freedom, that of <em>transience</em> -- for this play has not been produced, and thus bearing very few responsibilities; of <em>solitude</em> -- for there is not yet a team nor fellow audience, hence no exchange of interpretations of the work; of being <em>unknown</em> -- for it is uncertain that you exist.</p>
-	<h1>Do you exist?</h1>
-	<p>Yet it's a freedom that yearns for a framework. It needs a more concrete and precise execution of itself. I am doing what I can -- sifting through my words and process, passing them back and forth from one end of the table to the other, placing them between the fork and the knife, the rock and the hard place. One day I might know the exact way to be and, <em>for it to be</em>.  You can be in this with me. It's a struggle, the kind that makes you smile out of resilience as you tramp on the snow-covered path.</p>
-	<p>Have you read <em>If on a Winter's Night a Traveler</em> by Italo Calvino? There's no urgency to finish, I know. I relate to that piece of work. Its form in which words mold uncertain meanings, its structure in which context are intellectualized with piercing observation at times and read with trembling fervor at others. The depth created on the two-dimentional p-a-p-e-r where the kernel of truth easily becomes the seed of fantasy, and the narrative that comes first does not really matter anymore. Texts can manifest as music, concrete poetry, or serve a communicative function. Dialogues can be autobiographical, fictional, read, or performed. God can be the 12-year-old next door, an ensemble of wise dogs, an anthromorphized belief like a piece of googly-eyed old news, a circular thought whose beginning and ending are but semantics that no longer exist.</p>
-	<h1>Stay with me.</h1>
-</div>
 <div class="character">Playwright</div>
 <div class="dialogue">
 	<p>I am a <a href="/resume" target="_blank">technologist</a>...</p>

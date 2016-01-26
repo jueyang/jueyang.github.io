@@ -9,18 +9,16 @@
     <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico" type="image/x-icon">
 </head>
 <body>
-	{% if page.cover %}
-	<div class='cover' style='background-image: url("../images/chairs.png");'>
+	<div class='cover'>
 		<h1 class='title'>{{page.title}}</h1>
 		<h2 class='author'>Jue Yang</h2> 
 	</div>
-	{% endif %}
 	<div class='play'>
 		{{page.content | markdownify}}
 	</div>
-	{% if page.footer %}
+	
 	<div class='footer'>
-		{{page.footer}}
+		Read other <a href='/plays'>plays</a> by Jue Yang. {% if page.footer %}{{page.footer}}{% endif %}
 	</div>
-	{% endif %}
+	
 </body>

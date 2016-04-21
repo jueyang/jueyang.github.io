@@ -1,6 +1,7 @@
 ---
 layout: play
 categories: play
+image: "untitled-quest.png"
 ---
 <div class="character">Playwright</div>
 <div class="dialogue">

@@ -78,7 +78,6 @@ body * {
 h1, h3{
   font-family: 'Crimson Text',STXihei, "华文细黑",serif;
   margin:100px 0;
-  text-align: center;
   }
 h1.peace {
   font-size:35px;
@@ -91,6 +90,9 @@ h2 {
   font-weight:bold;
   font-size:1em;
   margin: 0 0 40px 0;
+  }
+h3 {
+  text-align: center;
   }
 a {
   text-decoration:none;

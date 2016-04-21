@@ -3,7 +3,7 @@
 <head>
     <meta charset='UTF-8'/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>Good Lemons</title>
+    <title>lemony.space</title>
     <link href='https://api.tiles.mapbox.com/mapbox.js/v2.0.0/mapbox.css' rel='stylesheet' />
     <link rel="stylesheet" href="{{site.baseurl}}/css/site.css" type="text/css" />
     <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico" type="image/x-icon">
@@ -13,7 +13,9 @@
 </head>
 <body>
   {% unless page.categories contains 'resume' or page.categories contains 'full' %}
+  <div class='pad-top'>
   {% include header.html %}
+  </div>
   {% endunless %}
 
   {{content}}

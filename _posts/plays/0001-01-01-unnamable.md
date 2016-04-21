@@ -2,6 +2,7 @@
 layout: play
 categories: play
 title: "[ ]"
+image: "chairs.png"
 footer: "Poem: October Fullness (Pleno Octubre) by Pablo Neruda."
 ---
 
@@ -227,7 +228,7 @@ You did.
 
 # HERMAN
     points at the chocolate
-Can I have another? 
+Can I have another?
 
 # PIANIST
 Last one.
@@ -286,7 +287,7 @@ You ruined it.
 # HERMAN
 I need to leave.
 
-> Herman walks out. Murmur submerges. Pianist resumes playing by starting the last piece from the beginning. 
+> Herman walks out. Murmur submerges. Pianist resumes playing by starting the last piece from the beginning.
 
 > Olga dances alone.
 

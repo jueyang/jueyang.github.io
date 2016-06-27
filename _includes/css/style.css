@@ -77,13 +77,19 @@ body * {
 }
 h1, h3{
   font-family: 'Crimson Text',STXihei, "华文细黑",serif;
-  margin:100px 0;
+  margin:80px 0;
   }
 h1.peace {
   font-size:35px;
   }
 h1.sign:before {
   content:'';
+  }
+h1 span {
+  font-family:'Open Sans Condensed', sans-serif;
+  font-weight:700;
+  display:block;
+  margin-bottom:20px;
   }
 h2 {
   text-align: center;
@@ -283,6 +289,9 @@ nav {
   font-family: 'Inconsolata', monospace;
   box-shadow: none;
 }
+.pad-top .sign {
+  font-size:2em;
+  }
 .sign {
   padding:20px;
   font-family:STFangsong,'华文仿宋';

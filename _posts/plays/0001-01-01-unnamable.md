@@ -4,6 +4,7 @@ categories: play
 title: "[ ]"
 image: "chairs.png"
 footer: "Poem: October Fullness (Pleno Octubre) by Pablo Neruda."
+published: false
 ---
 
 ## ACT ONE

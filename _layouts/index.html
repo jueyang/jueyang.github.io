@@ -1,34 +1,34 @@
 ---
 layout: default
 ---
+<div class='pad-top'>
+    {% include sign.html %}
+</div>
 <div class='central pad-top'>
-	<h1>You are about to get to know <em>Jue Yang</em>, a playwright who made this website and lived <a href="/resume">other lives</a>. Below are some of my plays. I am in the process of finding ways to share plays on the internet without compromising copyrights. Until then, feel free to <a href='mailto:jueyang22@gmail.com'>ask me</a> for a script sample and read <a href='/archive'>my thoughts</a> from time to time.</h1>
-  {% for post in site.categories.play %}
-    <h3 class='pad-top'>
+  <h1>Jue Yang is a <a href="/the-quest">playwright</a> and <a href="/resume">technologist</a> based in Brooklyn, NY.
+    <br>Get in touch: <a href="mailto:jueyang22@gmail.com">Email</a>, <a href="https://twitter.com/jue_yang">Twitter</a>
+  </h1>
+  <h1><span>Recent Productions</span>
+    <ul>
+    {% for post in site.categories.play %}
       {% if post.external %}
-      <a href='{{post.external}}' target='_blank'>
+      <li><a href='{{post.external}}' target='_blank'>
         {{post.title}}
-        <img src='{{site.baseurl}}/images/{{post.image}}'>
-        }
-      </a>
-      {% else %}
-      <a href='{{site.baseurl}}{{post.url}}'>
-        {{post.title}}
-        <br>
-        <img src='{{site.baseurl}}/images/{{post.image}}'/>
-      </a>
+        <!-- <img src='{{site.baseurl}}/images/{{post.image}}'> -->
+      </a></li>
       {% endif %}
-    </h3>
-  {% endfor %}
-
-	<h1>
-		Other projects:
-		<a href='/poems'>poems</a> |
-		<a href='/portfolio'>portfolio, old</a> |
-		<a href='http://oldwork.tumblr.com/' target='_blank'>portfolio, older</a> |
-		<a href='/artist-rooms'>rooms</a> |
-		<a href='https://instagram.com/the.train' target='_blank'>the.train</a> |
-		<a href='https://medium.com/they-said-w4m-is-too-short-for-a-collection-title' target='_blank'>they-said-w4m-is-too-short-for-a-collection-title</a> |
-		<a href='http://thxgoat.github.io/' target='_blank'>thxgoat</a>
-	</h1>
+    {% endfor %}
+    </ul>
+  </h1>
+  <h1><span>Projects & Works</span>
+    <ul>
+      <li><a href='/artist-rooms'>artist rooms, 2014</a></li>
+      <li><a href='/poems'>poems, 2012</a></li>
+      <li><a href='/portfolio'>portfolio, 2010-2014</a></li>
+      <li><a href='http://oldwork.tumblr.com/' target='_blank'>portfolio, 2008-2010</a></li>
+      <li><a href='https://instagram.com/the.train' target='_blank'>the.train, 2015-present</a></li>
+      <li><a href="/archive">thoughts, 2012-present</a></li>
+      <!-- <li><a href='https://medium.com/they-said-w4m-is-too-short-for-a-collection-title' target='_blank'>they-said-w4m-is-too-short-for-a-collection-title</a></ li>-->
+    </ul>
+  </h1>
 </div>

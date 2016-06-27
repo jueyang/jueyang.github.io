@@ -12,11 +12,6 @@
     <script src="{{site.baseurl}}/js/lettering.js"></script>
 </head>
 <body>
-  {% unless page.categories contains 'resume' or page.categories contains 'full' %}
-  <div class='pad-top'>
-  {% include header.html %}
-  </div>
-  {% endunless %}
 
   {{content}}
   <script type="text/javascript">

@@ -3,11 +3,11 @@ layout: post
 categories: blog
 ---
 <div class='announce'>
-    <h1>I am renovating</h1>
-    <h1 class='slant a1'>to</h1>
-    <h1 class='slant a2'>be</h1>
-    <h1 class='slant'>more<h1>
-    <h1>organized</h1>
+    <p>I am renovating</p>
+    <p class='slant a1'>to</p>
+    <p class='slant a2'>be</p>
+    <p class='slant'>more</p>
+    <p>organized</p>
 </div>
 <script>
 $('.announce .slant'

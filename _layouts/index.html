@@ -6,14 +6,16 @@ layout: default
 </div>
 <div class='central pad-top'>
   <h1>Jue Yang is a <a href="/the-quest">playwright</a> with <a href="/resume">tech tendencies</a>.</h1>
-  <h1><span>Recent Plays</span>
+  <h1><span>Showcased Plays</span>
     <ul>
     {% for post in site.categories.play %}
       {% if post.external %}
-      <li><a href='{{post.external}}' target='_blank'>
-        {{post.title}}
+      <li class='pad-bottom'><a href='{{post.external}}' target='_blank'>
+        <em>{{post.title}}</em>, {{post.time}}
         <!-- <img src='{{site.baseurl}}/images/{{post.image}}'> -->
-      </a></li>
+      </a></br>
+      {{post.venue}} | {{post.occassion}}
+      </li>
       {% endif %}
     {% endfor %}
     </ul>

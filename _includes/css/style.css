@@ -189,10 +189,12 @@ pre code {
     margin-left:auto;
     margin-right:auto;
   }
-.pad-top {padding-top:40px;}                    /*only top padding*/
+
+.pad-top {padding-top:40px;}
+.pad-bottom {padding-bottom:20px;}
 .pad-topbottom {padding:40px 0;}
-.pad-side {padding:0 60px;}                   /*only side padding*/
-.pad-topleft {padding:40px 0 0 60px;}              /*top and left padding*/
+.pad-side {padding:0 60px;}
+.pad-topleft {padding:40px 0 0 60px;}
 
 .col2,
 .col3,
@@ -239,6 +241,7 @@ header > div {
   background-image: url(../images/rear-wheel.png);
   }
 /*-------- Layout ---------*/
+.
 .about,
 .post {
   margin:60px auto;

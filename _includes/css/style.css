@@ -278,7 +278,7 @@ nav a:last-of-type {
 .self {
   height:500px;
   background-size:cover;
-  background-image:url('images/self.jpg');
+  /*background-image:url('../images/self.jpg');*/
   margin-bottom:80px;
 }
 .self p {

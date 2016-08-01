@@ -252,16 +252,26 @@ header > div {
 .archive a {
   color:#aaa;
   }
-nav,.archive a:hover {
-  color:#111;
-  }
 nav {
-  bottom:0;
-  width:200px!important;
-  color:#111;
+  height:initial;
+}
+nav a{
   text-align:center;
-  background:#fdeb57;
-  }
+  color:#aaa;
+}
+
+nav a:hover, .archive a:hover {
+  text-decoration: none!important;
+  color:#111;
+}
+
+nav a:first-of-type {
+  text-align: left;
+}
+
+nav a:last-of-type {
+  text-align: right;
+}
 .divider {
   text-align:center;
   font-size:9px;

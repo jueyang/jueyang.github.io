@@ -1,6 +1,25 @@
-<a href='{{site.baseurl}}/archive'>
-<nav class='central pad-topbottom'>
-  <h2>Words</h2>
-  <p>from moments of time</p>
-</nav>
-</a>
+  <nav class='central'>
+    <div class="col12">
+      <a class='col4'
+        {% if page.previous.url != null %}
+        href='{{page.previous.url}}'
+        {% else%}
+        style='visibility:hidden;'
+        {% endif %}>
+        <p>⤆</p>
+      </a>
+
+      <a class='col4' href="/archive" style='text-decoration:line-through;'>
+        <p><em>all thoughts</em></p>
+      </a>
+
+      <a class='col4'
+      {% if page.next.url != null %}
+      href='{{page.next.url}}'
+      {% else %}
+      style='visibility:hidden;'
+      {% endif %}>
+        <p>⤇</p>
+      </a>
+    </div>
+  </nav>

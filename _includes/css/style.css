@@ -275,6 +275,18 @@ nav a:first-of-type {
 nav a:last-of-type {
   text-align: right;
 }
+.self {
+  height:500px;
+  background-size:cover;
+  background-image:url('images/self.jpg');
+  margin-bottom:80px;
+}
+.self p {
+  position: absolute;
+  padding:20px;
+  background:rgba(255,255,255,0.8);
+  right:20px;
+}
 .divider {
   text-align:center;
   font-size:9px;

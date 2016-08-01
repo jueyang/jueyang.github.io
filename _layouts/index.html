@@ -22,7 +22,7 @@ layout: default
   <h1><span>Projects & Works</span>
     <ul>
     {% for post in site.categories.homey %}
-      <li><a href='{{post.link}}' {% if post.external %} target='_blank' {% endif %}>{{post.title}}, {{post.time}}</a></li>
+      <li class='pad-bottom'><a href='{{post.link}}' {% if post.external %} target='_blank' {% endif %}>{{post.title}}, {{post.time}}</a></li>
     {% endfor %}
     </ul>
   </h1>

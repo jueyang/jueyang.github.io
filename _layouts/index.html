@@ -22,14 +22,9 @@ layout: default
   </h1>
   <h1><span>Projects & Works</span>
     <ul>
-      <li><a href='/artist-rooms'>artist rooms, 2014</a></li>
-      <li><a href='/poems'>poems, 2012</a></li>
-      <li><a href='/portfolio'>portfolio, 2010-2014</a></li>
-      <li><a href='http://oldwork.tumblr.com/' target='_blank'>portfolio, 2008-2010</a></li>
-      <li><a href='http://theatlasreview.com/issue6-episode1/#/' target='_blank'>the atlas review, 2016</a></li>
-      <li><a href='https://instagram.com/the.train' target='_blank'>the.train, 2015-present</a></li>
-      <li><a href="/archive">thoughts, 2012-present</a></li>
-      <!-- <li><a href='https://medium.com/they-said-w4m-is-too-short-for-a-collection-title' target='_blank'>they-said-w4m-is-too-short-for-a-collection-title</a></ li>-->
+    {% for post in site.categories.homey %}
+      <li><a href='{{post.link}}' {% if post.external %} target='_blank' {% endif %}>{{post.title}}, {{post.time}}</a></li>
+    {% endfor %}
     </ul>
   </h1>
 </div>

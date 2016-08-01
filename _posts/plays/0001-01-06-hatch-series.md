@@ -1,7 +1,7 @@
 ---
 layout: play
 categories: play
-title: "TBD"
+title: "Traveling Series (a Play Installation)"
 venue: "Hatch.Series"
 occassion: "Invented Traditions"
 time: "2016/8"

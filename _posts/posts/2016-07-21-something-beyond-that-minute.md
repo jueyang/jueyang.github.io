@@ -13,7 +13,7 @@ categories: blog
 >
 > Maybe that's why I retreat back to words, performance of words, and such. more fundamental things. But seriously, I don't fucking know.
 
-I responsed to an email one minute after trading links with a friend on [brutalist websites](http://brutalistwebsites.com/). Then I felt I didn't finish all my sentences.
+I responsed to an email after trading links with a friend on [brutalist websites](http://brutalistwebsites.com/). Then I felt I didn't finish all my sentences.
 
 <p class="divider">*</p>
 

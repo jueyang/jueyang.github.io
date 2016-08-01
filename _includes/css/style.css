@@ -252,9 +252,7 @@ header > div {
 .archive a {
   color:#aaa;
   }
-nav {
-  height:initial;
-}
+
 nav a{
   text-align:center;
   color:#aaa;
@@ -302,9 +300,6 @@ nav a:last-of-type {
   font-family: 'Inconsolata', monospace;
   box-shadow: none;
 }
-.pad-top .sign {
-  font-size:2em;
-  }
 .sign {
   padding:20px;
   font-family:STFangsong,'华文仿宋';

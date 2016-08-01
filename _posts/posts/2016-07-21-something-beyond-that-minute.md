@@ -29,7 +29,7 @@ I am often times explaining the fundemental concepts rather than building with "
 
 <p class="divider">*</p>
 
-I have chosen plays as my medium because it is the most resonating creative form I have experienced. To some degree, I am an author. Yet I could never fully imagine how the text would be interpreted through directions and actions. This is the most excting part of being a playwright: to plant the seed through language, and let it grow in the soil and blossom into surprises.
+I have chosen plays as my medium because it is the most resonating creative form I have experienced. To some degree, I am an author. Yet I could never fully imagine how the text would be interpreted through directions and actions. This is the most exciting part of being a playwright: to plant the seed through language, then let it grow and blossom into surprises in the hands of others.
 
 Through collaborations with directors, actors, and whatever else a "stage" or "production" involves, I have realized I don't just want to write. The vast space of theater and performance, broadly and everchanging-ly defined, deserves a lot more innovation, particularly on staying sustainable as a practice. I stand by the stance uttered by an editor: _I don't recommend starvation_. There should be more than one way to keep creativity sustainable -- as businesses, institutions, relationships, cultural phenomena, a combinition of them all.
 

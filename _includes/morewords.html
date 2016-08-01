@@ -1,12 +1,13 @@
   <nav class='central'>
     <div class="col12">
       <a class='col4'
-        {% if page.previous.url != null %}
+        {% if page.previous.url != null and page.previous.categories contains "blog" %}
         href='{{page.previous.url}}'
         {% else%}
         style='visibility:hidden;'
         {% endif %}>
-        <p>⤆</p>
+        <p>⤆
+        </p>
       </a>
 
       <a class='col4' href="/archive" style='text-decoration:line-through;'>

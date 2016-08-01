@@ -2,8 +2,6 @@
 layout: post
 categories: blog
 ---
-![](http://www.xmarkjenkinsx.com/images/132404462_1f8cd5e984_o.jpg)
-
 This is [an extraordinary set](http://www.xmarkjenkinsx.com/outside.html) of urban installations by Mark Jenkins. A few of them took place in DC, marking the most overlooked artifacts. I am always inspired by this kind of surprise that transforms what is taken for granted into what is revealing.
 
 I was joking with my friends that I can bike to work these days with my eyes closed (yes, joking) because I've become so familiar with the ride. The lights at the intersection of 6th and R always remain red on both sides as the cars from Rhode Island turn left onto 6th. This 4-second lag would allow someone to run the light to the middle of Rhode Island and catch the green on 7th when there are 12 seconds left.

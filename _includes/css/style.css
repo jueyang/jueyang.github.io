@@ -275,17 +275,22 @@ nav a:first-of-type {
 nav a:last-of-type {
   text-align: right;
 }
-.self {
+.self:before {
+  content:'';
   height:500px;
+  width:100%;
+  display:block;
   background-size:cover;
   /*background-image:url('../images/self.jpg');*/
   margin-bottom:80px;
+  opacity:0.8;
 }
 .self p {
   position: absolute;
   padding:20px;
   background:rgba(255,255,255,0.8);
   right:20px;
+  top:20px;
 }
 .divider {
   text-align:center;

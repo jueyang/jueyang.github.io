@@ -10,7 +10,17 @@ layout: default
   <h1><span>Showcased Plays</span>
     <ul>
     {% for post in site.categories.play %}
-      {% if post.external %}
+      <!-- post.venue.length is an array -->
+      {% assign venueLength = post.venue| size %}
+      {% assign loopLength = venueLength | minus:1 %}
+      {% if venueLength > 1 and post.external %}
+      <li class="pad-bottom">
+        <em>{{post.title}}</em></br>
+        {% for i in (0..loopLength) %}
+        <a href="{{post.external[i]}}">{{post.venue[i]}} | {{post.occassion[i]}}, {{post.time[i]}}</a></br>
+        {% endfor %}
+      </li>
+      {% elsif post.external %}
       <li class='pad-bottom'><a href='{{post.external}}' target='_blank'>
         <em>{{post.title}}</em>, {{post.time}}
         <!-- <img src='{{site.baseurl}}/images/{{post.image}}'> -->

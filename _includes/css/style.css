@@ -49,6 +49,18 @@
     }
   }
 
+@-webkit-keyframes wave {
+  0%{
+    height:30%;
+  }
+  50%{
+    height:60%;
+  }
+  100%{
+    height:30%;
+  }
+}
+
 .fadeOut,.fadeIn {
 400ms linear 100ms both
 400ms linear 100ms both
@@ -71,6 +83,7 @@ body {
   font:16px/24px 'Open Sans Condensed', sans-serif;
   font-weight:300;
   text-rendering:optimizeLegibility;
+  overflow-x:hidden;
   }
 body * {
   box-sizing: border-box;
@@ -182,9 +195,6 @@ pre code {
 .rotating {
   -webkit-animation: rotating 1100ms linear infinite;
   }
-.rotating-fast {
-  -webkit-animation: rotating 1050ms linear infinite;
-  }
 
 .central {
     position:relative;
@@ -220,7 +230,7 @@ pre code {
 .cf:after {
     clear: both;
 }
-/*-------- Bike ---------*/
+/*-------- bike ---------*/
 header > div {
   margin:0 auto;
   background-color:transparent;
@@ -245,6 +255,25 @@ header > div {
   height:38px;
   background-image: url(../images/rear-wheel.png);
   }
+
+/*-------- Ocean ----------*/
+#ocean{
+  position:absolute;
+  height:200px;
+  top:0;
+  z-index:-1;
+}
+.wave{
+  background:#fd0;
+  display:inline-block;
+  height:100%;
+  width:1px;
+  position:absolute;
+  -webkit-animation-name:             wave;
+  -webkit-animation-duration:         3s;
+  -webkit-animation-iteration-count:  infinite;
+  -webkit-transition-timing-function: linear;
+}
 /*-------- Layout ---------*/
 .
 .about,
@@ -288,9 +317,8 @@ nav a:last-of-type {
 .self p {
   position: absolute;
   padding:20px;
-  background:rgba(255,255,255,0.8);
   right:20px;
-  top:20px;
+  top:60px;
 }
 .divider {
   text-align:center;

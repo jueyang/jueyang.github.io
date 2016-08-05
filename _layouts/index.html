@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% assign venueLength = false %}
+<div id="ocean" class='col12'></div>
 <div class='central'>
   <div class='col12 self'>
     <p class='col6'><em>Jue Yang</em> is a playwright with <a href="/resume">tech tendencies</a>. Catch a glimpse of her <a href="/talking-in-circles" target='_blank'>story</a>, and maybe <a href="/something-beyond-that-minute" target='_blank'>another</a>.</p>
@@ -30,3 +32,20 @@ layout: default
     <a href="/thoughts">2012-present</a>
   </h1>
 </div>
+<script>
+  // kudos https://codepen.io/loktar00/pen/kfrKC
+  var ocean = document.getElementById("ocean"),
+    waveWidth = 5,
+    waveCount = Math.floor(window.innerWidth/waveWidth),
+    docFrag = document.createDocumentFragment();
+
+  for(var i = 0; i < waveCount; i++){
+    var wave = document.createElement("div");
+    wave.className += "wave fadeIn";
+    docFrag.appendChild(wave);
+    wave.style.left = i * waveWidth + "px";
+    wave.style.webkitAnimationDelay = (i/200) + "s";
+  }
+
+  ocean.appendChild(docFrag);
+</script>

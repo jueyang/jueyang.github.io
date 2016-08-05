@@ -10,7 +10,7 @@
     <script src="{{site.baseurl}}/js/lettering.js"></script>
 </head>
 <body>
-  {% unless page.layout == "resume"%}
+  {% unless page.layout == "resume" or page.layout == "index"%}
   <div class='pad-topbottom'>
       {% include sign.html %}
   </div>

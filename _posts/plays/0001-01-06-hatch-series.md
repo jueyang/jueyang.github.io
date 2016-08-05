@@ -1,9 +1,9 @@
 ---
 layout: play
 categories: play
-title: "Traveling Series (a Play Installation)"
+title: "Traveling Piece: a Play Installation"
 venue:
- - "Hatch.Series"
+ - "HATCH Series No.4"
 occassion:
  - "Invented Traditions"
 time:

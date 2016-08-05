@@ -304,6 +304,9 @@ nav a:first-of-type {
 nav a:last-of-type {
   text-align: right;
 }
+.self {
+  height:100vh;
+}
 .self:before {
   content:'';
   height:500px;

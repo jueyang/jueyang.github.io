@@ -14,18 +14,16 @@ layout: default
       {% assign venueLength = post.venue| size %}
       {% assign loopLength = venueLength | minus:1 %}
       {% if venueLength > 1 and post.external %}
-      <li class="pad-bottom">
+      <li class="pad-bottom showcase">
         <em>{{post.title}}</em></br>
         {% for i in (0..loopLength) %}
-        <a href="{{post.external[i]}}" target="_blank">{{post.venue[i]}} | {{post.occassion[i]}}, {{post.time[i]}}</a></br>
+        {{post.venue[i]}} | {{post.occassion[i]}}, <a href="{{post.external[i]}}" target="_blank">{{post.time[i]}}</a></br>
         {% endfor %}
       </li>
       {% elsif post.external %}
-      <li class="pad-bottom"><a href="{{post.external}}" target="_blank">
-        <em>{{post.title}}</em>, {{post.time}}
-        <!-- <img src="{{site.baseurl}}/images/{{post.image}}"> -->
-      </a></br>
-      {{post.venue}} | {{post.occassion}}
+      <li class="pad-bottom showcase">
+        <em>{{post.title}}</em></br>
+        {{post.venue}} | {{post.occassion}}, <a href="{{post.external}}" target="_blank">{{post.time}}</a>
       </li>
       {% endif %}
     {% endfor %}
@@ -34,7 +32,8 @@ layout: default
   <h1><span>Projects & Works</span>
     <ul>
     {% for post in site.categories.homey %}
-      <li class="pad-bottom"><a href="{{post.link}}" {% if post.external %} target="_blank" {% endif %}>{{post.title}}, {{post.time}}</a></li>
+      <li class="pad-bottom">
+      <a href="{{post.link}}" {% if post.external %} target="_blank" {% endif %}>{{post.title}}, {{post.time}}</a></li>
     {% endfor %}
     </ul>
   </h1>

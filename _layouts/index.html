@@ -30,11 +30,22 @@ layout: default
     {% endfor %}
     </ul>
   </h1>
-  <h1><span>Projects & Works</span>
+  <h1>
+    <span>Portfolios</span>
     <ul>
-    {% for post in site.categories.homey %}
+      {% for post in site.categories.portfolio %}
       <li class="pad-bottom">
       <a href="{{post.link}}" {% if post.external %} target="_blank" {% endif %}>{{post.title}}, {{post.time}}</a></li>
+      {% endfor%}
+    </ul>
+  </h1>
+  <h1><span>Indepedent Projects</span>
+    <ul>
+    {% for post in site.categories.homey %}
+      {% unless post.categories contains "portfolio"%}
+      <li class="pad-bottom">
+      <a href="{{post.link}}" {% if post.external %} target="_blank" {% endif %}>{{post.title}}, {{post.time}}</a></li>
+      {% endunless %}
     {% endfor %}
     </ul>
   </h1>

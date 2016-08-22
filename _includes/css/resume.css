@@ -69,7 +69,8 @@
 }
 .resume .name {
   position:fixed;
-  padding:20px 0;
+  padding:40px 0;
+  height:100px;
   top:0;
   left:0;
   background:#fff;
@@ -85,21 +86,29 @@
 .resume .name ul.nav li a:hover {
   text-decoration: underline;
 }
+.experiences {
+  margin-top:4px;
+}
 .experiences p {
   padding-right:20px;
   margin-left:20px;
 }
-.experiences p:before {
+.experiences p:before,
+.experiences ul li:before {
   content:'-';
   position:absolute;
   margin-left:-20px;
 }
-.experiences .cuny p.non-list {
-  margin-left:0;
+.experiences ul {
+  margin-bottom:20px;
 }
-.experiences .cuny p.non-list:before{
-  content:'';
-  margin:0;
+.experiences ul li{
+  font-family: 'Crimson Text',serif;
+  margin-left:40px;
+  font-size:0.85em;
+}
+.experiences ul li a{
+  text-decoration: underline;
 }
 .resume table {
   width:100%;

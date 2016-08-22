@@ -259,7 +259,7 @@ header > div {
 /*-------- Ocean ----------*/
 #ocean{
   position:absolute;
-  height:120px;
+  height:100px;
   top:0;
   z-index:-1;
 }
@@ -305,23 +305,16 @@ nav a:last-of-type {
   text-align: right;
   }
 .self {
-  height:100vh;
-  }
-.self:before {
-  content:'';
-  height:500px;
-  width:100%;
+  margin:80px 0;
+}
+.self .photo{
+  margin:-15px 20px 0 0;
+  width:100px;
+  height:100px;
+  border-radius:50%;
   display:block;
   background-size:cover;
-  /*background-image:url('../images/self.jpg');*/
-  margin-bottom:80px;
-  opacity:0.8;
-  }
-.self p {
-  position: absolute;
-  padding:20px;
-  right:20px;
-  top:60px;
+  background-image:url('../images/self.jpg');
   }
 .showcase em:before { /* play titles on landing page*/
   content:"❲";

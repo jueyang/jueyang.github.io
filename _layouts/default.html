@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='UTF-8'/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>lemony.space</title>
-    <link rel="stylesheet" href="{{site.baseurl}}/css/site.css" type="text/css" />
-    <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico" type="image/x-icon">
-    <script src="{{site.baseurl}}/js/jquery-1.8.0.min.js"></script>
-    <script src="{{site.baseurl}}/js/lettering.js"></script>
+    {% include meta.html %}
 </head>
 <body>
   {% unless page.layout == "resume" or page.layout == "index"%}

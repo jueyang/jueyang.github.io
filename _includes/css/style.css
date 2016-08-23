@@ -428,6 +428,12 @@ nav a:last-of-type {
   .col12 {
     width:100%!important;
   }
+  #print {
+    display:none;
+  }
+  .self p {
+    margin-top:-1px;
+  }
   .resume,
   .portfolio section {
     padding:40px;
@@ -480,16 +486,6 @@ nav a:last-of-type {
   }
   .post {
     margin:40px 0;
-  }
-  #front-wheel,
-  #rear-wheel,
-  #print {
-    display:none;
-  }
-  #frame {
-    background:url(../images/sprite.png);
-    width:125px;
-    height:70px;
   }
   .wave{
     -webkit-animation-name:initial;

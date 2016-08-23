@@ -442,9 +442,12 @@ nav a:last-of-type {
   .portfolio .full {
     height:200px;
   }
-  .resume .name ul.nav {
+  .name ul.nav {
     font-size:0.75em;
-    /*display:none;*/
+  }
+  .screen,
+  .screen section {
+    padding:0;
   }
   .resume h3.others {
     padding:40px 20px;

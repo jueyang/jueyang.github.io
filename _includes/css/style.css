@@ -509,9 +509,13 @@ nav a:last-of-type {
 @media print {
   .screen,
   #print,
-  .resume .name ul li.social,
-  .resume .name ul.nav {
+  .name {
     display:none;
+  }
+  .resume:before{
+    display:block;
+    content:'Jue Yang | jueyang22@gmail.com | lemony.space';
+    text-align: center;
   }
   .resume,
   .portfolio {
@@ -527,18 +531,6 @@ nav a:last-of-type {
 
   .resume h3.others {
     padding:10px 100px;
-  }
-  .resume .name {
-    position:relative;
-    height:20px;
-    padding:0;
-    left:0;
-    background:#fff;
-  }
-  .resume .name ul {
-    position:absolute;
-    margin-left:42%;
-    top:-20px;
   }
   .resume .experiences {
     margin-top:40px;

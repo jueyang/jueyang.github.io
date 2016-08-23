@@ -513,17 +513,21 @@ nav a:last-of-type {
     display:none;
   }
   .resume:before{
+    margin:0;
     display:block;
     content:'Jue Yang | jueyang22@gmail.com | lemony.space';
     text-align: center;
   }
   .resume,
   .portfolio {
-    padding:0;
+    padding:0 20px;
     font-size:0.8em;
   }
   .resume h1:before {
     content:'';
+  }
+  .resume p {
+    margin:0 auto;
   }
   .experiences h1:after {content:'Experiences';}
   .education h1:after {content:'Education';}

@@ -436,6 +436,10 @@ nav a:last-of-type {
   .portfolio .full {
     height:200px;
   }
+  .resume .name ul.nav {
+    font-size:0.75em;
+    /*display:none;*/
+  }
   .resume h3.others {
     padding:40px 20px;
   }
@@ -443,7 +447,7 @@ nav a:last-of-type {
     height:120px;
   }
   .resume .experiences {
-    margin-top:40px;
+    margin-top:80px;
   }
   .resume .name ul {
     margin:0 40px;
@@ -459,11 +463,20 @@ nav a:last-of-type {
     content:'';
     display:block;
   }
+  .resume h2 span.geo {
+    padding:0;
+    margin:0;
+    display:block;
+  }
+
   .experiences p {
     margin-left:0;
   }
   .experiences p:before {
     content:'';
+  }
+  .resume tr td:last-child {
+    padding-left:20px;
   }
   .post {
     margin:40px 0;
@@ -498,8 +511,7 @@ nav a:last-of-type {
   .screen,
   #print,
   .resume .name ul li.social,
-  .resume .name ul.nav,
-  .experiences .cuny p em {
+  .resume .name ul.nav {
     display:none;
   }
   .resume,

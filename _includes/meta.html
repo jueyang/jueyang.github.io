@@ -7,15 +7,18 @@
 <meta property="og:site_name" content="Lemony Space">
 <meta property="og:title" content="Lemony Space">
 <meta property="og:url" content="http://lemony.sapce">
-<meta property="og:image" content="{{site.baseurl}}/images/bike.png">
+<meta property="og:image" content="{{site.baseurl}}/images/color.png">
 <meta property="og:description" content="a playwright with tech tendencies.">
 <meta property="twitter:description" content="a playwright with tech tendencies.">
-<meta name="twitter:image:src" content="{{site.baseurl}}/images/bike.png">
+<meta name="twitter:image:src" content="{{site.baseurl}}/images/color.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:creator" content="@jue_yang">
 <meta name="robots" content="index, follow">
-<!-- as -->
+{% if page.layout == 'poems'%}
+<link rel="stylesheet" href="poems.css" type="text/css" />
+{% else %}
 <link rel="stylesheet" href="{{site.baseurl}}/css/site.css" type="text/css" />
+{% endif %}
 <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico" type="image/x-icon">
 <script src="{{site.baseurl}}/js/jquery-1.8.0.min.js"></script>
 <script src="{{site.baseurl}}/js/lettering.js"></script>

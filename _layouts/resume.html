@@ -12,9 +12,9 @@ published: true
 	</div>
 	<div class='col4 cf'>
 		<ul class='nav'>
-			<li><a href="#highlights">Highlights from Porfolio</a></li>
-			<li><a href='#experiences'>Experiences</a></li>
-			<li><a href='#skills'>Skills</a></li>
+			<li><a data-scroll href="#highlights">Highlights from Porfolio</a></li>
+			<li><a data-scroll href='#experiences'>Experiences</a></li>
+			<li><a data-scroll href='#skills'>Skills</a></li>
 		</ul>
 	</div>
 	<div class='col4 cf'>
@@ -169,18 +169,6 @@ published: true
 	{% include sign.html %}
 </div>
 <script>
-$('a[href*=#]:not([href=#])').click(function() {
-if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-  var target = $(this.hash);
-  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-  if (target.length) {
-    $('html,body').animate({
-      scrollTop: target.offset().top - 90
-    }, 500);
-    return false;
-  }
-}
-});
 $('#print').on('click',function(){
 	window.print();
 });

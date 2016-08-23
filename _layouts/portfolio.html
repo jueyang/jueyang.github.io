@@ -6,6 +6,7 @@ published: true
 <div class='portfolio'>
 	<section class='maps cf'>
 		<div class='ocean cf'>
+			<a id='ocean'></a>
 			<h1>I was once fascinated by the ocean</h1>
 			{% for post in site.categories.maps %}
 			{% assign img = post.title | downcase | split:' ' | join:'-' %}
@@ -16,6 +17,7 @@ published: true
 			{% endfor %}
 		</div>
 		<div class='land cf'>
+			<a id='land'></a>
 			<h1>and the land</h1>
 			{% for post in site.categories.maps %}
 			{% assign img = post.title | downcase | split:' ' | join:'-' %}
@@ -27,6 +29,7 @@ published: true
 		</div>
 	</section>
 	<section class='architecture cf'>
+		<a id='architecture'></a>
 		<h1>the lines</h1>
 		{% for i in (1..6) %}
 		{% assign index = forloop.index %}
@@ -37,6 +40,7 @@ published: true
 		<div class='intro col12 cf'>Sketches, drawings and models from my architecture thesis in 2011</div>
 	</section>
 	<section class='doodle cf'>
+		<a id='doodle'></a>
 		<h1>and the shapes</h1>
 		{% for post in site.categories.doodles %}
 		{% assign img = post.title | downcase | split:' ' | join:'-' %}
@@ -48,6 +52,7 @@ published: true
 	</section>
 	<section class='websites cf'>
 		<div class='data cf'>
+			<a id='data'></a>
 			<h1>I have plunged into the sea of data, discovered new patterns</h1>
 			{% for post in site.categories.websites %}
 			{% assign img = post.title | downcase | split:' ' | join:'-' %}
@@ -58,6 +63,7 @@ published: true
 			{% endfor %}
 		</div>
 		<div class='other cf'>
+			<a id='system'></a>
 			<h1>and created systems</h1>
 			{% for post in site.categories.websites %}
 			{% assign img = post.title | downcase | split:' ' | join:'-' %}

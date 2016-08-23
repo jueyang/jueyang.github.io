@@ -3,7 +3,7 @@ categories:
   - resume
   - highlight
 link: "http://banishedproductions.org"
-readmore: "http://lemony.space/portfolio"
+readmore: "http://lemony.space/portfolio/#system"
 image: "../portfolio/images/thumb/web-banished.png"
 col: 6
 ---

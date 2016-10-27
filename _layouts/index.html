@@ -9,7 +9,7 @@ layout: default
     <p class="col8">Jue Yang is a playwright.*
     </br>Email: <em>hi@lemony.space</em></p>
   </div>
-  <h1><span>Showcased Plays</span>
+  <h1><span>Showcases, readings, etc.</span>
     <ul>
     {% for post in site.categories.play %}
       <!-- post.venue.length is an array -->
@@ -19,13 +19,13 @@ layout: default
       <li class="pad-bottom showcase">
         <em>{{post.title}}</em></br>
         {% for i in (0..loopLength) %}
-        {{post.venue[i]}} | {{post.occassion[i]}}, <a href="{{post.external[i]}}" target="_blank">{{post.time[i]}}</a></br>
+        {{post.venue[i]}} | {{post.occassion[i]}}, {{post.time[i]}}</br>
         {% endfor %}
       </li>
       {% elsif post.external %}
       <li class="pad-bottom showcase">
         <em>{{post.title}}</em></br>
-        {{post.venue}} | {{post.occassion}}, <a href="{{post.external}}" target="_blank">{{post.time}}</a>
+        {{post.venue}} | {{post.occassion}}, {{post.time}}
       </li>
       {% endif %}
     {% endfor %}

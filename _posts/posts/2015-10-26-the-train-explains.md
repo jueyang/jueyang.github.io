@@ -9,7 +9,7 @@ I take pictures of people everyday on [the train](https://instagram.com/the.trai
 
 > A fashion designer, quite possibly. Orders a sparkling rosé at the bar with a high ceiling. Giggles when complimented. Wears her pair of glasses -- a light metal frame -- in front of her sewing machine at home. A potted fern. The fridge opens and the light shines on the chestnut puree. There is a stem of rosemary in the olive oil.  
 
-I take these pictures with my phone. Enabled, I go to the known and unknown places following the blue route. I hold up the little rectangle, pretending to read. A quick glance, an empty stare, a careful scan. I find the faces. I find the hands. The train moves on, the moment disappears, the same seat now occupied by a different skin tone, stunning lack of wrinkles, unrecognizable languages, new shades of silence. 
+I take these pictures with my phone. I hold up the little rectangle, pretending to read. A quick glance, an empty stare, a careful scan. I find the faces. I find the hands. The train moves on, the moment disappears, the same seat now occupied by a different skin tone, stunning lack of wrinkles, unrecognizable languages, new shades of silence. 
 
 [The average MTA ridership](http://web.mta.info/nyct/facts/ridership/) on a weekday is 5,597,551, as of 2014. That is five point five million imaginations, amongst which you are one.
 

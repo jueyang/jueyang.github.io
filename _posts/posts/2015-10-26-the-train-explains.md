@@ -9,15 +9,13 @@ I take pictures of people everyday on [the train](https://instagram.com/the.trai
 
 > A fashion designer, quite possibly. Orders a sparkling rosé at the bar with a high ceiling. Giggles when complimented. Wears her pair of glasses -- a light metal frame -- in front of her sewing machine at home. A potted fern. The fridge opens and the light shines on the chestnut puree. There is a stem of rosemary in the olive oil.  
 
-I take these pictures with my phone. I hold up the little rectangle, pretending to read. A quick glance, an empty stare, a careful scan. I find the faces. I find the hands. The train moves on, the moment disappears, the same seat now occupied by a different skin tone, stunning lack of wrinkles, unrecognizable languages, new shades of silence. 
+I hold up the little rectangle that is my phone, pretending to read. Capture: a quick glance, an empty stare, a careful scan. Find: a face, two pinky fingers, three thoughts, lost at the tip of the tongue. The train moves on, the moment disappears, the same seat now occupied by a different skin tone, stunning lack of wrinkles, unrecognizable languages, new shades of silence. 
 
 [The average MTA ridership](http://web.mta.info/nyct/facts/ridership/) on a weekday is 5,597,551, as of 2014. That is five point five million imaginations, amongst which you are one.
 
 > The train leaves. Meeting a set of firm eyes, his cello wrapped in a black casing like a whale out of water, you ask the musician if he needs any help. "No. But thank you." A determined independence, and he goes up the stairs, carrying the weight of his passion.
 
 The passing moments are framed with white borders -- one new image every day. They say, the universe is born out of a singularity.
-
-_Of course, I have surrendered the history of my imagination to the large, gloomy clouds in [Altoona, Iowa](https://www.facebook.com/AltoonaDataCenter), [Maiden, North Carolina](http://www.datacenterknowledge.com/the-apple-data-center-faq/), and [Quilicura, Chile](http://www.google.com/about/datacenters/inside/locations/index.html). The augmented humanity captured by zeros and ones, a voluntary submission -- but the friend-and-foe relationship with monopolizing technology corporations is not the point of this particular pursuit._
 
 **License**
 

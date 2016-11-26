@@ -3,19 +3,43 @@ layout: post
 categories: blog
 ---
 
-The setting is New York, the time is present. 
+The setting is New York. The time is present. I am taking a picture with my phone. 
 
-I take pictures of people everyday on [the train](https://instagram.com/the.train). It started with an accidental shot of the uncanny resemblance of [Audrey Hepburn](https://instagram.com/p/9GjVfiCl__/). We sat across from each other. She had a book of 2-by-2 denim samples; she compared their colors and textures; her gaze went from the book to the window, as the train went onto the Manhattan Bridge. 
+I saw her. A book of 2-by-2 denim samples in hand, she compared their colors: indigo, navy, acid washed, white. _lunk, lunk, lunk, lunk, lunk._ The train wheeled over the steel rail, sunlight broken up by the steel truss, and her gaze, suspended from the steely East River.
 
-> A fashion designer, quite possibly. Orders a sparkling rosé at the bar with a high ceiling. Giggles when complimented. Wears her pair of glasses -- a light metal frame -- in front of her sewing machine at home. A potted fern. The fridge opens and the light shines on the chestnut puree. There is a stem of rosemary in the olive oil.  
+> Who was she?  
+>  
+> _The Bar_  
+> Sparkling rosé, bubbling like her giggles.  
+> Ceiling, full of gold, curvy tiles, full of flowers --  
+> it was too dark, and everything looked like copper.  
+>  
+> _Her Home_  
+> A potted fern. A beam of sun through the cavity between the curtains.  
+> The basil scent of Mrs. Meyer that was nothing like basil at all.  
+>  
+> _The Fridge_  
+> A wilted bunch of lettuce, a half-eaten can of chestnuts, two batteries.  
+>  
+> _The Counter_   
+> A stem of rosemary in the olive oil, so old that    
+> it witnessed in its life time  
+> the evoporation of four bottles of perfume.  
 
-I hold up the little rectangle that is my phone, pretending to read. Capture: a quick glance, an empty stare, a careful scan. Find: a face, two pinky fingers, three thoughts, lost at the tip of the tongue. The train moves on, the moment disappears, the same seat now occupied by a different skin tone, stunning lack of wrinkles, unrecognizable languages, new shades of silence. 
+I love the beginnings of imagination. The [average MTA ridership](http://web.mta.info/nyct/facts/ridership/) on a weekday is 5,650,610 as of 2015. Five point six million imaginations. It comforts me that I will never run out of one.
 
-[The average MTA ridership](http://web.mta.info/nyct/facts/ridership/) on a weekday is 5,597,551, as of 2014. That is five point five million imaginations, amongst which you are one.
+Everyday I hold up the little glowing rectangle. I find the faces. I find the hands. I find the quick glance, the empty stare, the careful scan. The train moves on, the moment disappears, the people leave. Now occupying the seats: a different skin tone, a stunning lack of wrinkles, an unrecognizable tongue, new shades of silence.
 
-> The train leaves. Meeting a set of firm eyes, his cello wrapped in a black casing like a whale out of water, you ask the musician if he needs any help. "No. But thank you." A determined independence, and he goes up the stairs, carrying the weight of his passion.
+I remembered a musician.
 
-The passing moments are framed with white borders -- one new image every day. They say, the universe is born out of a singularity.
+> The door closed. Meeting his firm eyes, I asked if he needed any help, his cello wrapped in a 
+black casing like a whale out of water. “No, but thank you.” He claimed with a determined independence, and carried the weight of his passion up the stairs.
+
+The passing moments are framed with white borders, one picture after another. We are all but human, they say. And what else? 
+
+_The universe is born out of a singularity._
+
+---
 
 **License**
 

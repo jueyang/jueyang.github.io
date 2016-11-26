@@ -23,8 +23,8 @@ I saw her. A book of 2-by-2 denim samples in hand, she compared their colors: in
 >  
 > _The Counter_   
 > A stem of rosemary in the olive oil, so old that    
-> it witnessed in its life time  
-> the evoporation of four bottles of perfume.  
+> it witnessed in its lifetime  
+> the evaporation of four bottles of perfume.  
 
 I love the beginnings of imagination. The [average MTA ridership](http://web.mta.info/nyct/facts/ridership/) on a weekday is 5,650,610 as of 2015. Five point six million imaginations. It comforts me that I will never run out of one.
 
@@ -35,9 +35,9 @@ I remembered a musician.
 > The door closed. Meeting his firm eyes, I asked if he needed any help, his cello wrapped in a 
 black casing like a whale out of water. “No, but thank you.” He claimed with a determined independence, and carried the weight of his passion up the stairs.
 
-The passing moments are framed with white borders, one picture after another. We are all but human, they say. And what else? 
+The passing moments are framed with white borders, one picture after another. We are nothing but human, they say.  
 
-_The universe is born out of a singularity._
+What else? _The universe was born out of a singularity._
 
 ---
 

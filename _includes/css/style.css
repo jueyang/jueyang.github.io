@@ -80,7 +80,7 @@
 /*-------- Font and Fauna ---------*/
 body {
   color:#111;
-  font:16px/24px 'Open Sans Condensed', sans-serif;
+  font:18px/27.5px 'Open Sans Condensed', sans-serif;
   font-weight:300;
   text-rendering:optimizeLegibility;
   overflow-x:hidden;
@@ -290,8 +290,10 @@ nav a:last-of-type {
   height:600px;
   background-size:cover;
   padding:80px;
-  letter-spacing: 1px;
   }
+.illustration, .chapter {
+  letter-spacing: 1px;
+}
 .chapter-divider {
   height:180px;
   }
@@ -309,7 +311,7 @@ nav a:last-of-type {
   background-image: url('../images/divider2.png');
 }
 .main .chapter {
-  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHElEQVQYV2M8c+bMfxMTE0YGKIAzMARgKjFUAABgFQgF5F4SdQAAAABJRU5ErkJggg==) repeat;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAIUlEQVQYV2M8fvz4f0tLS0YGNIAhAJMnTgLZWOJ0INsPAD1wCAcNmCtAAAAAAElFTkSuQmCC) repeat;
   padding:40px;
 }
 .main .chapter h2 {

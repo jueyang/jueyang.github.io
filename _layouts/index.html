@@ -2,80 +2,76 @@
 layout: default
 ---
 {% assign venueLength = false %}
-<div id="ocean" class="col12"></div>
+<!-- start of central -->
 <div class="central">
-  <div class="col12 self">
-    <span class="col2 photo"></span>
-    <p class="col8">Jue Yang is a playwright.*
-    </br>Email: <em>lemony.space@gmail.com</em></p>
+  <div class="illustration intro veer-left">
+    <h2 style="text-align:center;">Jue Yang: An Introduction </h2>
+    <p>I like words and space. I guess you can call me one of the following based on your preferred framework: trans-media writer, writer for performance, playwright.</p>
+    <p>Currently intrigued by: theatre before Theater, <a href="https://www.theatlantic.com/magazine/archive/2015/01/the-death-of-the-artist-and-the-birth-of-the-creative-entrepreneur/383497/"  target="_blank">the death of the artist</a>, non-captalist systems, structure of the body, ontology, monism, small public spaces, paper.</p>
+    <p>lemony.space@gmail.com || m.me/jue.yang</p>
   </div>
-  <h1><span>Showcases, readings, etc.</span>
-    <ul>
-    {% for post in site.categories.play %}
-      <!-- post.venue.length is an array -->
-      {% assign venueLength = post.venue| size %}
-      {% assign loopLength = venueLength | minus:1 %}
-      {% if venueLength > 1 and post.external %}
-      <li class="pad-bottom showcase">
-        <em>{{post.title}}</em></br>
-        {% for i in (0..loopLength) %}
-        {{post.venue[i]}} | {{post.occassion[i]}}, {{post.time[i]}}</br>
-        {% endfor %}
-      </li>
-      {% elsif post.external %}
-      <li class="pad-bottom showcase">
-        <em>{{post.title}}</em></br>
-        {{post.venue}} | {{post.occassion}}, {{post.time}}
-      </li>
-      {% endif %}
-    {% endfor %}
-    </ul>
-  </h1>
-  <h1>
-    <span>Portfolios</span>
-    <ul>
-      {% for post in site.categories.portfolio %}
-      <li class="pad-bottom">
-      <a href="{{post.link}}" {% if post.external %} target="_blank" {% endif %}>{{post.title}}, {{post.time}}</a></li>
-      {% endfor%}
-    </ul>
-  </h1>
-  <h1><span>Indepedent Projects</span>
-    <ul>
-    {% for post in site.categories.homey %}
-      {% unless post.categories contains "portfolio"%}
-      <li class="pad-bottom">
-      <a href="{{post.link}}" {% if post.external %} target="_blank" {% endif %}>{{post.title}}, {{post.time}}</a></li>
-      {% endunless %}
-    {% endfor %}
-    </ul>
-  </h1>
-  <h1><span>Thoughts</span>
-    <ul>
-      <li class="pad-bottom">
-        <a href="/thoughts">Ongoing</a></br>
-      </li>
-      <li class="pad-bottom">
-        <a href="http://mostgoodthings.tumblr.com/" target="_blank">Periodical: mid-late 2012</a>
-      </li>
-    </ul>
-  </h1>
-  <p>* Her past life involves being a cartographer, architect, <a href="/resume" target="_blank">technologist</a> and, of course, an arctic tern. Ask her about her favorite town in Greenland.</p>
+  <!-- start of main -->
+  <div class="main">
+    <div class="chapter">
+      <h2>Playwright</h2>
+      <p>I have submitted scripts and applied to events and residencies as a playwright. It has been an identity in which I find freedom. (However, I do think the majority of the business mechanism, and thus the expectations and products it generates, is outdated.)</p>
+      <ul>
+      {% for post in site.categories.play %}
+        <!-- post.venue.length is an array -->
+        {% assign venueLength = post.venue| size %}
+        {% assign loopLength = venueLength | minus:1 %}
+        {% if venueLength > 1 and post.external %}
+        <li class="showcase">
+          <em>{{post.title}}</em></br>
+          {% for i in (0..loopLength) %}
+          {{post.venue[i]}} | {{post.occassion[i]}}, {{post.time[i]}}</br>
+          {% endfor %}
+        </li>
+        {% elsif post.external %}
+        <li class="showcase">
+          <em>{{post.title}}</em></br>
+          {{post.venue}} | {{post.occassion}}, {{post.time}}
+        </li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+    <div class="chapter-divider first veer-right"></div>
+    <div class="chapter">
+      <h2>Identities in Transition</h2>
+      <p>I have three portfolios summarizing my education and experiences as a working being. This includes being a cartographer, an aspiring architect, and a technologist (keywords: <span style="font-family:'Inconsolata', monospace;">data, design, develop</span>). Each one was created when I looked for the next job. As a writer, I have been re-evaluating such notion of a "working being". What kind of way of life is that? In 2015, before I had words to confidently answer that, I wrote a play for myself to figure it out.
+      </p>
+      <ul>
+        {% for post in site.categories.portfolio %}
+        <li>
+        <a href="{{post.link}}" target="_blank">{{post.time}}</a></li>
+        {% endfor%}
+        <li><a href="/resume" target="_blank">a somewhat conventional resume</a></li>
+        <li><a href="/the-quest" target="_blank">the play that tried to answer</a></li>
+      </ul>
+    </div>
+    <div class="chapter-divider second veer-left"></div>
+    <div class="chapter">
+      <h2>Inklings of a Practice</h2>
+      <p>I created some independent projects over the years because I felt the urge to have a practice, even though I could not give it a name then. I also wrote things when I did not know better, which I believe is ever ongoing.</p>
+      <ul>
+      {% for post in site.categories.homey %}
+        {% unless post.categories contains "portfolio"%}
+        <li>
+        <a href="{{post.link}}" target="_blank">{{post.title}}, {{post.time}}</a></li>
+        {% endunless %}
+      {% endfor %}
+        <li>
+          <a href="/thoughts" target="_blank">a limited collection of the things I wrote</a></br>
+        </li>
+        <li>
+          And, I almsot forgot: <a href="unnamable" target="_blank">my first-everplay, 2013</a>.
+        </li>
+      </ul>
+    </div>
+    <div class="illustration eye veer-left veer-right"></div>
+  </div>
+  <!-- end of .main -->
+  {% include footer.html %}
 </div>
-<script>
-  // kudos https://codepen.io/loktar00/pen/kfrKC
-  var ocean = document.getElementById("ocean"),
-    waveWidth = 5,
-    waveCount = Math.floor(window.innerWidth/waveWidth),
-    docFrag = document.createDocumentFragment();
-
-  for(var i = 0; i < waveCount; i++){
-    var wave = document.createElement("div");
-    wave.className += "wave fadeIn";
-    docFrag.appendChild(wave);
-    wave.style.left = i * waveWidth + "px";
-    wave.style.webkitAnimationDelay = (i/200) + "s";
-  }
-
-  ocean.appendChild(docFrag);
-</script>
+<!-- end of .central -->

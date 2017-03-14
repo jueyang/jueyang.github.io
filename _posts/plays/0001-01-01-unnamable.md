@@ -123,7 +123,9 @@ You are afraid.
 > Olga doesn't respond. A female pianist comes on stage. She is affectionate, happy to see Herman. Pianist sits on the piano chair.
 
 # HERMAN
+
     to Olga
+
 I love you.
 
 > Pianist gives Herman a look, then plays the piano for an entire four minutes. Herman and Olga sit still. With unease soft as the whistle of a rock and blinding as the bedside lamp at midnight, they start to dance.
@@ -156,22 +158,24 @@ Am I sure... Of what?
 You know. What you just said. Of being in love. Or rather, of being in the state of...
 
 # HERMAN
+
     interrupts
+
 ...love. Yes. I am sure - it doens't matter anymore.
 
 # PIANIST
 That's unfortunate.
 
-#HERMAN
+# HERMAN
 Well.
 
-#PIANIST
+# PIANIST
 Why did you say it then? Why did you say it to her?
 
-#HERMAN
+# HERMAN
 I thought I would feel better.
 
-#PIANIST
+# PIANIST
 And you called that love?
 
     fishes in her pocket
@@ -229,7 +233,9 @@ Answer me this. Do you love her?
 You did.
 
 # HERMAN
+
     points at the chocolate
+
 Can I have another?
 
 # PIANIST
@@ -244,7 +250,9 @@ Are you keeping any of it, at all?
 > Pianist says as she goes back to the piano chair. Herman walks back to Olga.
 
 # Olga
+
     to Herman
+
 Oh. I...
 
 > Pianist starts to play another piece. Herman and Olga dance.

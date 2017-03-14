@@ -88,7 +88,7 @@ body {
 body * {
   box-sizing: border-box;
 }
-h1, h3{
+h1, h3 {
   font-family: 'Crimson Text',STXihei, "华文细黑",serif;
   margin:80px 0;
   }
@@ -98,17 +98,10 @@ h1.peace {
 h1.sign:before {
   content:'';
   }
-h1 span {
-  font-family:'Open Sans Condensed', sans-serif;
-  font-weight:700;
-  display:block;
-  margin-bottom:20px;
-  }
 h2 {
   text-align: center;
   font-weight:bold;
   font-size:1em;
-  margin: 0 0 40px 0;
   }
 h2 span.date {
   display:inline-block;
@@ -122,13 +115,13 @@ a {
   text-decoration:none;
   color:#444;
   }
-p {
+p,li {
   font-family: 'Crimson Text',STFangsong,'华文仿宋',serif;
   font-size:1em;
   margin:22px 0;
   line-height:1.6em;
   }
-h1 a, p a {
+h1 a, p a, li a{
   text-decoration:underline;
   }
 strong {
@@ -189,7 +182,10 @@ pre code {
   background-color: transparent;
   border: 0;
   }
-
+footer {
+  color:#111;
+  text-align: center;
+  }
 /*--------Util---------*/
 
 .rotating {
@@ -210,6 +206,11 @@ pre code {
 .pad-topbottom {padding:40px 0;}
 .pad-side {padding:0 60px;}
 .pad-topleft {padding:40px 0 0 60px;}
+
+.veer-left {margin-left:-80px;}
+.veer-left-double {margin-left:-160px;}
+.veer-right {margin-right:-80px;}
+.veer-right-double {margin-right:-160px;}
 
 .col2,
 .col3,
@@ -255,28 +256,7 @@ header > div {
   height:38px;
   background-image: url(../images/rear-wheel.png);
   }
-
-/*-------- Ocean ----------*/
-#ocean{
-  position:absolute;
-  height:100px;
-  top:0;
-  z-index:-1;
-}
-.wave{
-  background:#fd0;
-  display:inline-block;
-  height:100%;
-  width:1px;
-  position:absolute;
-  -webkit-animation-name:             wave;
-  -webkit-animation-duration:         3000ms;
-  -webkit-animation-iteration-count:  infinite;
-  -webkit-transition-timing-function: linear;
-}
 /*-------- Layout ---------*/
-.
-.about,
 .post {
   margin:60px auto;
   }
@@ -304,18 +284,36 @@ nav a:first-of-type {
 nav a:last-of-type {
   text-align: right;
   }
-.self {
-  margin:80px 0;
-}
-.self .photo{
-  margin:-15px 20px 0 0;
-  width:100px;
-  height:100px;
-  border-radius:50%;
-  display:block;
+
+.illustration, .chapter-divider {
+  height:600px;
   background-size:cover;
-  background-image:url('../images/self.jpg');
+  padding:80px;
+  letter-spacing: 1px;
   }
+.chapter-divider {
+  height:180px;
+  }
+.illustration.intro {
+  background-image:url('../images/self.png');
+}
+.illustration.eye {
+  height:400px;
+  background-image:url('../images/eye.png');
+}
+.chapter-divider.first {
+  background-image:url('../images/divider1.png');
+}
+.chapter-divider.second {
+  background-image: url('../images/divider2.png');
+}
+.main .chapter {
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHElEQVQYV2M8c+bMfxMTE0YGKIAzMARgKjFUAABgFQgF5F4SdQAAAABJRU5ErkJggg==) repeat;
+  padding:40px;
+}
+.main .chapter h2 {
+  text-align: left;
+}
 .showcase em:before { /* play titles on landing page*/
   content:"❲";
   font-style: normal;
@@ -428,11 +426,30 @@ nav a:last-of-type {
   .col12 {
     width:100%!important;
   }
+  .veer-left,
+  .veer-right,
+  .veer-left-double,
+  .veer-right-double {
+    margin:0;
+  }
+  .central {
+    width:100%;
+  }
+  .illustration {
+    height:auto;
+  }
+  .illustration.intro {
+    padding:40px;
+  }
+  .illustration.intro p:last-of-type {
+    display:inline;
+    background:#cacaca;
+  }
+  .illustration.eye {
+    height:180px;
+  }
   #print {
     display:none;
-  }
-  .self p {
-    margin-top:-1px;
   }
   .resume,
   .portfolio section {
@@ -444,10 +461,6 @@ nav a:last-of-type {
   }
   .name ul.nav {
     font-size:0.75em;
-  }
-  .screen,
-  .screen section {
-    padding:0;
   }
   .resume h3.others {
     padding:40px 20px;

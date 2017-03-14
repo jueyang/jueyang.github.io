@@ -15,8 +15,12 @@
   margin-left:80px;
 }
 .name ul li {
+  font-family:"Open Sans Condensed", sans-serif;
   float:left;
   padding-right:20px;
+}
+.name ul li a {
+  text-decoration: none;
 }
 .name ul.nav li a:hover {
   text-decoration: underline;

@@ -523,36 +523,60 @@ nav a:last-of-type {
 }
 
 @media print {
-  .screen,
   #print,
   .name {
     display:none;
   }
-  .resume:before{
+  .screen {
+    margin:0 0 40px 0;
+    padding:0;
+  }
+  .screen > * {
+    display:none;
+  }
+  .screen:before,
+  .screen:after,
+  .resume:before {
     margin:0;
     display:block;
-    content:'Jue Yang | jueyang22@gmail.com | www.lemony.space';
-    text-align: center;
+    position:absolute;
+    top:10px;
+    left:20px;
+    font-family:"Open Sans Condensed", san-serif;
+    font-size:10px;
+  }
+  .screen:before {
+    content:"Jue Yang | jueyang22@gmail.com | skype: jueyang22";
+  }
+  .screen:after {
+    left:5in;
+    content:"Portfolios: medium.com/newer-work | www.lemony.space/portfolio";
+  }
+  .resume:before{
+    top:25px;
+    left:5in;
+    content:"An online version of this resume is at www.lemony.space/resume";
   }
   .resume,
   .portfolio {
     padding:0 20px;
     font-size:0.8em;
   }
+  .resume h1 {
+    padding:0;
+    margin:10px;
+  }
   .resume h1:before {
     content:'';
   }
+
   .resume p {
     margin:0 auto;
+  }
+  .resume h2 {
+    margin:10px 0;
   }
   .experiences h1:after {content:'Experiences';}
   .education h1:after {content:'Education';}
   .skills h1:after {content:'Skills';}
-
-  .resume h3.others {
-    padding:10px 100px;
-  }
-  .resume .experiences {
-    margin-top:40px;
-  }
 }

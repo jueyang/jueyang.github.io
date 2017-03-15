@@ -1,0 +1,68 @@
+@media print {
+  #print,
+  .name,
+  .screen,
+  .sign {
+    display:none;
+  }
+  .print-header {
+    position: fixed;
+    display:block;
+  }
+  .print-header ul li {
+    margin:0;
+    padding:0;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size:12px;
+  }
+  .print-header ul li span {
+    display: inline-block;
+    width:200px;
+    font-weight:bold;
+  }
+  .page-break {
+    width:1px;
+    height:1px;
+    display:block;
+    page-break-after: always;
+  }
+  .resume {
+    padding:0;
+    font-size:0.8em;
+  }
+  .resume h1 {
+    padding:0;
+    margin:20px 0 0 0;
+  }
+  .resume h1:before {
+    content:'';
+  }
+  .resume h2 {
+    margin:15px 0;
+  }
+  .resume h3 {
+    padding:5px 0;
+  }
+  .resume ul,
+  .resume table {
+    margin:0;
+  }
+  .resume ul li {
+    padding:0;
+    margin:0 20px 0;
+  }
+  .resume p {
+    margin:0 auto;
+  }
+  .resume a {
+    color:inherit;
+    text-decoration: none!important;
+  }
+  .experiences,
+  .skills {
+    margin-top:60px;
+  }
+  .experiences h1:after {content:'Experiences';}
+  .education h1:after {content:'Education';}
+  .skills h1:after {content:'Skills';}
+}

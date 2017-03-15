@@ -29,6 +29,9 @@
   float:right;
   margin-right:100px;
 }
+.print-header {
+  display:none;
+}
 /* highlight */
 .screen {
   margin-top:100px;

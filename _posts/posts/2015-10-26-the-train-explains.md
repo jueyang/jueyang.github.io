@@ -3,6 +3,8 @@ layout: post
 categories: blog
 ---
 
+_Edit: The project has been revived in Ciudad de México, México since March 2017. The following is the original description._
+
 > _Time_: Present  
 > _Place_: NYC, yes the one with -- let's say the one that one might kiss or bite or get stumped on or run over -- that one.  
 > _At Rise_: A book of 2-by-2 denim samples in hand, she compared their colors: indigo, navy, a wash of acid, white. Sunlight broken up by the steel truss, her gaze suspended from the steel East River.  

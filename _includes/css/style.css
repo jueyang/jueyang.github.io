@@ -304,6 +304,9 @@ nav a:last-of-type {
   height:400px;
   background-image:url('../images/eye.png');
 }
+.chapter-divider.zero {
+  background-image:url('../images/divider0.png');
+}
 .chapter-divider.first {
   background-image:url('../images/divider1.png');
 }

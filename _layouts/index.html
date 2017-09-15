@@ -6,15 +6,30 @@ layout: default
 <div class="central">
   <div class="illustration intro veer-left">
     <h2 style="text-align:center;">Jue Yang: An Introduction </h2>
-    <p>I like words and space. I guess you can call me one of the following based on your preferred framework: trans-media writer, writer for performance, playwright.</p>
-    <p>Currently intrigued by: pause, <a href="https://www.theatlantic.com/magazine/archive/2015/01/the-death-of-the-artist-and-the-birth-of-the-creative-entrepreneur/383497/"  target="_blank">the death of the artist</a>, structure of the body, non-capitalist systems, and the vastness of <a href="https://www.quantamagazine.org/20150430-space-time-interactive/" target="_blank">quantum fabric</a>.</p>
+    <p>I like words and space. I guess you can call me one of the following based on your preferred framework: text-based artist, trans-media writer, writer for performance, playwright.</p>
+    <p>Perpectual intrigues: <a href="https://www.theatlantic.com/magazine/archive/2015/01/the-death-of-the-artist-and-the-birth-of-the-creative-entrepreneur/383497/" target="_blank">the death of the artist</a>, experiential knowledge, (personal) truth.</p>
+    <p>Traveling.</p>
     <p>lemony.space@gmail.com</p>
   </div>
   <!-- start of main -->
   <div class="main">
     <div class="chapter">
+      <h2>Residencies</h2>
+      <p>I have been exploring different spaces in my practice. I do so by participating in artist residencies: often in unfamiliar places, often in which life is discussed fiercely.</p>
+      <ul>
+        {% for post in site.categories.residency %}
+        <li>{{post.title}}. {{post.place}}. {{post.time}}.
+        {% if post.external %}
+        <a href="{{post.external}}" target="_blank"><em>link</em></a>
+        {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="chapter-divider zero veer-right"></div>
+    <div class="chapter">
       <h2>Playwright</h2>
-      <p>I have submitted scripts and applied to events and residencies as a playwright. It has been an identity in which I find freedom. (I do think, however, that the majority of the business mechanisms -- thus the expectations and products they generate -- are outdated. Working on it by learning, questioning, and innovating.)</p>
+      <p>For a period of time I found freedom in becoming a playwright and engaging with the collaborations in theater.</p>
       <ul>
       {% for post in site.categories.play %}
         <!-- post.venue.length is an array -->
@@ -24,13 +39,13 @@ layout: default
         <li class="showcase">
           <em>{{post.title}}</em></br>
           {% for i in (0..loopLength) %}
-          {{post.venue[i]}} | {{post.occassion[i]}}, {{post.time[i]}}</br>
+          {{post.venue[i]}}. {{post.occassion[i]}}. {{post.time[i]}}.</br>
           {% endfor %}
         </li>
         {% elsif post.external %}
         <li class="showcase">
           <em>{{post.title}}</em></br>
-          {{post.venue}} | {{post.occassion}}, {{post.time}}
+          {{post.venue}}. {{post.occassion}}. {{post.time}}.
         </li>
         {% endif %}
       {% endfor %}
@@ -39,21 +54,20 @@ layout: default
     <div class="chapter-divider first veer-right"></div>
     <div class="chapter">
       <h2>Identities in Transition</h2>
-      <p>I have three portfolios summarizing my education and experiences as a working being. This includes being a cartographer, an aspiring architect, and a technologist (keywords: <span style="font-family:'Inconsolata', monospace;">data, design, develop</span>). Each one was created when I looked for the next job. As a writer, I have been re-evaluating such notion of a "working being". What kind of way of life is that? Before I had words to confidently answer that, I wrote a play for myself to figure it out.
-      </p>
+      <p>Three portfolios summarize my education and experiences as a cartographer, aspiring architect, and technologist.</p>
       <ul>
         {% for post in site.categories.portfolio %}
         <li>
         <a href="{{post.link}}" target="_blank">{{post.time}}</a></li>
         {% endfor%}
         <li><a href="/resume" target="_blank">a somewhat conventional resume</a></li>
-        <li><a href="/the-quest" target="_blank">the play that tried to answer, 2015</a></li>
+        <li><a href="/the-quest" target="_blank">a play in which I try to find out who I am, 2015</a></li>
       </ul>
     </div>
-    <div class="chapter-divider second veer-left"></div>
+    <div class="chapter-divider second veer-right"></div>
     <div class="chapter">
       <h2>Inklings of a Practice</h2>
-      <p>I created some independent projects over the years because I felt the urge to have a practice, even though I could not give it a name then. I also wrote things when I did not know better, which I believe is ever ongoing.</p>
+      <p>I created independent projects before I knew the shape of a practice, which included everything from alternative visual archives to poetry. I'm thankful for this period of blind productivity.</p>
       <ul>
       {% for post in site.categories.homey %}
         {% unless post.categories contains "portfolio"%}

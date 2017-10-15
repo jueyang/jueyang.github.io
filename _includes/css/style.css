@@ -191,7 +191,6 @@ footer {
 .rotating {
   -webkit-animation: rotating 1100ms linear infinite;
   }
-
 .central {
     position:relative;
     display:block;
@@ -232,31 +231,6 @@ footer {
 .cf:after {
     clear: both;
 }
-/*-------- bike ---------*/
-header > div {
-  margin:0 auto;
-  background-color:transparent;
-  background-repeat: no-repeat;
-  }
-#frame {
-  width:81px;
-  height:57px;
-  background-image: url(../images/frame.png);
-  }
-#front-wheel {
-  position:absolute;
-  margin:-29px 0 0 272px;
-  width: 47px;
-  height: 40px;
-  background-image: url(../images/front-wheel.png);
-  }
-#rear-wheel {
-  position:absolute;
-  margin:-27px 0 0 200px;
-  width:46px;
-  height:38px;
-  background-image: url(../images/rear-wheel.png);
-  }
 /*-------- Layout ---------*/
 .post {
   margin:60px auto;
@@ -264,9 +238,9 @@ header > div {
 .archive {
   text-align:center;
   }
-.archive a {
+/*.archive a {
   color:#aaa;
-  }
+  }*/
 
 nav a{
   text-align:center;
@@ -348,20 +322,6 @@ nav a:last-of-type {
 .post-content {
   margin-bottom:40px;
   }
-.map.full {
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-}
-.map-legends,
-.map-legend {
-  max-width:inherit;
-  background: transparent;
-  font-family: 'Inconsolata', monospace;
-  box-shadow: none;
-}
 .sign {
   padding:20px;
   font-family:STFangsong,'华文仿宋';

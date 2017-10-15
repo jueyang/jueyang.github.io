@@ -4,11 +4,6 @@
     {% include meta.html %}
 </head>
 <body>
-  {% unless page.layout == "resume" or page.layout == "index"%}
-  <div class='pad-topbottom'>
-      {% include sign.html %}
-  </div>
-  {% endunless %}
   {{content}}
   <script type="text/javascript">
     smoothScroll.init();

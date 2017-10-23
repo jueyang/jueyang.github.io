@@ -3,12 +3,20 @@ layout: post
 categories: blog
 ---
 
-I took a series of photos in Mexico City from March to May 2016 for a magazine. I was a foreign(writ)er in the city and the photo editor thought my point of view would be interesting. The only requirement was that I documented the locations of the images taken. 
+I took a series of photos in Mexico City from March to May 2017 for a magazine. I was a foreign(writ)er in the city and the photo editor thought my point of view would be interesting. The only requirement was that I documented the locations of the images taken.
 
-Due to a sudden sickness, my converstion with the editor was interrupted and the images remained unseen. When I looked at them again a few months later, much had changed. I had recuperated in other parts of the world while Mexico City endured something unexpected. *Mexico's Strongest Earthquake in a Century Left Dozens Dead*, I woke up to a headline in September.
+My conversation with the editor was interrupted, unfortunately, as I dealt with a sudden sickness. The images were archived with names of their respective neighborhood and remained undiscussed.
 
-Most of the [damages](https://www.google.com/maps/d/u/0/viewer?ll=19.406690296823246%2C-99.15052711742857&z=14&mid=1_-V97lbdgLFHpx-CtqhLWlJAnYY) in the city were reported in the neighborhood of *Condesa*, where I once wrote with a typewriter and baked pies for friends. I scrutinize the map, wondering if what I captured could still exist today: the lady selling tortillas in *Mercado del Valle*, the colonial facades on the streets of *Roma*, the small cart of snacks (*botanas*) around my residence in *Napoles*. I do not know. The fleeting might have vanished permenantly like the [lake](https://www.nytimes.com/interactive/2017/09/22/world/americas/mexico-city-earthquake-lake-bed-geology.html) on which the city was built.
+When I returned to them four months later, I had woken up to the news of Mexico's strongest earthquake in a century. A friend sent a message asking if I was okay, to which I replied, "yes, I have left the country." 
 
-For this project, I have delibereately omitted the geography and kept what is more personal. Perhaps it does not dissappear with time, the curiosity and freshness that the city gifted me. And it only grows, the dexterity between being observed and observing.
+Many [damages](https://www.google.com/maps/d/u/0/viewer?ll=19.406690296823246%2C-99.15052711742857&z=14&mid=1_-V97lbdgLFHpx-CtqhLWlJAnYY) were reported in the neighborhood of *Condesa*, where I once wrote with a typewriter, baked pies for friends, and, over a cloudy weekend, tried to overcome a bad fever (which eventually led me to the emergency room). I scrutinized the map, wondering if what I captured could still exist today: the lady selling tortillas in *Mercado del Valle*, the colonial facades on the streets of *Roma*, the small cart of snacks (*botanas*) around my residence in *Napoles*.
 
-Dedico este proyecto a la Ciudad de México. [See the project](http://www.lemony.space/recuerdo).
+The fleeting might have vanished permenantly like the [lake](https://www.nytimes.com/interactive/2017/09/22/world/americas/mexico-city-earthquake-lake-bed-geology.html) on which the city was built.
+
+![](http://www.lemony.space/recuerdo/images/curiosidad/0.jpg)
+
+The city and I have endured our differing calamities. I was lucky to have recuperated while it has become a collection of fragments. Some things are gone forever. Some things will be built anew. What does not dissappear - and I believe it will only grow stronger - is the curiosity and freshness that it gifts a stranger.
+
+For this project, I have omitted the mention of geography and kept what is more personal. It's a sort of narrative aftermath: I came from being observed to observing. The city cast its gaze on me and I, it.
+
+[See the project](http://www.lemony.space/recuerdo).

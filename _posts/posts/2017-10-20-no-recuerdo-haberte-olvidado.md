@@ -5,7 +5,7 @@ categories: blog
 
 I took a series of photos in Mexico City from March to May 2017 for a magazine. I was a foreign(writ)er in the city and the photo editor thought my point of view would be interesting. The only requirement was that I documented the locations of the images taken.
 
-My conversation with the editor was interrupted, unfortunately, as I dealt with a sudden sickness. The images were archived with names of their respective neighborhood and remained undiscussed.
+My conversation with the editor was interrupted, unfortunately, as I dealt with a sudden sickness. The images were archived with names of their respective neighborhoods and remained undiscussed.
 
 When I returned to them four months later, I had woken up to the news of Mexico's strongest earthquake in a century. A friend sent a message asking if I was okay, to which I replied, "yes, I have left the country." 
 

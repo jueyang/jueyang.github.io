@@ -272,14 +272,17 @@ nav a:last-of-type {
   height:400px;
   background-image:url('../images/eye.png');
 }
-.chapter-divider.zero {
+.chapter-divider.d0 {
   background-image:url('../images/divider0.png');
 }
-.chapter-divider.first {
+.chapter-divider.d1 {
   background-image:url('../images/divider1.png');
 }
-.chapter-divider.second {
-  background-image: url('../images/divider2.png');
+.chapter-divider.d2 {
+  background-image:url('../images/divider2.png');
+}
+.chapter-divider.d3 {
+  background-image:url('../images/divider3.png');
 }
 .main .chapter {
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAIUlEQVQYV2M8fvz4f0tLS0YGNIAhAJMnTgLZWOJ0INsPAD1wCAcNmCtAAAAAAElFTkSuQmCC) repeat;

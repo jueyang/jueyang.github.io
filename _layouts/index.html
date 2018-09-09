@@ -6,15 +6,22 @@ layout: default
 <div class="central">
   <div class="illustration intro veer-left">
     <h2 style="text-align:center;">Jue Yang: An Introduction </h2>
-    <p>I like words and space. I guess you can call me one of the following based on your preferred framework: text-based artist, trans-media writer, writer for performance, playwright.</p>
-    <p>Perpetual intrigues: <a href="https://www.theatlantic.com/magazine/archive/2015/01/the-death-of-the-artist-and-the-birth-of-the-creative-entrepreneur/383497/" target="_blank">the death of the artist</a>, experiential knowledge, (personal) truth.</p>
-    <p>For the impatient reader: my recent <a href="{{site.baseurl}}/recent/JY-portfolio.pdf" target="_blank">portfolio</a> and <a href="{{site.baseurl}}/recent/JY-cv.pdf" target="_blank">cv</a>.</p>
+    <p>I am an artist, trans-media writer, playwright.</p>
+    <p>I am intrigued by: emergence, empathy, expedition, language, meditation, memory, ontology, time, truth.</p>
+    <p>Below is a brief introduction to my practice and trajectory. For the impatient reader, here is my <a href="{{site.baseurl}}/recent/JY-cv.pdf" target="_blank">cv</a>.</p>
   </div>
   <!-- start of main -->
   <div class="main">
     <div class="chapter">
+      <h2>Present</h2>
+      <p>After considering text as my main medium, I am now enrolled in a Master's progam in Lens-based Media at the <a href="http://www.pzwart.nl/" target="_blank">Piet Zwart Institute</a>.</p>
+      <p>In this <a href="{{site.baseurl}}/recent/JY-portfolio.pdf" target="_blank">portfolio</a> I summarize the direction of my work. The next update is expected at the end of 2018.</p>
+      <p>I live in Rotterdam, the Netherlands.</p>
+    </div>
+    <div class="chapter-divider d0 veer-right"></div>
+    <div class="chapter">
       <h2>Residencies</h2>
-      <p>I have been exploring different spaces in my practice. I do so by participating in artist residencies, often in which life is discussed fiercely.</p>
+      <p>I continue to explore different spaces in my practice through traveling and artist residencies.</p>
       <ul>
         {% for post in site.categories.residency %}
         <li>{{post.title}}. {{post.place}}. {{post.time}}.
@@ -25,10 +32,10 @@ layout: default
         {% endfor %}
       </ul>
     </div>
-    <div class="chapter-divider zero veer-right"></div>
+    <div class="chapter-divider d1 veer-left"></div>
     <div class="chapter">
       <h2>Playwright</h2>
-      <p>For a period of time I found freedom in being a playwright and engaging with the collaborations in theater.</p>
+      <p>For a period of time I found freedom in the simple form of writing, and sometimes making, plays.</p>
       <ul>
       {% for post in site.categories.play %}
         <!-- post.venue.length is an array -->
@@ -50,7 +57,7 @@ layout: default
       {% endfor %}
       </ul>
     </div>
-    <div class="chapter-divider first veer-left"></div>
+    <div class="chapter-divider d2 veer-right"></div>
     <div class="chapter">
       <h2>Identities in Transition</h2>
       <p>Three (older) portfolios summarize my education and experiences as a cartographer, aspiring architect, and technologist.</p>
@@ -63,10 +70,10 @@ layout: default
         <li><a href="/the-quest" target="_blank">a play in which I try to find out who I am, 2015</a></li>
       </ul>
     </div>
-    <div class="chapter-divider second veer-right"></div>
+    <div class="chapter-divider d3 veer-right"></div>
     <div class="chapter">
       <h2>Inklings of a Practice</h2>
-      <p>I created independent projects before I knew the shape of a practice, which included everything from alternative visual archives to poetry. I'm thankful for this period of blind productivity.</p>
+      <p>I created some projects independent of specific framworks and methodologies before realizing the shape of a practice. I'm thankful for this period of blind productivity.</p>
       <ul>
       {% for post in site.categories.homey %}
         {% unless post.categories contains "portfolio"%}

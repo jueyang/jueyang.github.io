@@ -10,7 +10,7 @@ Before April, 2016 the page was a stylized blog with posts from what is now in <
 
 2016
 
-> You are about to get to know Jue Yang, a playwright who made this website and lived <a href="/resume">other lives</a>. Below are some of my plays. I am in the process of finding ways to share plays on the internet without compromising copyrights. Until then, feel free to ask me for a script sample and read my thoughts from time to time.</h1>
+> You are about to get to know Jue Yang, a playwright who made this website and lived <a href="/resume">other lives</a>. Below are some of my plays. I am in the process of finding ways to share plays on the internet without compromising copyrights. Until then, feel free to ask me for a script sample and read my thoughts from time to time.
 
 > Jue Yang is a playwright with tech tendencies.
 
@@ -31,4 +31,5 @@ Before April, 2016 the page was a stylized blog with posts from what is now in <
 > *The artist has two duties: one to herself, the other to her audience. She must be true to herself, digging within herself to arrive at the truth as she sees it. But she must also communicate that truth to the audience.*
 > — Stuart Spencer, *The Playwright's Guidebook*
 
-> I chased light in the frosty air recently. I read <em>The Fabric of The Cosmos</em>, sketched stones and watched an earthworm swim. I salvaged a tale from the desert.  I dreamed: a friend turned into a legless bird.
+> I chased light in the frosty air recently. Read <em>The Fabric of The Cosmos</em>. Sketched stones, watched an earthworm swim and salvaged a tale from the desert. Dreamed of a friend who turned into a legless bird.
+

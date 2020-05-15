@@ -2,17 +2,12 @@
 layout: default
 ---
 <div class='archive central'>
-    <h1><em>
-        to begin with an ocean<br>
-        of noise that ends<br>
-        at dumb symmetry
-    </em></h1>
     <div class='col12'>
     {% for post in site.categories.blog %}
     {% assign year = post.date | date: "%Y" %}
     {% assign yearnext = post.next.date | date: "%Y" %}
         {% if year != yearnext %}
-        <h1>{{year}}</p>
+        <h3>{{year}}</h3>
         <p>
             <a href='{{site.baseurl}}{{post.url}}'>{{post.title}}</a>
         </p>

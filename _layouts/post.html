@@ -2,9 +2,10 @@
 layout: default
 ---
 <div class='post'>
-    <h2 class='pad-top'>{{page.title}}</br><span class='date'>{{page.date | date: "%b %d %Y"}}</span></h2>
+    <h3 class='pad-top'>{{page.title}}</br><span class='date'>{{page.date | date: "%b %d %Y"}}</span></h3>
     <div class='central'>
     {{content}}
 	</div>
 </div>
 {% include morewords.html %}
+{% include sign.html %}

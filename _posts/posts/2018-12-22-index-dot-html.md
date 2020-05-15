@@ -5,7 +5,7 @@ categories: blog
 
 <code>index.html</code> is the first encounter to a website. It is also called the landing page: one makes a landing from the World Wide Web. Like Columbus or aliens, one arrives not knowing, or knowing too much. 
 
-Before April, 2016 the page was a stylized blog with posts from what is now in <a href="{{site.baseurl}}/archive" target="_blank">thoughts</a>. Over the past two and a half years, it has changed as I become.
+Before April, 2016 the page was a stylized blog with posts from what is now in <a href="{{site.baseurl}}/thoughts" target="_blank">thoughts</a>. Over the past two and a half years, it has changed as I become.
 
 
 2016

@@ -80,8 +80,10 @@
 /*-------- Font and Fauna ---------*/
 body {
   color:#111;
-  font:18px/27.5px 'Open Sans Condensed', sans-serif;
-  font-weight:300;
+  font-family:'Crimson Text', STXihei, "华文细黑",serif;
+  font-size:18px;
+  font-weight:normal;
+  line-height:1.6em;
   text-rendering:optimizeLegibility;
   overflow-x:hidden;
   }
@@ -89,8 +91,13 @@ body * {
   box-sizing: border-box;
 }
 h1, h3 {
-  font-family: 'Crimson Text',STXihei, "华文细黑",serif;
   margin:80px 0;
+  }
+h2 {
+  font-family:'Roboto Condensed',sans-serif;
+  text-align:center;
+  font-weight:bold;
+  font-size:0.95em;
   }
 h1.peace {
   font-size:35px;
@@ -98,12 +105,7 @@ h1.peace {
 h1.sign:before {
   content:'';
   }
-h2 {
-  text-align: center;
-  font-weight:bold;
-  font-size:1em;
-  }
-h2 span.date {
+span.date {
   display:inline-block;
   font-size:0.5em;
   color:#aaa;
@@ -116,10 +118,8 @@ a {
   color:#444;
   }
 p,li {
-  font-family: 'Crimson Text',STFangsong,'华文仿宋',serif;
   font-size:1em;
   margin:22px 0;
-  line-height:1.6em;
   }
 h1 a, p a, li a{
   text-decoration:underline;
@@ -320,9 +320,6 @@ nav a:last-of-type {
   margin-bottom:40px;
   }
 .sign {
-  padding:20px;
-  font-family:STFangsong,'华文仿宋';
-  font-style:normal;
   text-align: center;
   }
 /* lettering experiment */

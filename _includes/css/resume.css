@@ -15,7 +15,7 @@
   margin-left:80px;
 }
 .name ul li {
-  font-family:"Open Sans Condensed", sans-serif;
+  /*font-family:"Open Sans Condensed", sans-serif;*/
   float:left;
   padding-right:20px;
 }
@@ -78,9 +78,6 @@
   margin:10px 10px 10px 0;
   text-align: center;
 }
-.resume h1 {
-  font-family:'Open Sans Condensed';
-}
 .resume h1:before {
   font-size:0.75em;
   color:#efefef;
@@ -132,7 +129,6 @@
   margin-bottom:20px;
 }
 .experiences ul li{
-  font-family: 'Crimson Text',serif;
   margin-left:40px;
   font-size:0.85em;
 }
@@ -151,6 +147,5 @@
   font-size:1em;
 }
 .resume tr td:last-child {
-  font-family: 'Crimson Text',serif;
   font-size:1em;
 }

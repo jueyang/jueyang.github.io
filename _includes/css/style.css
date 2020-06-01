@@ -90,7 +90,7 @@ body {
 body * {
   box-sizing: border-box;
 }
-h1, h3 {
+h1, h3{
   margin:80px 0;
   }
 h2 {
@@ -146,9 +146,13 @@ blockquote.chinese p{
   font-size:0.78em;
   line-height:2.5em;
 }
+hr {
+  margin:40px 0;
+  border: 1px solid #eee;
+}
 small {
   font-size:0.8em;
-  color:#eee;
+  color:#444;
   }
 /* Code Blocks & Pre */
 code,

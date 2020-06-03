@@ -114,15 +114,16 @@ h3 {
   text-align: center;
   }
 a {
-  text-decoration:none;
   color:#444;
+  text-decoration: underline;
   }
+
+a:hover {
+  text-decoration: none;
+}
 p,li {
   font-size:1em;
   margin:22px 0;
-  }
-h1 a, p a, li a{
-  text-decoration:underline;
   }
 strong {
   font-weight:bold;
@@ -237,7 +238,6 @@ nav a{
 }
 
 nav a:hover {
-  text-decoration: none!important;
   color:#111;
 }
 
@@ -317,6 +317,9 @@ nav a:last-of-type {
 .sign {
   text-align: center;
   }
+.sign a {
+  text-decoration: none;
+}
 /* lettering experiment */
 .circle p {
   position:relative;

@@ -15,7 +15,7 @@ categories: blog
 
 I responsed after trading links with a friend about [brutalist websites](http://brutalistwebsites.com/). Then I felt I didn't finish all my sentences.
 
-<p class="divider">*</p>
+### *
 
 It's not a brand new narrative. To me, how to thrive conscientiously has been a question to live (_live the questions now_, as Rilke said) -- from a belief in [architecture](/thought-on-architecture-today), to an excitement/[confusion](/a-day)) about web design, to writing.
 
@@ -29,7 +29,7 @@ Eventually the learning took on a pause and I found myself producing similar thi
 
 I am often explaining the fundemental concepts rather than building with "the next new thing". I can afford to be a little more philosophical and a lot more thorough. Of course, at times the repeated questions bore me so much that I just have to miss those furious days of staying late and cheering PBR's after a project delivery... But this is exactly the kind of balance that allows me time and space to deepen the writing practice that I'd put aside.
 
-<p class="divider">*</p>
+### *
 
 I have chosen plays as my medium because it is the most resonating creative form I have experienced. To some degree, I am an author. Yet I could never fully imagine how the text would be interpreted through directions and actions; nor did I want to. The most exciting part of being a playwright is probably this: to plant the seed through language, and let it grow and blossom into surprises in the hands of others.
 

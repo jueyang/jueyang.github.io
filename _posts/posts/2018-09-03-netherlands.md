@@ -3,6 +3,10 @@ layout: post
 categories: blog
 ---
 
+<small>Note: I made this text visible in 2020 and decided to keep its original date. I have since finished a critical memoir as my Master's thesis. I can now see that so much of the memoir was seeded from this text.</small>
+
+<hr>
+
 Being here is a demarcation in time.
 
 I was born into a working class family during the post-Cultural-Revolution, early economic reform China. I would not know anything about my family until many years later, after I left the country for the United States.
@@ -36,10 +40,6 @@ It's not just Europe. It's whenever we are distracted.
 I have not felt my body for quite some time.
 
 "If you ride a lot of bikes," she says, "you are tight around the hips.""
-
-<hr>
-
-<small>Postscript: I made this text visible in 2020 and decided to keep its original date. I have since finished a critical memoir as my Master's thesis. I can now see that so much of the memoir was seeded from this text.</small>
 
 
 

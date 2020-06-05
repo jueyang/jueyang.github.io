@@ -3,9 +3,32 @@ layout: post
 categories: blog
 title: 时光
 ---
-<div class='shiguang'>
+<style type="text/css">
+.shiguang ul li blockquote {
+  height:420px;
+  font-size:0.8em;
+  cursor: pointer;
+}
+.shiguang ul li blockquote.active {
+  background:#444;
+  color:#fff;
+  -webkit-animation: fadeIn 400ms linear 100ms both;
+  -moz-animation:    fadeIn 400ms linear 100ms both;
+  -o-animation:      fadeIn 400ms linear 100ms both;
+  animation:         fadeIn 400ms linear 100ms both;
+}
+.shiguang ul li blockquote.inactive {
+  -webkit-animation: fadeOut 400ms linear 100ms both;
+  -moz-animation:    fadeOut 400ms linear 100ms both;
+  -o-animation:      fadeOut 400ms linear 100ms both;
+  animation:         fadeOut 400ms linear 100ms both;
+}
+
+</style>
+<div class='col12 shiguang'>
+	<p>(Allow the translation. Click on one or the other.)</p>
 	<ul>
-		<li>
+		<li class='col6'>
 			<blockquote class='chinese active'>
 				<p>时间与光阴<br>
 				诗的距离而已</p>
@@ -16,7 +39,7 @@ title: 时光
 				<p>这是我出生的地方</p>
 			</blockquote>
 		</li>
-		<li>
+		<li class='col6'>
 			<blockquote class='active'>
 				<p>This is where I grew up</p>
 				<p>The universe in which<br>

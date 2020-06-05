@@ -12,7 +12,7 @@ Written in November, 2015. About one of my early plays:
 > This freedom, however, yearns for a framework. Plays are not products of solitude. They need execution, and I need camaraderie.
 >  
 
-From the same archive:
+From the same bulk of text:
 
 > Texts can manifest as music, concrete poetry, or serve a communicative function. Dialogues can be autobiographical, fictional, read, or performed. God can be the 12-year-old next door, an ensemble of wise dogs, an anthromorphized belief like a piece of googly-eyed old news, or a circular thought whose beginning and ending are but semantics that no longer exist.
 

@@ -3,6 +3,8 @@ layout: post
 categories: blog
 ---
 
+I write an email recently, responding after trading links with a friend about [brutalist websites](http://brutalistwebsites.com/).
+
 > Rebel.
 >
 > A few years ago a friend asked me, "would you rather design for the mass or the 2% that understand you?" My answer was, the 2% no doubt.
@@ -13,11 +15,9 @@ categories: blog
 >
 > Maybe that's why I retreat back to words, performance of words, and such. more fundamental things. But seriously, I don't fucking know.
 
-I responsed after trading links with a friend about [brutalist websites](http://brutalistwebsites.com/). Then I felt I didn't finish all my sentences.
-
 ### *
 
-It's not a brand new narrative. To me, how to thrive conscientiously has been a question to live (_live the questions now_, as Rilke said) -- from a belief in [architecture](/thought-on-architecture-today), to an excitement/[confusion](/a-day)) about web design, to writing.
+It's not a brand new narrative. To me, how to thrive conscientiously has been a question to live (_live the questions now_, as Rilke said) -- from a belief in [architecture](/thought-on-architecture-today), to an excitement/[confusion](/a-day) about web design, to writing.
 
 I learned about the web by joining a company where I was entrusted to make things for which I didn't yet have the skills. _Grind coffee five times a day and learn a new language. Eat a slice of birthday pizza, then go back to the screen. Package it well and deliver the product. Scope it better next time. Over-communicate. Educate your clients. Hold the fear of not getting it right. Be assertive but nice. Maybe not nice, but definitely assertive. Play soccer._ Times fluctuated among turbulence, tedium, illumination, camaraderie. They alternated between the dark and the colorful, filled with barbeque smoke and fun like in a drunk way.
 

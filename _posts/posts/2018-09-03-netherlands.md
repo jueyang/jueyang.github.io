@@ -11,7 +11,7 @@ Being here is a demarcation in time.
 
 I was born into a working class family during the post-Cultural-Revolution, early economic reform China. I would not know anything about my family until many years later, after I left the country for the United States.
 
-I studied architecture and geography in the US, then worked full-time as a web designer at a company that visualized geographic and statistical data. I learned how to program through that job. It allowed me to become the technologist-in-residence at the graduate school of journalism at CUNY a few years later.
+I studied architecture and geography in the US, then worked full-time as a web designer at a company that visualized geographic and statistical data. I learned how to program through that job. It allowed me to become the technologist-in-residence at the Graduate School of Journalism at CUNY a few years later.
 
 I had an official version of life during the day. At night, and during the weekend: I wrote plays.
 
@@ -19,25 +19,32 @@ In 2016 I completed my first full-length play.
 
 The same year I left the US indefinitely, as the third visa in my nine years of living there expired.
 
-I moved to Mexico. Etc.
+I moved to Mexico. 
 
-Life seems incredulous when you try to tell it as a summary.
+Et cetera.
 
-I am in Rotterdam. I have been here for a month. I rent a bike from Swapfiets and go to Gimsel for bulk foods (it's the only place I have found in town that offers bulk foods). The outdoor markets are bigger than I imagined. They remind me of the tianguis in Mexico, but instead of tortillas, I get aged cheese.
+Life seems hard to believe when you try to tell it with selected geographies, names and institutions. Such historiography.
 
-I am yet to register at the municipality, because the room I find only becomes available on October 1st. I do not yet have a BSN, and thus no bank account or phone subscription. I use a pay-as-you-go SIM, switching on the mobile data only when I need to check a message.
+Being here is a dmarcation in time.
+
+I have been in Rotterdam for a month. I rent a bike from Swapfiets and go to Gimsel for bulk foods (it's the only place I have found in town that offers bulk foods). The outdoor markets are bigger than I imagined. They remind me of the tianguis in Mexico, but instead of tortillas, I get aged cheese.
+
+I am yet to register at the municipality. It is September; the room I find is only available from October 1st. Time for limbo. I do not yet have a BSN, and thus no bank account or phone subscription. I use a pay-as-you-go SIM, switching on the mobile data only when I need to check a message.
 
 I've seen Mirla and Olaf, my Dutch friends, in Amsterdam three times. Soon they are going back to where they consider home now. In Chile.
 
-I read a book by a Dutch author who writes it in English. It reads rather stiff. 
+I read a book by a Dutch author who wrote it in English. It reads rather stiff.
 
-The yoga teacher I had in Mexico is Dutch. She spends summer in Amsterdam and, when it turns grey like this, she returns to the coast of Oaxaca. She says in Europe people spend so much time in the hesad. 
+The yoga teacher I had in Mexico is Dutch. She spends summer in Amsterdam and, when it turns grey like this, she returns to the coast of Oaxaca.
 
-It's not just Europe. It's whenever we are distracted.
+She says, "in Europe people spend so much time in the head."
 
-I have not felt my body for quite some time.
+She says, "if you ride a lot of bikes, you are tight around the hips."
 
-"If you ride a lot of bikes," she says, "you are tight around the hips.""
+I biked in the wind the other day. It nearly knocked me over.
+
+I have not felt my body for quite some time. I am still getting used to the weather.
+
 
 
 

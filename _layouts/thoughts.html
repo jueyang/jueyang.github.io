@@ -1,19 +1,29 @@
 ---
 layout: default
 ---
-<div class='central pad-top pad-bottoms'>
+<div class='central pad-top pad-bottom'>
+    <h3><em>a blog renamed as "thoughts"</em></h3>
     {% for post in site.categories.blog %}
     {% assign year = post.date | date: "%Y" %}
     {% assign yearnext = post.next.date | date: "%Y" %}
         {% if year != yearnext %}
-        <h2>{{year}}</h2>
-        <h3>
-            <a href='{{site.baseurl}}{{post.url}}'>{{post.title}}</a>
-        </h3>
+        <div class="pad-bottom">
+            <div class="col4">
+                <h2>{{year}}</h2>
+            </div>
+            <div class="col8">
+                <a href='{{site.baseurl}}{{post.url}}'>{{post.title}}</a>
+             </div>
+             <div class="cf"></div>
+        </div>
     {% else %}
-        <h3>
-            <a href='{{site.baseurl}}{{post.url}}'>{{post.title}}</a>
-        </h3>
+        <div class="pad-bottom">
+            <div class="col4" style="height:1px;"></div>
+            <div class="col8 cf">
+                <a href='{{site.baseurl}}{{post.url}}'>{{post.title}}</a>
+            </div>
+            <div class="cf"></div>
+        </div>
     {% endif %}
     {% endfor %}
     {% include sign.html %}

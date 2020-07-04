@@ -9,9 +9,11 @@ _Edit: I wrote this text in Sep 2018 (and only made it visible in June 2020). I 
 
 Being here is a demarcation in time.
 
-I was born into a working class family during the post-Cultural-Revolution, early economic reform China. I would not know anything about my family until many years later, after I left the country for the United States.
+I was born into a working class family during the post-Cultural-Revolution, early-economic-reform Chinas.*
 
-I studied architecture and geography in the US, then worked full-time as a web designer at a company that visualized geographic and statistical data. I learned how to program through that job. It allowed me to become the technologist-in-residence at the Graduate School of Journalism at CUNY a few years later.
+I would not know anything about my family until many years later, after I left the country for the United States.
+
+I studied architecture and geography in the US, then worked full-time as a web designer at a company that visualized geographic and statistical data. I learned how to program through that job. It allowed me to become the technologist-in-residence at a graduate school of journalism a few years later.
 
 I had an official version of life during the day. At night, and during the weekend: I wrote plays.
 
@@ -23,11 +25,13 @@ I moved to Mexico.
 
 Et cetera.
 
-Life seems hard to believe when you try to tell it with selected geographies, names and institutions. Such historiography.
+Life seems hard to believe when you try to tell it with selected geographies, names and institutions.
+
+Such historiography.
 
 Being here is a dmarcation in time.
 
-I have been in Rotterdam for a month. I rent a bike from Swapfiets and go to Gimsel for bulk foods (it's the only place I have found in town that offers bulk foods). The outdoor markets are bigger than I imagined. They remind me of the tianguis in Mexico, but instead of tortillas, I get aged cheese.
+I have been in Rotterdam for a month. I rent a bike from Swapfiets and go to Gimsel for bulk foods (it's the only place I have found in town that offers bulk foods).** The outdoor markets are bigger than I imagined. They remind me of the tianguis in Mexico, but instead of tortillas, I get aged cheese.
 
 I am yet to register at the municipality. It is September; the room I find is only available from October 1st. Time for limbo. I do not yet have a BSN, and thus no bank account or phone subscription. I use a pay-as-you-go SIM, switching on the mobile data only when I need to check a message.
 
@@ -35,7 +39,7 @@ I've seen Mirla and Olaf, my Dutch friends, in Amsterdam three times. Soon they 
 
 I read a book by a Dutch author who wrote it in English. It reads rather stiff.
 
-The yoga teacher I had in Mexico is Dutch. She spends summer in Amsterdam and, when it turns grey like this, she returns to the coast of Oaxaca.
+The yoga teacher I had in Mexico is Dutch.*** She spends summer in Amsterdam and, when it turns grey like this, she returns to the coast of Oaxaca.
 
 She says, "in Europe people spend so much time in the head."
 
@@ -45,12 +49,13 @@ I biked in the wind the other day. It nearly knocked me over.
 
 I have not felt my body for quite some time. I am still getting used to the weather.
 
+<hr>
 
 
+<small>* I have been doing some fact-check on this, both through reading about that period of history (thank you, internet) and talking with my family members. It turns out my family history is complex. For example, "working class" deserves unpacking and context in my family's case. I have started to articulate that in my thesis. The text here remains somewhat based on memory and therefore, partial.</small>
 
+<small>** I joined a food co-op in 2020, after searching for such a thing for two years. I still go to Gimsel for treats.</small>
 
-
-
-
+<small>*** Or is she? She said she was born in Belgium.</small>
 
 

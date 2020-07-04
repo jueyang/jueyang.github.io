@@ -2,23 +2,24 @@
 layout: default
 ---
 <div class='central pad-top pad-bottom'>
-    <h3><em>a blog renamed as "thoughts"</em></h3>
+    <h3><em>I used to call this place "blog".</em></h3>
     {% for post in site.categories.blog %}
     {% assign year = post.date | date: "%Y" %}
     {% assign yearnext = post.next.date | date: "%Y" %}
+    {% assign month = post.date | date: "%m" %}
         {% if year != yearnext %}
         <div class="pad-bottom">
             <div class="col4">
                 <h2>{{year}}</h2>
             </div>
-            <div class="col8">
+            <div class="col8 cf">
                 <a href='{{site.baseurl}}{{post.url}}'>{{post.title}}</a>
              </div>
              <div class="cf"></div>
         </div>
     {% else %}
         <div class="pad-bottom">
-            <div class="col4" style="height:1px;"></div>
+            <div class="col4" style='height:1px'></div>
             <div class="col8 cf">
                 <a href='{{site.baseurl}}{{post.url}}'>{{post.title}}</a>
             </div>

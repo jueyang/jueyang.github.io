@@ -9,7 +9,7 @@ _Edit: I wrote this text in Sep 2018 (and only made it visible in June 2020). I 
 
 Being here is a demarcation in time.
 
-I was born into a working class family during the post-Cultural-Revolution, early-economic-reform Chinas.*
+I was born into a working class family during the post-Cultural-Revolution, early-economic-reform China.*
 
 I would not know anything about my family until many years later, after I left the country for the United States.
 

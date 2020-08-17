@@ -4,25 +4,25 @@ categories: blog
 ---
 ______________
 
-The line said, _I am dividing_
+The line said, _I divide_.
 
 >   
 >   
 >   
 
-The block said, _I am occupying_
+The block said, _I occupy_.
 
     .
 
-The box said, _I am containing, and I know the truth:_
+The box said, _I contain, and I know the truth:_
 
     ______________
-	The line said, _I am dividing_
+	The line said, _I divide_.
 	>   
 	>   
 	>   
-	The block said, _I am occupying_
+	The block said, _I occupy_.
 	    .
-	The box said, _I am containing_
+	The box said, _I contain_.
 
-_We are all but manifested forms._
+_We are but manifested forms._

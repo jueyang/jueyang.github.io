@@ -3,7 +3,7 @@ layout: post
 categories: blog
 ---
 
-When I first built this site, it was merely an exercise. I had just learned about the basics of web development and open source software, having clicked buttons and dragged the cursor across corporately licensed interfaces.
+I built the site as an exercise in 2012. At the time, I had just learned about the basics of web development and open source software, having clicked buttons and dragged the cursor across corporately licensed interfaces.
 
 It seemed like a distant past when I named this section _blog_, even though my posts were never as frequent as blog posts should be. In fact, the _blog_ was the landing page, on which I was reluctant to declare any identity. In the _about_ section, I quoted Neruda (_Which yellow bird fills its nest with lemons_?) and hinted at the idea that this site was but a space for thoughts.
 

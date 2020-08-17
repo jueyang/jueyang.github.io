@@ -52,5 +52,5 @@ I have not felt my body for quite some time. I am still getting used to the weat
 <hr>
 
 
-<small>* I have been fact-checking this, both through reading about that period of history (thank you, internet) and talking with my family members. It turns out my family history is complex and nuanced. For example, "working class" here deserves unpacking and context. I have started to articulate that in my thesis. This text remains somewhat based on memory and therefore, partial.</small>
+<small>* I have been fact-checking this, both through reading about that period of history (thank you, internet) and talking with my family members. It turns out my family history is quite nuanced. "Working class" here deserves unpacking and context. This text remains somewhat based on memory and therefore, partial.</small>
 

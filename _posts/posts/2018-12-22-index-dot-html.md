@@ -3,9 +3,9 @@ layout: post
 categories: blog
 ---
 
-<code>index.html</code> is the first encounter to a website. It is also called the _landing page_. When I think about it: you do make a landing from the World Wide Web, just like Columbus the aliens. You arrive not knowing, or knowing too much. 
+<code>index.html</code> is the first encounter to a website. It is also called the _landing page_. When I think about it: you do make a landing from the World Wide Web, just like Columbus and the aliens. You arrive not knowing, or knowing too much.
 
-Before April 2016, the page was a stylized blog with posts from what is now in <a href="{{site.baseurl}}/thoughts" target="_blank">thoughts</a>. Over the past two and a half years, it has changed as I become more clear about who I ams.
+Before April 2016, the page was a stylized blog with posts from what is now in <a href="{{site.baseurl}}/thoughts" target="_blank">thoughts</a>. Over the past two and a half years, it has changed as I become more clear about who I am.
 
 
 ## 2016
@@ -21,7 +21,7 @@ Before April 2016, the page was a stylized blog with posts from what is now in <
 
 > I like words and space. I guess you can call me one of the following based on your preferred framework: text-based artist, trans-media writer, writer for performance, playwright.
 > 
-> Perpetual intrigues: <a href="https://www.theatlantic.com/magazine/archive/2015/01/the-death-of-the-artist-and-the-birth-of-the-creative-entrepreneur/383497/">the death of the artist</a>, experiential knowledge, (personal) truth.
+> Perpetual intrigues: the death of the artist, experiential knowledge, (personal) truth.
 
 
 ## 2018

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: blog
-title: "The Things on my Desk"
+title: "The Things on My Desk"
 ---
 
 1) Two pamphlets from WIELS for the exhibitions of Thao Nguyen Phan (_Monsoon Melody_) and Wolfgang Tillmans (_Today Is the First Day_). The exhibitons were supposed to end in April and May 2020, respectively. They were extended till July 2020 when travels were possible again between Brussels and the Netherlands after months of quarantine. I was able to acquire these pamphlets then. (They are in French and Dutch. I am fluent in neither.)

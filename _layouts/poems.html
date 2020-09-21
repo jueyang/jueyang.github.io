@@ -1,24 +1,19 @@
 ---
+layout: default
 ---
-<html>
-<head>
-    {% include meta.html %}
-</head>
-<body>
-	<div class='cover rose'>
-		<h1>Poems</h1>
-		<p>A Collection</p>
-	</div>
-	<div class='poems'>
+
+<style type="text/css">
+	
+hr {width:0;}
+</style>
+	<div class='central pad-top pad-bottom'>
+
 		{% for post in site.categories.poem %}
-		<section class='poem'>
-			<h1 class='cf'>{{post.title}}</h1>
-			{{post.content}}
+		<section>
+			<h3><em>{{post.title}}</em></h3>
+			<p>{{post.content}}</p>
 		</section>
 		{% endfor %}
 	</div>
-	<div class='footer'>
-		Poems by <a target='_blank' href='/'>Jue Yang</a>
-	</div>
-</body>
-</html>
+
+{% include sign.html %}

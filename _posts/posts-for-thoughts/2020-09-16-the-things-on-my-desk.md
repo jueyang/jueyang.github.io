@@ -24,6 +24,6 @@ title: "The Things on My Desk"
  
 12) A few books in Dutch I picked up for free from a community reading room. One says on the cover: _Nobelprijs literatuur 1988_. I looked up the author Nagieb Mahfoez (English: Naguib Mahfouz, Arabic: نجيب محفوظ‎) and the name of the title _De moskee in de steeg: verhalen_. I have not found out the English translation of this title.
 
-13) An article I fished back out from recycling after tossing it in the day before. It is from an old issue of _October_ (1976) and is titled _Notes on Composing in Film_. It is barely readable with its complicated syntax and academic prose. (I am adding it to the folder under 8) as an example of failed communication.)
+13) An article I fished back out from recycling after tossing it in the day before. It is from an old issue of _October_ (1976) and is titled _Notes on Composing in Film_. It is barely readable with its complicated syntax and academic prose. (I am adding it to the folder under 9) as an example of failed communication.)
 
-14) I do not have this on my desk yet; I will. _Words Are My Matter_ by Ursula K. Le Guin. 
+14) I do not have this on my desk yet: _Words Are My Matter_ by Ursula K. Le Guin. I will.

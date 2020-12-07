@@ -2,7 +2,8 @@
 layout: default
 ---
 <div class='central pad-top pad-bottom'>
-    <p><em>I used to call this page: blog. I wrote when I felt I had something to say, but I was not always good at saying them. As a result, there might be pompousness, obliqueness, typos and a lack of editing in the earlier proses. (For those I ask for your understanding.) I started writing here again in 2020. Time has passed, and both the world and I have changed. One of these changes is the title of the page, which is now: thoughts.</em></p>
+    <p><em>I used to call this page: blog. I wrote when I felt I had something to say, though I was not always good at saying them. As a result, there were varying degrees of pompousness, obliqueness and typos in the earlier proses. I started writing here again in 2020. Time has passed; both the world and I have changed. One of these changes is the page title, which is now: thoughts.</em></p>
+
     {% for post in site.categories.blog %}
     {% assign year = post.date | date: "%Y" %}
     {% assign yearnext = post.next.date | date: "%Y" %}

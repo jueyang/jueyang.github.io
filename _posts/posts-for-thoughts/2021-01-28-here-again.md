@@ -5,7 +5,7 @@ categories: blog
 
 A call comes from _Unknown Number_.
 
-It's the fourth call I have with the bureau regarding my rights to the health insurance and the third correspondence I have with the same lady (after previous calls and correspondence with three different people).
+The fourth call I have with the bureau regarding my rights to health insurance. The third correspondence I have with the same lady (after previous calls and correspondence with three different people).
 
 _You have sent relevant information,_ she said, _now I would like to ask you a few more questions._
 
@@ -45,19 +45,15 @@ shattered shop windows
 
 smoke-filled air
 
-among loud,
-
-angry,
-
-excited chatters
+among loud & angry chatters
 
 I fell asleep 
 
 I fell asleep
 
-after I said "I love you, good night"
+after saying "I love you, good night"
 
-after I heard "good night, I love you"
+& hearing "good night, I love you"
 
 ### *
 

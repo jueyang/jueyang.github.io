@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: blog
+title: "Thank You (This Is Not a Thank You)"
 ---
 
 I received a third letter from the bureau.
@@ -23,7 +24,7 @@ I reclaimed a right from the blank stares of
 
 The second letter was written in English, a brief version of the first one. The third, sent two weeks later, was a full translation of letter #1.
 
-Ms. S— was feeling something. (I did know her initial and last name from our correspondence.)
+Ms. S— was feeling something. (I did know her initials from our correspondence.)
 
 I typed a few sentences on my laptop, exported it as a pdf and uploaded it through the bureau's website, the place where I had previously uploaded government forms, invoices, tax returns.
 
@@ -32,8 +33,8 @@ I typed a few sentences on my laptop, exported it as a pdf and uploaded it throu
 > I feel sufficiently informed.
 > 
 > Thank you.
-> 
-> Best Regards, 
+>
+> Best,
 > Jue
 
 ### *
@@ -44,17 +45,17 @@ I wonder whom I would vote for, should I be able to vote.
 
 I have not had the right to vote in the past decade.
 
-Yet I speak of "systemic change" — often. 
+Yet I speak of "systemic change." 
 
-There is something terrible and terribly ironic about this contrivance.
+There is something terrible and terribly funny about this contrivance.
 
 I have been a believer of law because I have believed in fairness. I have consulted five lawyers in my life, four of which have been immigration lawyers. I am working with one now to figure out my life in this country. 
 
-Ever since I learned the word "litigious" I have used it to describe myself. But as I read the legal requirements of immigration (once again) and tredge through paperworks I have to produce to prove my existence (once again), I realize what I have ignored for far too long:
+Ever since I learned the word "litigious" I have used it to describe myself. I read the legal requirements of immigration. I trudge through paperworks I have to produce to prove myself.
 
-Laws are made by law-makers.
+As I experience immigration (all over again) I realize what I have ignored for all these years:
 
-Law-makers represent interests more than they represent justice.
+Laws are made by law-makers, and law-makers represent interests more than they represent justice.
 
 ### *
 
@@ -62,11 +63,12 @@ Reading Audre Lorde's _Uses of Anger: Women Responding to Racism_, for the secon
 
 _Hatred is the fury of those who do not share our goals, and its object is death and destruction. Anger is a grief of distortions between peers, and its object is change... Guilt is not a response to anger; it is a response to one's own actions or lack of action... [A]ll too often, guilt is just another name for impotence... it becomes a device to protect ignorance and the continuation of things the way they are, the ultimate protection for changelessness._
 
+
 ### *
 
 > Dear Law-makers,
 >
-> This is not a thank you letter. 
+> This is not a thank you. 
 > 
 > I understand that Articles 1.2.1, 1.2.2 and 2.1.1. of the Long-term Care Act (Wlz) and the National Act on Administrative Law (Awb) ensure my right to health insurance.
 >
@@ -77,11 +79,11 @@ _Hatred is the fury of those who do not share our goals, and its object is death
 > Co-existing with you,
 > Jue
 
-I can hear a voice.
+I hear a voice.
 
 _But you could have had it worse, you ungrateful foreigner!_
 
-I can hear myself speaking.
+I hear myself speaking.
 
 _Didn't you also make laws so that for foreigners to have the same job as a national would, the salaries are reduced?_
 
@@ -97,9 +99,8 @@ _There ARE priorities in things._
 
 _You mean, priorities in people and priorities defined by nationality, class, race, age, gender, sexuality, religion, ableness?_
 
-### *
+_If you have so many problems with the system, why don't you go back to where you came from?_
 
-Currently reading: _Notes on Nationalism_, _The Thing Around Your Neck_, _Pleasure Activism_
-
+_No thank you._
 
 

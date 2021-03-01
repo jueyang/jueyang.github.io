@@ -81,11 +81,11 @@ Reading Audre Lorde's _Uses of Anger: Women Responding to Racism_, for the secon
 
 _Hatred is the fury of those who do not share our goals, and its object is death and destruction. Anger is a grief of distortions between peers, and its object is change... Guilt is not a response to anger; it is a response to one's own actions or lack of action... [A]ll too often, guilt is just another name for impotence... it becomes a device to protect ignorance and the continuation of things the way they are, the ultimate protection for changelessness._
 
-"I felt I am caught in limbo with this voluntary act to check my health insurance right," I said to Ms. S— at the end of our last phone call, "I did not have to do this."
+"I am caught in limbo with this voluntary check about my rights," I said to Ms. S— at the end of our last phone call, "I did not have to do this."
 
 There was a pause after.
 
-Then she said, "I understand."
+She said, "I understand."
 
 Then she sent me three letters.
 
@@ -125,8 +125,6 @@ _There are priorities in things._
 _You mean, priorities in people and priorities defined by nationality (and class, race, age, gender, sexuality, religion, ableness)?_
 
 _If you have so many problems with the system, you don't have to stay._
-
-_No thank you._
 
 ### *
 

@@ -51,11 +51,29 @@ There is something terrible and terribly funny about this contrivance.
 
 I have been a believer of law because I have believed in fairness. I have consulted five lawyers in my life, four of which have been immigration lawyers. I am working with one now to figure out my life in this country. 
 
-Ever since I learned the word "litigious" I have used it to describe myself. I read the legal requirements of immigration. I trudge through paperworks I have to produce to prove myself.
+Ever since I learned the word "litigious" I have used it to describe myself.
 
-As I experience immigration (all over again) I realize what I have ignored for all these years:
+I file my tax (enthusiastically).
 
-Laws are made by law-makers, and law-makers represent interests more than they represent justice.
+I call out a problematic clause at the lease signing with the landlord and write an email saying "my lawyer has informed me that your security deposit request is illegal."
+
+I read the legal requirements of immigration.
+
+I trudge through paperworks I have to produce to prove that I am capable and "relevant".
+
+I itemize my life.
+
+Here is my life's asset and inventory in monetary value, my cultural significance, my place in the labor market.
+
+I am a tragic diplomat, having learned to speak the neo-liberal language, which is used to make the law.
+
+As I experience immigration — once all over again, five years after I left the US — I realize what I have ignored for all these years:
+
+Laws are made by law-makers.
+
+Law-makers represent interests more than justice.
+
+Fairness — what I thought the foundation of law — is relative and convoluted.
 
 ### *
 
@@ -63,6 +81,13 @@ Reading Audre Lorde's _Uses of Anger: Women Responding to Racism_, for the secon
 
 _Hatred is the fury of those who do not share our goals, and its object is death and destruction. Anger is a grief of distortions between peers, and its object is change... Guilt is not a response to anger; it is a response to one's own actions or lack of action... [A]ll too often, guilt is just another name for impotence... it becomes a device to protect ignorance and the continuation of things the way they are, the ultimate protection for changelessness._
 
+"I felt I am caught in limbo with this voluntary act to check my health insurance right," I said to Ms. S— at the end of our last phone call, "I did not have to do this."
+
+There was a pause after.
+
+Then she said, "I understand."
+
+Then she sent me three letters.
 
 ### *
 
@@ -81,26 +106,28 @@ _Hatred is the fury of those who do not share our goals, and its object is death
 
 I hear a voice.
 
-_But you could have had it worse, you ungrateful foreigner!_
+_But you could have had it worse. We are ensuring rights of foreigners like you!_
 
 I hear myself speaking.
 
 _Didn't you also make laws so that for foreigners to have the same job as a national would, the salaries are reduced?_
 
-_Yes, we are providing opportunities. If you don't want them, you can leave!_
+_Yes, to incentivize companies to hire foreigners. We are providing opportunities for you!_
 
 _But if I were an EU-national, this law would not apply._
 
-_Well too bad you were not born in the EU._
+_Well we are part of EU and we want to encourage freedom of movement and access to labor market between union members._
 
-_You mean that people born in the EU have more rights than others?_
+_Do you mean that people born in the EU have more rights than others?_
 
-_There ARE priorities in things._
+_There are priorities in things._
 
-_You mean, priorities in people and priorities defined by nationality, class, race, age, gender, sexuality, religion, ableness?_
+_You mean, priorities in people and priorities defined by nationality (and class, race, age, gender, sexuality, religion, ableness)?_
 
-_If you have so many problems with the system, why don't you go back to where you came from?_
+_If you have so many problems with the system, you don't have to stay._
 
 _No thank you._
 
+### *
 
+I turn to my books: _Notes on Nationalism_, _The Thing Around Your Neck_, _Pleasure Activism_

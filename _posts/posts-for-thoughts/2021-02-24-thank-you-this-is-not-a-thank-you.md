@@ -51,19 +51,23 @@ There is something terrible and terribly funny about this contrivance.
 
 I have been a believer of law because I have believed in fairness. I have consulted five lawyers in my life, four of which have been immigration lawyers. I am working with one now to figure out my life in this country. 
 
-Ever since I learned the word "litigious" I have used it to describe myself.
+Ever since I learned the word "litigious" I have used it to describe myself. I file my taxes (enthusiastically). I call out a problematic clause at the lease signing and start an email to the landlord with "My lawyer has informed me that your non-refundable security deposit is illegal." 
 
-I file my taxes, enthusiastically. I call out a problematic clause at the lease signing with the landlord and write an email with "my lawyer has informed me that your security deposit request is illegal." I
+I read the legal requirements of immigration and trudge through paperworks I have to produce to prove that I am 1) capable and "relevant". I itemize my existance for the immigration office which judges individuals based on checkboxes — here is my life phrased as "assets and inventories", here is my cultural significance, here is my potential in the specific section of labor market which you have allowed me to operate. 
 
-I read the legal requirements of immigration and trudge through paperworks I have to produce to prove that I am capable and "relevant". I itemize my existance for the immigration who judge individuals based on checkboxes — here is my life's asset and inventory in monetary value, here is my cultural significance, here is my potential in the labor market.
+Have I become tragic diplomat, having learned to speak the neo-liberal language, the same language used to make the law?
 
-Am I a tragic diplomat?
+In the US, a friend once told me she never understood why I complained about my visa. "You have a job," she said, "many people don't."
 
-I have learned to speak the neo-liberal language, the same language used to make the law.
+I didn't know how to describe the paper prison that confined me
 
-(In the US, a friend once told me she never understood why I complained about my visa. "You have a job," she said, "many people don't." I didn't know how to describe the paper prison that confined me, the paper shackles that tied me down, the paper weights that sank on my chest.)
+the paper shackles that tied together my wrists
 
-As I experience immigration in the Netherlands — once all over again, five years after I left the US — I realize what I have ignored for all these years:
+the paper weights that sank on my chest
+
+the paper cuts that, ever so slowly, drained my soul
+
+As I experience immigration in the Netherlands — once all over again, five years after I left the US — I realize what I have ignored for all these years. Ignored, forgotten, too busy surviving to take notice:
 
 Laws are made by law-makers.
 
@@ -77,7 +81,7 @@ Reading Audre Lorde's _Uses of Anger: Women Responding to Racism_, for the secon
 
 _Hatred is the fury of those who do not share our goals, and its object is death and destruction. Anger is a grief of distortions between peers, and its object is change... Guilt is not a response to anger; it is a response to one's own actions or lack of action... [A]ll too often, guilt is just another name for impotence... it becomes a device to protect ignorance and the continuation of things the way they are, the ultimate protection for changelessness._
 
-"I am caught in limbo," I said to Ms. S— at the end of our last phone call, "I did not have to do this. I followed the rules and it seemed as if I'd dug myself a hole."
+"I am caught in limbo," I said to Ms. S— at the end of our last phone call, "I did not have to do this. I followed the rules and I seemed to have dug myself a hole."
 
 There was a pause after.
 
@@ -85,7 +89,7 @@ She said, "I understand."
 
 Then she sent me three letters.
 
-(_We did not invite you to a hearing at our office because we fully agree with your point of view._)
+_We did not invite you to a hearing at our office because we fully agree with your point of view._
 
 ### *
 
@@ -106,29 +110,11 @@ I hear a voice.
 
 _But you could have had it worse. We are ensuring rights of foreigners like you!_
 
-I hear myself speaking.
-
-_Didn't you also make laws so that for foreigners to have the same job as a national would, the salaries are reduced?_
-
-_Yes, to incentivize companies to hire foreigners. We are providing opportunities for you!_
-
-_But if I were an EU-national, this law would not apply._
-
-_Well we are part of EU and we want to encourage freedom of movement and access to labor market between union members._
-
-_Do you mean that people born in the EU have more rights than others?_
-
-_There are priorities in things._
-
-_You mean, priorities in people and priorities defined by nationality (and class, race, age, gender, sexuality, religion, ableness)?_
-
-_If you have so many problems with the system, you don't have to stay._
-
 ### *
 
 No thank you.
 
-I will tune to the songs of birds. They have started chirping on the roof since the unusually warm days.
+I tune to the songs of birds. They have started chirping on the roof since the unusually warm days.
 
 I turn to my books: _Notes on Nationalism_, _The Thing Around Your Neck_, _Pleasure Activism_.
 

@@ -18,13 +18,13 @@ I reclaimed a right from the blank stares of
 
 (innocent)
 
-(how come that I already minimized the whole ordeal into)
+(how come that I already minimized the whole ordeal)
 
  _negligence_
 
 The second letter was written in English, a brief version of the first one. The third, sent two weeks later, was a full translation of letter #1.
 
-Ms. S— was feeling something. (I did know her initials from our correspondence.)
+Ms. S— was feeling something. (I knew her initials from our correspondence.)
 
 I typed a few sentences on my laptop, exported it as a pdf and uploaded it through the bureau's website, the place where I had previously uploaded government forms, invoices, tax returns.
 
@@ -53,27 +53,23 @@ I have been a believer of law because I have believed in fairness. I have consul
 
 Ever since I learned the word "litigious" I have used it to describe myself.
 
-I file my tax (enthusiastically).
+I file my taxes, enthusiastically. I call out a problematic clause at the lease signing with the landlord and write an email with "my lawyer has informed me that your security deposit request is illegal." I
 
-I call out a problematic clause at the lease signing with the landlord and write an email saying "my lawyer has informed me that your security deposit request is illegal."
+I read the legal requirements of immigration and trudge through paperworks I have to produce to prove that I am capable and "relevant". I itemize my existance for the immigration who judge individuals based on checkboxes — here is my life's asset and inventory in monetary value, here is my cultural significance, here is my potential in the labor market.
 
-I read the legal requirements of immigration.
+Am I a tragic diplomat?
 
-I trudge through paperworks I have to produce to prove that I am capable and "relevant".
+I have learned to speak the neo-liberal language, the same language used to make the law.
 
-I itemize my life.
+(In the US, a friend once told me she never understood why I complained about my visa. "You have a job," she said, "many people don't." I didn't know how to describe the paper prison that confined me, the paper shackles that tied me down, the paper weights that sank on my chest.)
 
-Here is my life's asset and inventory in monetary value, my cultural significance, my place in the labor market.
-
-I am a tragic diplomat, having learned to speak the neo-liberal language, which is used to make the law.
-
-As I experience immigration — once all over again, five years after I left the US — I realize what I have ignored for all these years:
+As I experience immigration in the Netherlands — once all over again, five years after I left the US — I realize what I have ignored for all these years:
 
 Laws are made by law-makers.
 
 Law-makers represent interests more than justice.
 
-Fairness — what I thought the foundation of law — is relative and convoluted.
+Fairness — what I thought was the foundation of law — is relative and convoluted.
 
 ### *
 
@@ -81,13 +77,15 @@ Reading Audre Lorde's _Uses of Anger: Women Responding to Racism_, for the secon
 
 _Hatred is the fury of those who do not share our goals, and its object is death and destruction. Anger is a grief of distortions between peers, and its object is change... Guilt is not a response to anger; it is a response to one's own actions or lack of action... [A]ll too often, guilt is just another name for impotence... it becomes a device to protect ignorance and the continuation of things the way they are, the ultimate protection for changelessness._
 
-"I am caught in limbo with this voluntary check about my rights," I said to Ms. S— at the end of our last phone call, "I did not have to do this."
+"I am caught in limbo," I said to Ms. S— at the end of our last phone call, "I did not have to do this. I followed the rules and it seemed as if I'd dug myself a hole."
 
 There was a pause after.
 
 She said, "I understand."
 
 Then she sent me three letters.
+
+(_We did not invite you to a hearing at our office because we fully agree with your point of view._)
 
 ### *
 
@@ -97,7 +95,7 @@ Then she sent me three letters.
 > 
 > I understand that Articles 1.2.1, 1.2.2 and 2.1.1. of the Long-term Care Act (Wlz) and the National Act on Administrative Law (Awb) ensure my right to health insurance.
 >
-> However, I feel awkward thanking a system that makes me an outlier in the first place. I do not thank you for coming around and acknowledging my humanity. Equality is not a compensation.
+> However, I feel dishonest thanking a system that makes me an outlier in the first place. I do not thank you for coming around and acknowledging my humanity. Equality is not a compensation.
 >
 > I do not thank you for letting me have rights. If I say this, I become a co-conspirator in your descrimination and your prejudice.
 >
@@ -128,4 +126,10 @@ _If you have so many problems with the system, you don't have to stay._
 
 ### *
 
-I turn to my books: _Notes on Nationalism_, _The Thing Around Your Neck_, _Pleasure Activism_
+No thank you.
+
+I will tune to the songs of birds. They have started chirping on the roof since the unusually warm days.
+
+I turn to my books: _Notes on Nationalism_, _The Thing Around Your Neck_, _Pleasure Activism_.
+
+There is a lot of work to do.

@@ -15,7 +15,7 @@ Me dija que sería difícil, que el español y el holandés son de diferentes si
 
 The teacher asks us to make sentences with five words from the thesaurus of this week's theme: politiek.
 
-I try to string words together. My phrases are missing letters and words. They seem to float in the air like butterflies, bright and swift and hard to catch. 
+I try to string words together. My phrases are missing letters and words. They fly in the air, bright and swift like butterflies, hard to catch. 
 
 It doesn't matter that I prepared the thesaurus for the whole class. Doesn't matter that I toggled between English and Dutch wikipedia pages for hours.
 

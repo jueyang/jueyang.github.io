@@ -49,15 +49,13 @@ _'t kofschip_
 
 Un otro ejemplo:
 
-_Ik ben Zweeds aan het leren, omdat ik graag 'zullen we thee drinken' (en veel andere dingen) in deze taal zeg._
+_Ik leer Zweeds, omdat ik graag 'zullen we thee drinken' (en veel andere gezellig dingen) in deze taal zeg._
 
 ### *
 
 Min kärlek, ska vi fika?
 
-Jag gillar kanelbullarna som du gör...
-
-Jättemycket!
+Jag gillar kanelbullarna som du gör... Jättemycket!
 
 "Estoy llena de..." I say.
 
@@ -65,23 +63,21 @@ _woorden_
 
 "...palabras, pero tengo ninguna..."
 
-_Ik heb geen_
+_Wanneer ik wil een taal spreken_
 
-"Ah!"
+"Maar..."
 
-_Ik weet niet_
-
-_Ik wil, maar_
-
-"¿Quieres más té?"
+_pienso a una otra_
 
 ### *
 
-"My Spanish is loosely woven fabric," I say as I darn a sock, "my Dutch is full of holes."
+"My Spanish is a piece of loosely woven fabric. You can easily poke a hole in it," I say as I darn a wool sock.
 
-I do not inhabit these languages to the same extent I inhabit English — I have come to peace with that.
+"And my Dutch — it is made of holes."
 
-Una oración sin error gramatical:
+I do not inhabit these languages the way I inhabit English — I have come to peace with that.
+
+Una oración sin errors:
 
 _Misschien is dat de grootste reden dat ik op een dag Nederlands burger word._
 
@@ -91,6 +87,12 @@ Mi nacionalidad es mi legado.
 
 Mis idiomas son mis universos.
 
-Min Kärlek, var är ditt smultronställe?
+Er is een plek tussen de talen.
 
-Ostkakan är för söt :)
+Daar lig ik.
+
+Daar droom ik.
+
+Daar vind ik vrijheid.
+
+Min kärlek, var är ditt smultronställe?

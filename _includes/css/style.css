@@ -209,6 +209,7 @@ footer {
 .veer-right {margin-right:-80px;}
 .veer-right-double {margin-right:-160px;}
 
+.col1,
 .col2,
 .col3,
 .col4,
@@ -217,6 +218,8 @@ footer {
 .col12 {
   float:left;
   }
+
+.col1 {width:8.333%;}
 .col2 {width:16.667%;}
 .col3 {width:25%;}
 .col4 {width:33.333%;}
@@ -363,6 +366,7 @@ nav a:last-of-type {
   .col6,
   .col12 {
     width:100%!important;
+    margin:2%;
   }
   .veer-left,
   .veer-right,

@@ -199,9 +199,7 @@ footer {
 
 .pad-top {padding-top:40px;}
 .pad-bottom {padding-bottom:40px;}
-.pad-topbottom {padding:40px 0;}
 .pad-side {padding:0 60px;}
-.pad-topleft {padding:40px 0 0 60px;}
 
 /* for landing */
 .veer-left {margin-left:-80px;}
@@ -230,6 +228,7 @@ footer {
 .cf:after, .cf:before {
     content: " ";
     display: table;
+    height:1px;
 }
 .cf:after {
     clear: both;
